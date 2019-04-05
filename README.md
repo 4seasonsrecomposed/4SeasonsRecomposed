@@ -9,7 +9,7 @@ Those scores are copied from iOS App [Vivaldi’s Four Seasons](https://itunes.a
 
 ## Statement
 
-The copyright of all the music works mentioned in this repository beyonds to Max Richter. If you like these musics, please support orignial author. 
+The copyright of all the music works mentioned in this repository belongs to Max Richter. If you like these musics, please support orignial author. 
 
 This repository, including all LilyPond source files, is only used for the purposes of user's own private study, research or self-entertainment. The source files was released under [CC0](http://creativecommons.org/publicdomain/zero/1.0/) License, which means the repository holder has waived all copyright and related or neighboring rights to those source files and everyone can reproduce, adapt, distribute, perform, display, communicate, and translate those files **WITHOUT INFRINGING THE ORGINGAL COPYRIGHT OF MAX RICHTER**. 
 
