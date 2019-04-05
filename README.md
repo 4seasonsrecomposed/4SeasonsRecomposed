@@ -1,4 +1,4 @@
-**THIS REPO IST STILL UNDER CONSTRUCTION, NOT FINISHED YET**
+**THIS REPO IS STILL UNDER CONSTRUCTION, NOT FINISHED YET**
 
 
 # Sheet Music of "Recomposed by Max Richter: Vivaldi, The Four Seasons"
