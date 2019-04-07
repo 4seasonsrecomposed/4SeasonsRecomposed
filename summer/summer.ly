@@ -182,11 +182,11 @@ ThreeScore = \score {
 
         }
         \ThreeViolinOne
-%        \new Staff \with {
-%            instrumentName = #"2nd Violin"
-%            
-%        }
-%        \ThreeViolinTwo
+        \new Staff \with {
+            instrumentName = #"2nd Violin"
+           
+        }
+        \ThreeViolinTwo
 %        \new Staff \with {
 %            instrumentName = #"Viola"
 %            

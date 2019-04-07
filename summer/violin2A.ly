@@ -133,5 +133,130 @@ TwoViolinTwoA = \relative g'' {
 }
 
 ThreeViolinTwo = \relative g''{
+    \key g \minor
+    \time 3/4
+    \set Timing.beamExceptions = #'()
+
+    g,16->\f g, g g g g g-> g g g g g | f'-> g, g g g g g-> g g g g g |
+    ees'-> g, g g g g g-> g g g g g | d'-> g, g g g g g-> g g g g g |
+    g'-> g, g g g g g-> g g g g g | f'-> g, g g g g g-> g g g g g |
+    ees'-> g, g g g g g-> g g g g g | d'-> g, g g g g g-> g g g g g |
     
+    d''-> d, d d d d d-> d d d d d | c'-> d, d d d d d-> d d d d d |
+    bes'-> d, d d d d d-> d d d d d | a'-> d, d d d d d-> d d d d d |
+    d'-> d, d d d d d-> d d d d d | c'-> d, d d d d d-> d d d d d |
+    bes'-> d, d d d d d-> d d d d d | a'-> d, d d d d d-> d d d d d |
+
+    bes'\mf d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    a d g a a, d g a a, d g a | d,, g a d d, g a d d, g a d |
+
+    d,4 \p d d | d d d | d d d | d r r |
+    d d d | d d d | d d d | d r r |
+    \repeat unfold 6 { R2. | }
+
+    f'8 a,, a a' d f | g d, d bes' d g | g c,, c c' e g |
+    f c, c a' c f | f bes,, bes bes' d f | ees bes, bes g' bes ees |
+    ees aes,, aes aes' c ees | d b, b g' b d | d b, b g' b d |
+
+    c16\f c, d ees f g aes b c8 r | r16\mf c, d ees f g aes b c8 r |
+    r16\mp c, d ees f g aes b c8 r |
+    ees,16\p\< c' bes c ees, c' bes c ees, c' bes c | f, c' bes c f, c' bes c f, c' bes c |
+    g c b c g c b c g\f b g b |
+
+    c-> c, c c c c c-> c c c c c | bes'-> c, c c c c c-> c c c c c |
+    aes'-> c, c c c c c-> c c c c c | g'-> c, c c c c c-> c c8 r |
+
+    \repeat unfold 11 { R2. | }
+
+    c16->\f c c c c c c-> c c c c c | aes'-> c, c c aes' c, c-> c aes' c, c c |
+    b-> b b b b b b-> b b b b b | g'-> bes, bes bes g' bes, bes-> bes g' bes, bes bes |
+    a-> a a a a a a-> a a a a a | f'-> aes, aes aes f' aes, aes-> aes f' aes, aes aes |
+    g-> g' g g g g g-> g g g g g | ees'-> g, g g ees' g, g-> g ees' g, g g |
+    fis-> fis fis fis fis fis fis-> fis fis fis fis fis | d'-> f, f f d' f, f-> f d' f, f f |
+    e-> e e e e e e-> e e e e e | c'-> ees, ees ees c' ees, ees-> ees c' ees, ees ees |
+
+    d4 r r | R2. | R | R | R |
+
+    g,16\f g g g g g g g g g g g | g g'' f ees d c bes a g f ees d |
+    a a a a a a a a a a a a | a bes'' a g f ees d c bes a g f |
+    ees ees ees ees ees ees ees ees ees ees ees ees | ees d'' c bes a g fis e d c bes a |
+    g g g g g g g g g g g g | g d'' c bes a g fis e d c bes a |
+    g\< g g g d' g, g g d' g, g g |
+
+    g->\ff g, g g g g g-> g g g g g | f'-> g, g g g g g-> g g g g g |
+    ees'-> g, g g g g g-> g g g g g | d'-> g, g g g g g-> g g g g g |
+    g'-> g, g g g g g-> g g g g g | f'-> g, g g g g g-> g g g g g |
+    ees'-> g, g g g g g-> g g g g g | d'-> g, g g g g g-> g g g g g |
+
+    d''-> d, d d d d d-> d d d d d | c'-> d, d d d d d-> d d d d d |
+    bes'-> d, d d d d d-> d d d d d | a'-> d, d d d d d-> d d d d d |
+    d'-> d, d d d d d-> d d d d d | c'-> d, d d d d d-> d d d d d |
+    bes'-> d, d d d d d-> d d d d d | a'-> d, d d d d d-> d d d d d |
+
+    bes'_\markup{sub\dynamic{p}} d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes_"poco a poco cresc." d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+
+    d,_\markup{(\dynamic{mp})} g bes d d, g bes d d, g bes d | g, bes d g g, bes d g g, bes d g |
+    ees, g bes ees ees, g bes ees ees, g bes ees | g, bes ees g g, bes ees g g, bes ees g |
+    c,, ees g c c, ees g c c, ees g c | g c ees g g, c ees g g, c ees g |
+    d, g a d d, g a d d, g a d | d g a d d, g a d d, g a d |
+
+    d,,_\markup{(\dynamic{mf})} g bes d d, g bes d d, g bes d | g, bes d g g, bes d g g, bes d g |
+    ees, g bes ees ees, g bes ees ees, g bes ees | g, bes ees g g, bes ees g g, bes ees g |
+    c,, ees g c c, ees g c c, ees g c | g c ees g g, c ees g g, c ees g |
+    d,\< g a d d, g a d d, g a d | d g a d d, g a d d, g a d |
+
+    bes,\!_\markup{sub\dynamic{p}} d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes_"poco a poco cresc." d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+
+    d,_\markup{(\dynamic{mp})} g bes d d, g bes d d, g bes d | g, bes d g g, bes d g g, bes d g |
+    ees, g bes ees ees, g bes ees ees, g bes ees | g, bes ees g g, bes ees g g, bes ees g |
+    c,, ees g c c, ees g c c, ees g c | g c ees g g, c ees g g, c ees g |
+    d, g a d d, g a d d, g a d | d g a d d, g a d d, g a d |
+
+    bes,_\markup{(\dynamic{mf})} d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes\< d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+
+    d,\f g bes d d, g bes d d, g bes d | g, bes d g g, bes d g g, bes d g |
+    ees, g bes ees ees, g bes ees ees, g bes ees | g, bes ees g g, bes ees g g, bes ees g |
+    c,, ees g c c, ees g c c, ees g c | g c ees g g, c ees g g, c ees g |
+    d,\< g a d d, g a d d, g a d | d g a d d, g a d d, g a d\! |
+
+    \repeat unfold 15 { R1 | }
+
+    g,,1\<^\markup{\column{\line{One by one, creep in with one of these notes.}
+    \line{Leave a while between entries. Fade in and out.}}} a c d\p
+
+    % START DIGITAL AUDIO
+    % Use Glissando to emulate the symbol, hide all notes in it
+    \hideNotes
+    % Change its style to trill
+    \override Glissando.style = #'trill
+    % Set it breakable when a line break
+    \override Glissando.breakable = ##t
+    \override Glissando.after-line-breaking = ##t
+    % Start Gliss. from the middle of shaff
+    b1\glissando 
+    % Skip several bars
+    \override NoteColumn.glissando-skip = ##t
+    % Stop Gliss at almost end of a bar
+    \repeat unfold 21 { s1 | }
+    s1\> s1 s1 s1
+    s2...
+    % Stop skipping
+    \revert NoteColumn.glissando-skip
+    % Stop at the middle of shaff
+    b16\! |
+    % Show notes
+    \unHideNotes
+    % END DIGITAL AUDIO
+
 }
