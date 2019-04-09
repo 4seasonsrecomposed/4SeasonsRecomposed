@@ -148,7 +148,7 @@ ThreeViolinOne = \relative g'' {
     g c,, c c' ees g | g d, d b' d g | f d, d b' d f |
 
     f16\f ees, f g aes b c d ees8 r | r16\mf ees, f g aes b c d ees8 r |
-    r16\mf ees, f g aes b c d ees8 r |
+    r16\mp ees, f g aes b c d ees8 r |
     ees,16\p\< c' bes c ees, c' bes c ees, c' bes c | f, c' bes c f, c' bes c f, c' bes c |
     g c b c g c b c g\f b g b |
 

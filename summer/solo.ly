@@ -127,7 +127,7 @@ ThreeSolo = \relative g'' {
 
     <<
         {
-            a8 gis a gis a gis | g e f d e cis |
+            a8 gis a gis a f | g e f d e cis |
             d cis d cis d cis | d cis d cis
         }\\{
             d2.~ | d2.~ | d2.~ | d2 
@@ -140,7 +140,7 @@ ThreeSolo = \relative g'' {
     g c,, c c' ees g | g d, d b' d g | f d, d b' d f \bar "||"
 
     f16\f ees, f g aes b c d ees8 r | r16\mf ees, f g aes b c d ees8 r |
-    r16\mf ees, f g aes b c d ees8 r |
+    r16\mp ees, f g aes b c d ees8 r |
     ees,16\p\< c' bes c ees, c' bes c ees, c' bes c | f, c' bes c f, c' bes c f, c' bes c |
     g c b c g c b c g\f b g b \bar "||"
 
@@ -170,7 +170,7 @@ ThreeSolo = \relative g'' {
     e-> e e e e e e-> e e e e e | c'-> ees, ees ees c' ees, ees-> ees c' ees, ees ees \bar "||"
 
     d^"Solo" d d d fis d d d a' d, d d | bes' d, d d c' d, d d d' d, d d |
-    e' d, d d fis' d, d d g' d, d d | a'' d,, d d bes'' d,, d d c'' d,, d d |
+    ees' d, d d fis' d, d d g' d, d d | a'' d,, d d bes'' d,, d d c'' d,, d d |
     d'' d,^"tutti" c bes a g fis e d c bes a \bar "||"
 
     g g'' f ees d c bes a g f ees d | c c c c c c c c c c c c |
