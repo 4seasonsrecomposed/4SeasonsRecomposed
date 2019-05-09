@@ -133,3 +133,171 @@ TwoCelloA = \relative g {
 
     g1\> R1\! \repeat unfold 6 { R1 | }
 }
+
+ThreeCello = \relative g {
+    \clef bass
+    \key g \minor
+    \time 3/4
+    \set Timing.beamExceptions = #'()
+
+    <<
+        {
+            g16->^"div." g, g g g-> g g g g-> g g g | f'-> g, g g g-> g g g g-> g g g |
+            ees'-> g, g g g-> g g g g-> g g g | d'-> g, g g g-> g g g g-> g g g |
+            ees'-> ees, ees ees ees-> ees ees ees ees-> ees ees ees | d'-> ees, ees ees ees-> ees ees ees ees-> ees ees ees |
+            c'-> ees, ees ees ees-> ees ees ees ees-> ees ees ees | bes'-> ees, ees ees ees-> ees ees ees ees-> ees ees ees |
+            d''-> d, d d d-> d d d d-> d d d | c'-> d, d d d-> d d d d-> d d d |
+            bes'-> d, d d d-> d d d d-> d d d | a'-> d, d d d-> d d d d-> d d d |
+            bes'-> bes, bes bes bes-> bes bes bes bes-> bes bes bes | a'->  bes, bes bes bes-> bes bes bes bes-> bes bes bes |
+            g'-> bes, bes bes bes-> bes bes bes bes-> bes bes bes | f'-> a, a a a-> a a a a-> a a a |
+        }
+        \\
+        {
+            g'4->\f g,-> g-> | f'-> g,-> g-> | ees'-> g,-> g-> | d'-> g,-> g-> |
+            ees'-> ees,-> ees-> | d'-> ees,-> ees-> | c'-> ees,-> ees-> | bes'-> ees,-> ees-> |
+            d''-> d,-> d-> | c'-> d,-> d-> | bes'-> d,-> d-> | a'-> d,-> d-> |
+            bes'-> bes,-> bes-> | a'-> bes,-> bes-> | g'-> bes,-> bes-> | f'-> a,-> a-> |
+        }
+    >>
+
+    g8\mf\<^"tutti" g g g g g | g->\! g\mf g g g g |ees ees\< ees ees ees ees | ees->\! ees\mf ees ees ees ees |
+    c c\< c c c c | c->\! c\mf c c c c | d d\< d d d d | d->\! d\mf d d d d |
+
+    \repeat unfold 12 { R2. | }
+
+    d'8\mp\< a d a d a | d a d a d a |
+
+    d16\f d' c bes a g f e d8 r | g,16 g' f ees d c bes a g8 r |
+    c16 c' bes a g f e d c8 r | f,16 f' e d c bes a g f8 r |
+    bes16 bes' a g f ees d c bes8 r | ees,16 ees' d c bes a g f ees8 r |
+    aes16 aes' g f ees d c bes aes8 r | b16 b' a g f ees d c b8 r |
+    g16 g' f ees d c b a g8 r |
+
+    c16\f c' bes aes g f ees d c8 r | r16\mf c' bes aes g f ees d c8 r |
+    r16\mp c' bes aes g f ees d c8 r |
+    ees\p\< ees ees ees ees ees | f f f f f f | g g g g g,\f g |
+
+    <<
+        {
+            c16->^"div." c c c c-> c c c c-> c c c | bes'-> c, c c c-> c c c c-> c c c |
+            aes'-> c, c c c-> c c c c-> c c c | g'-> c, c c c-> c c c c8->
+        }\\{
+            c4-> c-> c-> | bes'-> c,-> c-> | aes'-> c,-> c-> |g'-> c,-> c8->
+        }
+    >>
+    r |
+
+    c^"Solo" c'16 b c8 c, c c' | g,4 r r | c8 c'16 b c8 c, c c' | bes,4 r r |
+    ees,8 ees'16 d ees8 ees, ees ees' | g,4 r r | g8 g'16 f g8 g, g g' | aes,4 r r |
+    a8 a'16 g a8 a, a a' | bes,4 r r | b8 b'16 a b8 b, b b' |
+
+    <<
+        {
+            c,16->\f^"tutti div." c c c c-> c c c c-> c c c | aes'-> c, c c aes'-> c, c c aes'-> c, c c |
+            b-> b b b b-> b b b b-> b b b | g'-> bes, bes bes g'-> bes, bes bes g'-> bes, bes bes |
+            a-> a a a a-> a a a a-> a a a | f'-> aes, aes aes f'-> aes, aes aes f'-> aes, aes aes |
+            g-> g' g g g-> g g g g-> g g g | ees'-> g, g g ees'-> g, g g ees'-> g, g g |
+            fis-> fis fis fis fis-> fis fis fis fis-> fis fis fis | d'-> f, f f d'-> f, f f d'-> f, f f |
+            e-> e e e e-> e e e e-> e e e | c'-> ees, ees ees c'-> ees, ees ees c'-> ees, ees ees |
+        }\\{
+            c4-> c-> c-> | aes'-> aes-> aes-> | b,-> b-> b-> | g'-> g-> g-> |
+            a,-> a-> a-> | f'-> f-> f-> | g,-> g'-> g-> | ees'-> ees-> ees-> |
+            fis,-> fis-> fis-> | d'-> d-> d-> | e,-> e-> e-> | c'-> c-> c-> |
+        }
+    >>
+
+    d,2.~^"Solo" | d~ | d~ | d~ | d4 r r |
+
+    g,8\f^"Tutti" g g g g g | c c c c c c | c c c c c c | ees ees ees ees ees ees | ees ees ees ees ees ees |
+    g g g g g g | g g g g g g | g g g g g g | g\< g d' g, d' g,\! |
+
+    <<
+        {
+            ees16->\ff^"div" ees, ees ees ees-> ees ees ees ees-> ees ees ees |
+            ees'-> ees, ees ees ees-> ees ees ees ees-> ees ees ees |
+            ees'-> ees, ees ees ees-> ees ees ees ees-> ees ees ees |
+            ees'-> ees, ees ees ees-> ees ees ees ees-> ees ees ees |
+            c-> c' c c c-> c c c c-> c c c |
+            c,-> c' c c c-> c c c c-> c c c |
+            c,-> c' c c c-> c c c c-> c c c |
+            c,-> c' c c c-> c c c c-> c c c |
+        }\\{
+            ees4 ees, ees | ees' ees, ees | ees' ees, ees | ees' ees, ees |
+            c c' c | c, c' c | c, c' c | c, c' c |
+        }
+    >>
+
+    <<
+        {
+            d'16-> d, d d d-> d d d d-> d d d | c'-> d, d d d-> d d d d-> d d d |
+            bes'-> d, d d d-> d d d d-> d d d | a'-> d, d d d-> d d d d-> d d d |
+            bes'-> bes, bes bes bes-> bes bes bes bes-> bes bes bes | a'->  bes, bes bes bes-> bes bes bes bes-> bes bes bes |
+            g'-> bes, bes bes bes-> bes bes bes bes-> bes bes bes | f'-> a, a a a-> a a a a-> a a a |
+        }\\{
+            d'4-> d,-> d-> | c'-> d,-> d-> | bes'-> d,-> d-> | a'-> d,-> d-> |
+            bes'-> bes,-> bes-> | a'-> bes,-> bes-> | g'-> bes,-> bes-> | f'-> a,-> a-> |
+        }
+    >>
+
+    g8^"tutti"_\markup{sub\dynamic{p}} g\< g g g g | g->\! g\p g g g g |
+    ees ees\< ees ees ees ees | ees->\! ees\p ees ees ees ees |
+    c c\< c c c c | c->\! c\p c c c c |
+    d d\< d d d d | d->\! d\p d d d d |
+
+    g\mp g\< g g g g | g->\! g\mp g g g g |
+    ees ees\< ees ees ees ees | ees->\! ees\mp ees ees ees ees |
+    c c\< c c c c | c->\! c\mp c c c c |
+    d d\< d d d d | d->\! d\mp d d d d |
+
+    g\mf g\< g g g g | g->\! g\mf g g g g |
+    ees ees\< ees ees ees ees | ees->\! ees\mf ees ees ees ees |
+    c c\< c c c c | c->\! c\mf c c c c |
+    d d\< d d d d | d-> d d d d d |
+
+    g\!_\markup{sub\dynamic{p}} g\< g g g g | g->\! g\p g g g g |
+    ees ees\< ees ees ees ees | ees->\! ees\p ees ees ees ees |
+    c c\< c c c c | c->\! c\p c c c c |
+    d d\< d d d d | d->\! d\p d d d d |
+
+    g\mp g\< g g g g | g->\! g\mp g g g g |
+    ees ees\< ees ees ees ees | ees->\! ees\mp ees ees ees ees |
+    c c\< c c c c | c->\! c\mp c c c c |
+    d d\< d d d d | d-> d d d d d |
+
+    g\mf g\< g g g g | g->\! g\mf g g g g |
+    ees ees\< ees ees ees ees | ees->\! ees\mf ees ees ees ees |
+    c c\< c c c c | c->\! c\mf c c c c |
+    d d\< d d d d | d-> d d d d d |
+
+    g\f g g g g g | g g g g g g |
+    ees ees ees ees ees ees | ees ees ees ees ees ees |
+    c c c c c c | c c c c c c |
+    d\< d d d d d | d d d d d d |
+
+    d8\!_\markup{sub\dynamic{pp}}^"Repeat this figure with swells and accents as directed" d d d 
+
+    % START DIGITAL AUDIO
+    % Use Glissando to emulate the symbol, hide all notes in it
+    \hideNotes
+    % Change its style to trill
+    \override Glissando.style = #'trill
+    % Set it breakable when a line break
+    \override Glissando.breakable = ##t
+    \override Glissando.after-line-breaking = ##t
+    % Start Gliss. from the middle of shaff
+    d'2\glissando 
+    % Skip several bars
+    \override NoteColumn.glissando-skip = ##t
+    % Stop Gliss at almost end of a bar
+    \repeat unfold 40 { s1 | }
+    s1\> s1 s1 s1
+    s2...
+    % Stop skipping
+    \revert NoteColumn.glissando-skip
+    % Stop at the middle of shaff
+    d16\! |
+    % Show notes
+    \unHideNotes
+    % END DIGITAL AUDIO
+
+}

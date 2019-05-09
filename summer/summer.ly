@@ -192,11 +192,11 @@ ThreeScore = \score {
             
         }
         \ThreeViola
-%        \new Staff \with {
-%            instrumentName = #"Cello"
-%            
-%        }
-%        \ThreeCello
+        \new Staff \with {
+            instrumentName = #"Cello"
+            
+        }
+        \ThreeCello
 %        \new Staff \with {
 %            instrumentName = #"Bass"
 %        }
@@ -230,7 +230,7 @@ ThreeScore = \score {
     \header {
         title = "Summer"
     }
-    \OneScore
-    \TwoScore
+    %\OneScore
+    %\TwoScore
     \ThreeScore
 }
