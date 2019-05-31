@@ -95,7 +95,8 @@ OneScore = \score {
 
     >>
     \header{
-        piece = "I. Allegro non molto"
+        title = "Summer"
+        subtitle = "I"
     }
     %\midi{\tempo 4 = 150}
 }
@@ -166,7 +167,7 @@ TwoScore = \score {
 
     >>
     \header {
-        piece = "II. Adagio"
+        subtitle = "II"
     }
 }
 
@@ -213,7 +214,7 @@ ThreeScore = \score {
 %        >>
     >>
     \header{
-        piece = "III. Presto"
+        subtitle = "III"
     }
     %\midi{ \tempo 4 = 165}
 }
@@ -222,15 +223,11 @@ ThreeScore = \score {
 
 \book {
     \paper {
-        #(set-paper-size "my size")
         %\pointAndClickOff
-        system-separator-markup = \slashSeparator
+        print-all-headers = ##t
     }
     
-    \header {
-        title = "Summer"
-    }
-    %\OneScore
-    %\TwoScore
+    \OneScore
+    \TwoScore
     \ThreeScore
 }

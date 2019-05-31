@@ -102,7 +102,8 @@ ZeroScore = \score {
         >>
     >>
     \header{
-        piece = "O. Dolce"
+        title = "Spring"
+        subtitle = "O"
     }
 }
 
@@ -193,7 +194,7 @@ OneScore = \score {
 
     >>
     \header{
-        piece = "I. Dolce"
+        subtitle = "I"
     }
 }
 
@@ -256,7 +257,7 @@ TwoScore = \score {
 
     >>
     \header {
-        piece = "II. Largo e pianissimo siempre"
+        subtitle = "II"
     }
 }
 
@@ -316,7 +317,7 @@ ThreeScore = \score {
         >>
     >>
     \header{
-        piece = "III. Allegro"
+        subtitle = "III"
     }
 }
 
@@ -325,12 +326,9 @@ ThreeScore = \score {
 \book {
     \paper {
         \pointAndClickOff
-        system-separator-markup = \slashSeparator
+        print-all-headers = ##t
     }
     
-    \header {
-        title = "Spring"
-    }
     \ZeroScore
     \OneScore
     \TwoScore

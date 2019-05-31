@@ -1,18 +1,23 @@
 OneSolo = \relative g'' {
     \key g \minor
     \time 3/8
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
 
+    \mark "Allegro non molto"
     r8\pp bes a | r bes, a | r c16( d) ees8 | r a,16( bes) c8 | bes'4 r8 |
     c,( bes a) | c'4 r8 | d,( c bes) | d'4 r8 | ees,( d c) fis,4.\fermata \bar "||"
 
-    bes'8( \mark "Piu mosso" a g | fis ees d) | c4.~ | c | c'8( bes a | g fis ees) | d4.~ | d~ | d4 r8 \bar "||"
+    \mark "Piu mosso"
+    bes'8( a g | fis ees d) | c4.~ | c | c'8( bes a | g fis ees) | d4.~ | d~ | d4 r8 \bar "||"
 
-    r8 \mark "A tempo" bes'16( c) d8 | r aes16( bes) c8 | r g16( a) bes8 | r fis16( g) a8 | r g4 |
+    \mark "A tempo"
+    r8 bes'16( c) d8 | r aes16( bes) c8 | r g16( a) bes8 | r fis16( g) a8 | r g4 |
     r8 bes,16( c) d8 | r aes16( bes) c8 | r g16( a) bes8 | r fis16( g) a8 | r g4 \bar "||"
 
     \time 4/4
 
-    g16\p \mark "Allegro non tempo" g' g g g g bes, g' g, g' g g g g bes, g' |
+    \mark "Allegro non tempo" 
+    g16\p g' g g g g bes, g' g, g' g g g g bes, g' |
     g, g' g g g g bes, g' g, g' g g g g bes, g' |
     g, g' g g g g bes, g' g, bes a bes g bes a bes |
     a a' a a a a c, a' a, a' a a a a c, a' |
@@ -78,7 +83,9 @@ TwoSolo = \relative g'' {
     \key g \minor
     \time 4/4
     \set Score.currentBarNumber = #121
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
 
+    \mark "Adagio"
     R1 | R1 | R1 | R1 \bar "||"
     \repeat unfold 8 { R1 | } \bar "||"
 
@@ -101,8 +108,10 @@ ThreeSolo = \relative g'' {
     \key g \minor
     \time 3/4
     \set Score.currentBarNumber = #165
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
     \set Timing.beamExceptions = #'()
 
+    \mark "Presto"
     g,16->\f^\markup{\italic{Tutti}} g, g g g g g-> g g g g g | f'-> g, g g g g g-> g g g g g |
     ees'-> g, g g g g g-> g g g g g | d'-> g, g g g g g-> g g g g g |
     g'-> g, g g g g g-> g g g g g | f'-> g, g g g g g-> g g g g g |

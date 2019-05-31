@@ -1,6 +1,9 @@
 ZeroSolo = \relative e'' {
     \key e \major
     \time 4/4
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+
+    \mark "Dolce"
     \repeat unfold 21 {
         R1|
     }
@@ -10,6 +13,9 @@ OneSolo = \relative e''{
     \key e \major
     \time 4/4
     \set Score.currentBarNumber = #22
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+
+    \mark "Dolce"
     b'4-!(_\markup{\dynamic{pp} poco a poco cresc} b-!) b-!( b-! | b-! b-!) b8-.( b-. b-. b-. |
     b-. b-. b-. b-.) b-.( b-. b-. b-. | b-. b-. b-.) cis16( dis) e dis cis b a gis fis e \bar "||"
 
@@ -64,7 +70,9 @@ TwoSolo = \relative e'' {
     \key e \major
     \time 3/4
     \set Score.currentBarNumber = #87
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
 
+    \mark "Largo e pianissimo siempre"
     R2. | R2. | R2. | R2. |
     R2. | R2. | R2. | R2. \bar "||"
 
@@ -91,7 +99,9 @@ ThreeSolo = \relative e'' {
     \key e \major
     \time 12/8
     \set Score.currentBarNumber = #142
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
 
+    \mark "Allegro"
     a8-.\pp e-. a-. a16( b) cis8-.e-. a,-. e-. a-. a16( b) cis8-.e-. |
     b^"sim." fis b b16 cis dis8 fis b, fis b b16 cis dis8 fis |
     b, e, b' b16 cis dis8 e b e, b' b16 cis dis8 e |
