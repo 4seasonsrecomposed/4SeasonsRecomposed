@@ -4,7 +4,7 @@ OneHarpsichordUpper = \relative g'' {
 
     % No notes but some marks in this line. Use 's' to mark them.
 
-    R4.\pp | \repeat unfold 9 { R4. | } <<{ s4.\fermata }\\{ \oneVoice R4. }>>
+    R4.\pp | \repeat unfold 9 { R4. | } R4.^\fermataMarkup
     \repeat unfold 19 { R4. | }
 
     \repeat unfold 42 { R1 | }

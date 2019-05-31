@@ -320,13 +320,12 @@ ThreeScore = \score {
     }
 }
 
-#(set! paper-alist (cons '("my size" . (cons (* 247 mm) (* 350 mm))) paper-alist))
-
+#(set-global-staff-size 14)
 
 \book {
     \paper {
-        #(set-paper-size "my size")
         \pointAndClickOff
+        system-separator-markup = \slashSeparator
     }
     
     \header {

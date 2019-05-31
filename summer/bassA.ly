@@ -3,7 +3,7 @@ OneBassA = \relative g {
     \key g \minor
     \time 3/8
 
-    \repeat unfold 10 { R4. | } <<{ s4.\fermata }\\{ \oneVoice R4. }>> |
+    \repeat unfold 10 { R4. | } R4.^\fermataMarkup |
     \repeat unfold 19 { R4. | }
 
     \repeat unfold 42 { R1 | }
