@@ -160,7 +160,7 @@ ThreeCello = \relative g {
         }
     >>
 
-    g8\mf\<^"tutti" g g g g g | g->\! g\mf g g g g |ees ees\< ees ees ees ees | ees->\! ees\mf ees ees ees ees |
+    g8\mf^"tutti" g\< g g g g | g->\! g\mf g g g g |ees ees\< ees ees ees ees | ees->\! ees\mf ees ees ees ees |
     c c\< c c c c | c->\! c\mf c c c c | d d\< d d d d | d->\! d\mf d d d d |
 
     \repeat unfold 12 { R2. | }

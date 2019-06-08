@@ -198,10 +198,10 @@ ThreeScore = \score {
             
         }
         \ThreeCello
-%        \new Staff \with {
-%            instrumentName = #"Bass"
-%        }
-%        \ThreeBass
+        \new Staff \with {
+            instrumentName = #"Bass"
+        }
+        \ThreeBass
 %        \new PianoStaff <<
 %            \set PianoStaff.instrumentName = #"Harp"
 %            \new Staff \ThreeHarpUpper

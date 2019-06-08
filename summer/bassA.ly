@@ -65,3 +65,78 @@ TwoBass = \relative g {
     d | d | d\> | d\! |
 
 }
+
+ThreeBass = \relative g {
+    \clef bass
+    \key g \minor
+    \time 3/4
+    \set Timing.beamExceptions = #'()
+
+    g4->\f g,-> g-> | f'-> g,-> g-> | ees'-> g,-> g-> | d'-> g,-> g-> |
+    ees'-> ees,-> ees-> | d'-> ees,-> ees-> | c'-> ees,-> ees-> | bes'-> ees,-> ees-> |
+    d''-> d,-> d-> | c'-> d,-> d-> | bes'-> d,-> d-> | a'-> d,-> d-> | 
+    bes'-> bes,-> bes-> | a'-> bes,-> bes-> | g'-> bes,-> bes-> | f'-> a,-> a-> |
+
+    g8\mf g\< g g g g | g->\! r r4 r | ees8\mf ees\< ees ees ees ees | ees->\! r r4 r |
+    c8\mf c\< c c c c | c->\! r r4 r | bes8\mf bes\< bes bes bes bes | bes->\! r r4 r | 
+
+    \repeat unfold 26 { R2. | }
+
+    ees'8\p\< ees ees ees ees ees | f f f f f f | g g g g g,\f g |
+
+    c4-> c-> c-> | bes'-> c,-> c-> | aes'-> c,-> c-> | g'-> c,-> c8-> r |
+
+    \repeat unfold 11 { R2. | }
+
+    c4->\f c-> c-> | aes'8-> c, aes'-> c, aes'-> c, | b4-> b-> b-> | g'8-> bes, g'-> bes, g'-> bes, |
+    a4-> a-> a-> | f'8-> aes, f'-> aes, f'-> aes, | g4-> g'-> g-> | ees'8-> g, ees'-> g, ees'-> g, |
+    fis4-> fis-> fis-> | d'8-> f,-> d'-> f, d'-> f, | e4-> e-> e-> | c'8-> ees, c'-> ees, c'-> ees, |
+
+    \repeat unfold 5 { R2. | }
+
+    ees,8\f ees ees ees ees ees | c' c c c c c | c c c c c c | ees ees ees ees ees ees |
+    ees ees ees ees ees ees | g g g g g g | g g g g g g | g g g g g g | g\< g d' g, d' g, |
+
+    ees4->\ff g,-> g-> | ees'-> g,-> g-> | ees'-> g,-> g-> | ees'-> g,-> g-> |
+    c,-> c'-> c-> | c,-> c'-> c-> | c,-> c'-> c-> | c,-> c'-> c-> |
+
+    d'-> d,-> d-> | c'-> d,-> d-> | bes'-> d,-> d-> | a'-> d,-> d-> |
+    bes'-> bes,-> bes-> | a'-> bes,-> bes-> | g'-> bes,-> bes-> | f'-> a,-> a-> |
+
+    g8_\markup{sub\dynamic{p}} g\< g g g g | g->\! g\p g g g g |
+    ees ees\< ees ees ees ees | ees->\! ees\p ees ees ees ees |
+    c c\< c c c c | c->\! c\p c c c c |
+    d d\< d d d d | d->\! d\p d d d d |
+
+    g\mp g\< g g g g | g->\! g\mp g g g g |
+    ees ees\< ees ees ees ees | ees->\! ees\mp ees ees ees ees |
+    c c\< c c c c | c->\! c\mp c c c c |
+    d d\< d d d d | d->\! d\mp d d d d |
+
+    g\mf g\< g g g g | g->\! g\mf g g g g |
+    ees ees\< ees ees ees ees | ees->\! ees\mf ees ees ees ees |
+    c c\< c c c c | c->\! c\mf c c c c |
+    d d\< d d d d | d-> d d d d d |
+
+    g4\!_\markup{sub\dynamic{p}} g\< g | g8->\! r r4 r |
+    ees\p\< ees ees | ees8->\! r r4 r |
+    c\p\< c c | c8->\! r r4 r |
+    d\p\< d d | d8->\! r r4 r |
+
+    g4\mp\< g g | g8->\! r r4 r |
+    ees\mp\< ees ees | ees8->\! r r4 r |
+    c\mp\< c c | c8->\! r r4 r |
+    d\mp\< d d | d8->\! r r4 r |
+
+    g8\mf g\< g g g g | g->\! g\mf g g g g |
+    ees ees\< ees ees ees ees | ees->\! ees\mf ees ees ees ees |
+    c c\< c c c c | c->\! c\mf c c c c |
+    d d\< d d d d | d-> d d d d d |
+
+    g\f g g g g g | g g g g g g |
+    ees ees ees ees ees ees | ees ees ees ees ees ees |
+    c c c c c c | c c c c c c |
+    d\< d d d d d | d d d d d d\! |
+
+    \repeat unfold 46 { R1 | }
+}
