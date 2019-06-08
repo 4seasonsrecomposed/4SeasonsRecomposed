@@ -95,8 +95,7 @@ OneScore = \score {
 
     >>
     \header{
-        title = "Summer"
-        subtitle = "I"
+        title = \markup{\abs-fontsize #16 {I}}
     }
     %\midi{\tempo 4 = 150}
 }
@@ -167,7 +166,7 @@ TwoScore = \score {
 
     >>
     \header {
-        subtitle = "II"
+        title = \markup{\abs-fontsize #16 {II}}
     }
 }
 
@@ -202,19 +201,19 @@ ThreeScore = \score {
             instrumentName = #"Bass"
         }
         \ThreeBass
-%        \new PianoStaff <<
-%            \set PianoStaff.instrumentName = #"Harp"
-%            \new Staff \ThreeHarpUpper
-%            \new Staff \ThreeHarpLower
-%        >>
-%        \new PianoStaff <<
-%            \set PianoStaff.instrumentName = #"Harpsichord"
-%            \new Staff \ThreeHarpsichordUpper
-%            \new Staff \ThreeHarpsichordLower
-%        >>
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harp"
+            \new Staff \ThreeHarpUpper
+            \new Staff \ThreeHarpLower
+        >>
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harpsichord"
+            \new Staff \ThreeHarpsichordUpper
+            \new Staff \ThreeHarpsichordLower
+        >>
     >>
     \header{
-        subtitle = "III"
+        title = \markup{\abs-fontsize #16 {III}}
     }
     %\midi{ \tempo 4 = 165}
 }
@@ -222,11 +221,14 @@ ThreeScore = \score {
 #(set-global-staff-size 14)
 
 \book {
-    \paper {
-        %\pointAndClickOff
+    \paper{
+        \pointAndClickOff
         print-all-headers = ##t
     }
-    
+    \header{
+        title = \markup{\abs-fontsize #20 {Summer}}
+    }
+    \markup { \vspace #1 }
     \OneScore
     \TwoScore
     \ThreeScore

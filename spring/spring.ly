@@ -102,8 +102,7 @@ ZeroScore = \score {
         >>
     >>
     \header{
-        title = "Spring"
-        subtitle = "O"
+        title = \markup{\abs-fontsize #16 {N}}
     }
 }
 
@@ -194,7 +193,7 @@ OneScore = \score {
 
     >>
     \header{
-        subtitle = "I"
+        title = \markup{\abs-fontsize #16 {I}}
     }
 }
 
@@ -257,7 +256,7 @@ TwoScore = \score {
 
     >>
     \header {
-        subtitle = "II"
+        title = \markup{\abs-fontsize #16 {II}}
     }
 }
 
@@ -317,18 +316,21 @@ ThreeScore = \score {
         >>
     >>
     \header{
-        subtitle = "III"
+        title = \markup{\abs-fontsize #16 {III}}
     }
 }
 
 #(set-global-staff-size 14)
 
 \book {
-    \paper {
+    \paper{
         \pointAndClickOff
         print-all-headers = ##t
     }
-    
+    \header{
+        title = \markup{\abs-fontsize #20 {Spring}}
+    }
+    \markup { \vspace #1 }
     \ZeroScore
     \OneScore
     \TwoScore
