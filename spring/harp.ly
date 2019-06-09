@@ -124,82 +124,52 @@ ThreeHarpUpper = \relative e'' {
     R1.\mp R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>>
     \repeat unfold 9 { R1. | } R1.\< R1.
 
-                       \tuplet 2/3 { <fis cis>8\mp <fis cis> }
-    \repeat unfold 3 { \tuplet 2/3 { <fis cis> <fis cis> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-                       \tuplet 2/3 { <e b>\pCresc <e b> }
-                       \tuplet 2/3 { <e b> <e b> }
-    \repeat unfold 2 { \tuplet 2/3 { <e b'> <e b'> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <fis b> <fis b> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <dis a'> <dis a'> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <dis gis> <dis gis> }}
-    \repeat unfold 2 { \tuplet 2/3 { <dis gis,> <dis gis,> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <cis gis'> <cis gis'> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <cis fis> <cis fis> }}
-    \repeat unfold 2 { \tuplet 2/3 { <fis cis'> <fis cis'> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <fis b> <fis b> }}
-    \repeat unfold 2 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-    \repeat unfold 3 { \tuplet 2/3 { <e b> <e b> }}
-                       \tuplet 2/3 { <e b'> <e b'> } |
-    \repeat unfold 4 { \tuplet 2/3 { <e a> <e a> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <dis a'> <dis a'> }} |
-                       \tuplet 2/3 { <dis gis>\< <dis gis> }
-                       \tuplet 2/3 { <dis gis> <dis gis> }
-    \repeat unfold 2 { \tuplet 2/3 { <dis gis,> <dis gis,> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <cis gis> <cis gis> }}
-    \repeat unfold 2 { \tuplet 2/3 { <cis gis'> <cis gis'> }}|
+    \tuplet 2/3 4. {
+        <fis cis>8\mp <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> |
+        <fis b,> <fis b,> <fis b,> <fis b,><fis b,> <fis b,> <fis b,> <fis b,> |
+        <e b>\pCresc <e b> <e b> <e b> <e b'> <e b'> <e b'> <e b'> |
+        <fis b> <fis b> <fis b> <fis b> <fis b> <fis b> <fis b> <fis b> |
+        <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> |
+        <dis gis> <dis gis> <dis gis> <dis gis> <dis gis,> <dis gis,> <dis gis,> <dis gis,> |
+        <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> |
+        <cis fis> <cis fis> <cis fis> <cis fis> <fis cis'> <fis cis'> <fis cis'> <fis cis'> |
+        <fis b> <fis b> <fis b> <fis b> <fis b,> <fis b,> <fis b,> <fis b,> |
+        <e b> <e b> <e b> <e b> <e b> <e b> <e b'> <e b'> |
+        <e a> <e a> <e a> <e a> <e a> <e a> <e a> <e a> |
+        <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> |
+        <dis gis>\< <dis gis> <dis gis> <dis gis> <dis gis,> <dis gis,> <dis gis,> <dis gis,> |
+        <cis gis> <cis gis> <cis gis> <cis gis> <cis gis'> <cis gis'> <cis gis'> <cis gis'> |
 
-                       \tuplet 2/3 { <fis cis>\mf <fis cis> }
-    \repeat unfold 3 { \tuplet 2/3 { <fis cis> <fis cis> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-                       \tuplet 2/3 { <e b>\pCresc <e b> }
-                       \tuplet 2/3 { <e b> <e b> }
-    \repeat unfold 2 { \tuplet 2/3 { <e b'> <e b'> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <fis b> <fis b> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <dis a'> <dis a'> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <dis gis> <dis gis> }}
-    \repeat unfold 2 { \tuplet 2/3 { <dis gis,> <dis gis,> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <cis gis'> <cis gis'> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <cis fis> <cis fis> }}
-    \repeat unfold 2 { \tuplet 2/3 { <fis cis'> <fis cis'> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <fis b> <fis b> }}
-    \repeat unfold 2 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-    \repeat unfold 3 { \tuplet 2/3 { <e b> <e b> }}
-                       \tuplet 2/3 { <e b'> <e b'> } |
-    \repeat unfold 4 { \tuplet 2/3 { <e a> <e a> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <dis a'> <dis a'> }} |
-                       \tuplet 2/3 { <dis gis>\< <dis gis> }
-                       \tuplet 2/3 { <dis gis> <dis gis> }
-    \repeat unfold 2 { \tuplet 2/3 { <dis gis,> <dis gis,> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <cis gis> <cis gis> }}
-                       \tuplet 2/3 { <cis gis'> <cis gis'> }
-                       \tuplet 2/3 { <cis gis'> <cis gis'>\ff } |
+        <fis cis>\mf <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> |
+        <fis b,> <fis b,> <fis b,> <fis b,><fis b,> <fis b,> <fis b,> <fis b,> |
+        <e b>\pCresc <e b> <e b> <e b> <e b'> <e b'> <e b'> <e b'> |
+        <fis b> <fis b> <fis b> <fis b> <fis b> <fis b> <fis b> <fis b> |
+        <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> |
+        <dis gis> <dis gis> <dis gis> <dis gis> <dis gis,> <dis gis,> <dis gis,> <dis gis,> |
+        <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> |
+        <cis fis> <cis fis> <cis fis> <cis fis> <fis cis'> <fis cis'> <fis cis'> <fis cis'> |
+        <fis b> <fis b> <fis b> <fis b> <fis b,> <fis b,> <fis b,> <fis b,> |
+        <e b> <e b> <e b> <e b> <e b> <e b> <e b'> <e b'> |
+        <e a> <e a> <e a> <e a> <e a> <e a> <e a> <e a> |
+        <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> |
+        <dis gis>\< <dis gis> <dis gis> <dis gis> <dis gis,> <dis gis,> <dis gis,> <dis gis,> |
+        <cis gis> <cis gis> <cis gis> <cis gis> <cis gis'> <cis gis'> <cis gis'> <cis gis'>\ff |
 
-                       \tuplet 2/3 { <fis cis>\f <fis cis> }
-    \repeat unfold 3 { \tuplet 2/3 { <fis cis> <fis cis> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-                       \tuplet 2/3 { <e b>\pCresc <e b> }
-                       \tuplet 2/3 { <e b> <e b> }
-    \repeat unfold 2 { \tuplet 2/3 { <e b'> <e b'> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <fis b> <fis b> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <dis a'> <dis a'> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <dis gis> <dis gis> }}
-    \repeat unfold 2 { \tuplet 2/3 { <dis gis,> <dis gis,> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <cis gis'> <cis gis'> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <cis fis> <cis fis> }}
-    \repeat unfold 2 { \tuplet 2/3 { <fis cis'> <fis cis'> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <fis b> <fis b> }}
-    \repeat unfold 2 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-    \repeat unfold 3 { \tuplet 2/3 { <e b> <e b> }}
-                       \tuplet 2/3 { <e b'> <e b'> } |
-    \repeat unfold 4 { \tuplet 2/3 { <e a> <e a> }} |
-    \repeat unfold 4 { \tuplet 2/3 { <dis a'> <dis a'> }} |
-                       \tuplet 2/3 { <dis gis>\< <dis gis> }
-                       \tuplet 2/3 { <dis gis> <dis gis> }
-    \repeat unfold 2 { \tuplet 2/3 { <dis gis,> <dis gis,> }} |
-    \repeat unfold 2 { \tuplet 2/3 { <cis gis> <cis gis> }}
-                       \tuplet 2/3 { <cis gis'> <cis gis'> }
-                       \tuplet 2/3 { <cis gis'> <cis gis'>\! } |
+        <fis cis>\f <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> |
+        <fis b,> <fis b,> <fis b,> <fis b,><fis b,> <fis b,> <fis b,> <fis b,> |
+        <e b>\pCresc <e b> <e b> <e b> <e b'> <e b'> <e b'> <e b'> |
+        <fis b> <fis b> <fis b> <fis b> <fis b> <fis b> <fis b> <fis b> |
+        <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> |
+        <dis gis> <dis gis> <dis gis> <dis gis> <dis gis,> <dis gis,> <dis gis,> <dis gis,> |
+        <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> <cis gis'> |
+        <cis fis> <cis fis> <cis fis> <cis fis> <fis cis'> <fis cis'> <fis cis'> <fis cis'> |
+        <fis b> <fis b> <fis b> <fis b> <fis b,> <fis b,> <fis b,> <fis b,> |
+        <e b> <e b> <e b> <e b> <e b> <e b> <e b'> <e b'> |
+        <e a> <e a> <e a> <e a> <e a> <e a> <e a> <e a> |
+        <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> <dis a'> |
+        <dis gis>\< <dis gis> <dis gis> <dis gis> <dis gis,> <dis gis,> <dis gis,> <dis gis,> |
+        <cis gis> <cis gis> <cis gis> <cis gis> <cis gis'> <cis gis'> <cis gis'> <cis gis'>\! |
+    }
 }
 
 ThreeHarpLower = \relative e {

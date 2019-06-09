@@ -91,6 +91,7 @@ OneScore = \score {
     \header{
         title = \markup{\abs-fontsize #16 {I}}
     }
+    \midi { \tempo 4 = 120 }
 }
 
 %TwoScore = \score {
@@ -227,7 +228,7 @@ OneScore = \score {
 
 \book {
     \paper{
-        \pointAndClickOff
+        %\pointAndClickOff
         print-all-headers = ##t
     }
     \header{

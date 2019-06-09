@@ -23,7 +23,7 @@ OneViolaB = \relative g' {
     d4-. bes'-.-> r bes-.-> |
     d, -. d-.-> r d-.-> |
     fis,-. d'-.-> r d-.-> |
-    bes16 bes' bes bes g g d g bes, g' g g g g d g | % maybe ...
+    bes16 bes' bes bes g g d g bes, g' g g g g d g |
     ees ees ees ees ees ees a, ees' a, ees' ees ees ees ees a, ees' |
     fis, d' d d d d a d fis, d' d d d d a d |
 
