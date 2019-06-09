@@ -200,12 +200,12 @@ ThreeViolinTwo = \relative g''{
     bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
     bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
 
-    d,_\markup{(\dynamic{mp})} g bes d d, g bes d d, g bes d | g, bes d g g, bes d g g, bes d g |
+    d,\brmp g bes d d, g bes d d, g bes d | g, bes d g g, bes d g g, bes d g |
     ees, g bes ees ees, g bes ees ees, g bes ees | g, bes ees g g, bes ees g g, bes ees g |
     c,, ees g c c, ees g c c, ees g c | g c ees g g, c ees g g, c ees g |
     d, g a d d, g a d d, g a d | d g a d d, g a d d, g a d |
 
-    d,,_\markup{(\dynamic{mf})} g bes d d, g bes d d, g bes d | g, bes d g g, bes d g g, bes d g |
+    d,,\brmf g bes d d, g bes d d, g bes d | g, bes d g g, bes d g g, bes d g |
     ees, g bes ees ees, g bes ees ees, g bes ees | g, bes ees g g, bes ees g g, bes ees g |
     c,, ees g c c, ees g c c, ees g c | g c ees g g, c ees g g, c ees g |
     d,\< g a d d, g a d d, g a d | d g a d d, g a d d, g a d |
@@ -215,12 +215,12 @@ ThreeViolinTwo = \relative g''{
     bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
     bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
 
-    d,_\markup{(\dynamic{mp})} g bes d d, g bes d d, g bes d | g, bes d g g, bes d g g, bes d g |
+    d,\brmp g bes d d, g bes d d, g bes d | g, bes d g g, bes d g g, bes d g |
     ees, g bes ees ees, g bes ees ees, g bes ees | g, bes ees g g, bes ees g g, bes ees g |
     c,, ees g c c, ees g c c, ees g c | g c ees g g, c ees g g, c ees g |
     d, g a d d, g a d d, g a d | d g a d d, g a d d, g a d |
 
-    bes,_\markup{(\dynamic{mf})} d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes,\brmf d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
     bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
     bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
     bes\< d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |

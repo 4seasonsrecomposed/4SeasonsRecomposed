@@ -28,7 +28,7 @@ OneViolinOneA = \relative e'' {
     r8 b-. r b-. r b-. r16 a gis a gis4\trill r4
     e'8-.( e-. e-. e-. |
 
-    e-._\markup{(\dynamic{mp})} e-. e-. e-.) e,-.( e-. e-. e-. | e-. e-. e-. e-.) r b'-. r b-. |
+    e-.\brmp e-. e-. e-.) e,-.( e-. e-. e-. | e-. e-. e-. e-.) r b'-. r b-. |
     r b-. \repeat unfold 5 {r \acciaccatura cis8 b-.} e4-. e8( e,-.) |
     r e-. r4 
     \repeat unfold 2 {
@@ -41,7 +41,7 @@ OneViolinOneA = \relative e'' {
     r8 b-. r b-. r b-. r16 a gis a gis4\trill r4
     r8 b-. r b-. |
     
-    r_\markup{(\dynamic{mf})} b-. r b-. r16 a gis a gis4\trill
+    r\brmf b-. r b-. r16 a gis a gis4\trill
     r8 b-. r b-. r b-. r16 a gis a gis4\trill r4
     e'8-.( e-. e-. e-. |
     e-. e-. e-. e-.) e,-.( e-. e-. e-. | e-. e-. e-. e-.) 
@@ -79,7 +79,7 @@ TwoViolinOneA = \relative e'' {
     r\pCresc r8 e e4 | r r8 dis dis4 | r r8 e e4 | r r8 fis fis4 |
     r r8 e e4 | r r8 fis fis4 | r\< r8 e e4 | r r8 e e4 |
 
-    r\mf r8 e e4 | r_"poco a poco decresc." r8 dis dis4 | r r8 cis cis4 | r r8 dis dis4 |
+    r\mf r8 e e4 | r\pDecresc r8 dis dis4 | r r8 cis cis4 | r r8 dis dis4 |
     r r8 e e4 | r\mp\> r8 dis dis4 | r r8 e e4 | r\p\> r8 e e4 | r r8 e e4 | r r8 e e4 | R2.\! |
 }
 

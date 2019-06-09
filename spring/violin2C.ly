@@ -30,7 +30,7 @@ OneViolinTwoC = \relative e'' {
     e8-.( e-. e-. e-. e-. e-. e-. e-.) | e,-.( e-. e-. e-. e-. e-. e-. e-.) |
     r2 e4-! e-! |
 
-    e16(_\markup{(\dynamic{mp})} a gis8-.) r e-. r e-. r e-. |
+    e16(\brmp a gis8-.) r e-. r e-. r e-. |
     r e-. e-. a16( gis) a( gis) a( gis) fis8-.( e-.) | 
 
     \repeat unfold 3 {
@@ -39,7 +39,7 @@ OneViolinTwoC = \relative e'' {
     }
     b'4-!( b-!) b-!( b-! | b-! b-!) b8-.( b-. b-. b-. |
 
-    b-._\markup{(\dynamic{mf})} b-. b-. b-.) b-.( b-. b-. b-. |
+    b-.\brmf b-. b-. b-.) b-.( b-. b-. b-. |
     b-. b-. b-.) cis16( dis) e dis cis b a gis fis e |
     e4-! e-! e16( a gis8-.) r e-. | r e-. r e-. r e-. e-. a16( gis) |
     a( gis) a( gis) fis8-.( e-.) r cis'16( dis) e dis cis b | a gis fis e 
@@ -116,7 +116,7 @@ TwoViolinTwoC = \relative e'' {
     gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 |
 
     e16.\mf cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 |
-    e16._"poco a poco decresc." b32 e16 b16 e16. b32 e16. b32 e16. b32 e16 b16 | % that's weird
+    e16.\pDecresc b32 e16 b16 e16. b32 e16. b32 e16. b32 e16 b16 | % that's weird
     e16. cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 |
     dis16. b32 dis16. b32 dis16. b32 dis16. b32 dis16. b32 dis16. b32 |
     cis16. a32 cis16. a32 cis16. a32 cis16. a32 cis16. a32 cis16. a32 |

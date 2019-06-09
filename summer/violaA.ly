@@ -225,12 +225,12 @@ ThreeViola = \relative g' {
     <ees g,>->^"unis." <ees g,> <ees g,> <ees g,> <ees g,> <ees g,> |
     d-> d d d d d | d-> d d d d d |
 
-    g,16_\markup{(\dynamic{mp})} bes d g g, bes d g g, bes d g | g,16 bes d g g, bes d g g, bes d g |
+    g,16\brmp bes d g g, bes d g g, bes d g | g,16 bes d g g, bes d g g, bes d g |
     \repeat unfold 6 { g, bes ees g } |
     \repeat unfold 6 { g, c ees g } |
     \repeat unfold 6 { a, d e a } |
 
-    g,16_\markup{(\dynamic{mf})} bes d g g, bes d g g, bes d g | g,16 bes d g g, bes d g g, bes d g |
+    g,16\brmf bes d g g, bes d g g, bes d g | g,16 bes d g g, bes d g g, bes d g |
     \repeat unfold 6 { g, bes ees g } |
     \repeat unfold 6 { g, c ees g } |
     a,\< d e a a, d e a a, d e a | a, d e a a, d e a a, d e a |
@@ -241,7 +241,7 @@ ThreeViola = \relative g' {
     <ees g,>^"unis." <ees g,> <ees g,> <ees g,> <ees g,> <ees g,> |
     d d d d d d | d d d d d d |
 
-    g,16_\markup{(\dynamic{mp})} bes d g g, bes d g g, bes d g | g,16 bes d g g, bes d g g, bes d g |
+    g,16\brmp bes d g g, bes d g g, bes d g | g,16 bes d g g, bes d g g, bes d g |
     \repeat unfold 6 { g, bes ees g } |
     \repeat unfold 6 { g, c ees g } |
     \repeat unfold 6 { a, d e a } |

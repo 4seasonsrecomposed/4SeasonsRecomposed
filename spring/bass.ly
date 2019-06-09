@@ -29,7 +29,7 @@ TwoBass = \relative e {
     a2.\pCresc | b2. | cis2.| dis2. |
     e2. | dis2.| cis2.\< | b2. |
 
-    cis2.\mf | b2._"poco a poco decresc." | a2. | gis2. |
+    cis2.\mf | b2.\pDecresc | a2. | gis2. |
     fis2. | gis2.\mp\> | fis2. |
 
     b2.~\p\> | b2. | b2.~ | b2.\! |

@@ -62,7 +62,7 @@ OneViolinOneD = \relative e'' {
     b-!\p b8-.[ r16 a(] gis a) gis8~\startTrillSpan gis4\stopTrillSpan |
     r8 e'8-.( e-. e-. e-. e-. e-. e-. | e-.) e,-.( e-. e-. e-. e-. e-. e-. | e4-!) b'-! b-! b-! |
 
-    b8-.[_\markup{(\dynamic{mp})} r16 a(] gis a) gis8~\startTrillSpan gis4\stopTrillSpan b-! |
+    b8-.[\brmp r16 a(] gis a) gis8~\startTrillSpan gis4\stopTrillSpan b-! |
     b-! b8-.[ r16 a(] gis a) gis8~\startTrillSpan gis4\stopTrillSpan | r b-! b-! b-! |
     b8-.[ r16 a(] gis a) gis8~\startTrillSpan gis4\stopTrillSpan b-! |
     b-! b8-.[ r16 a(] gis a) gis8~\startTrillSpan gis4\stopTrillSpan |
@@ -75,7 +75,7 @@ OneViolinOneD = \relative e'' {
         b-! b8-.[ r16 a(] gis a) gis8~\startTrillSpan gis4\stopTrillSpan |
     }
 
-    r8_\markup{(\dynamic{mf})} e'-.( e-. e-. e-. e-. e-. e-. | e-.) e,-.( e-. e-. e-. e-. e-. e-. |
+    r8\brmf e'-.( e-. e-. e-. e-. e-. e-. | e-.) e,-.( e-. e-. e-. e-. e-. e-. |
     e-.) r b'4-! b-! b-! | b8-.[ r16 a(] gis a) gis8~\startTrillSpan gis4\stopTrillSpan b-! |
     b-! b8-.[ r16 a(] gis a) gis8~\startTrillSpan gis4\stopTrillSpan |
     r b-! b-! b-! | b8-.[ r16 a(] gis a) gis8~\startTrillSpan gis4\stopTrillSpan b-! |

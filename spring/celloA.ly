@@ -27,12 +27,12 @@ OneCello = \relative e {
 
     fis | gis | a~ | a |cis | b | a~ | a |
 
-    fis_\markup{(\dynamic{mp})} | gis | a~ | a |
+    fis\brmp | gis | a~ | a |
     cis | b | gis | a |
 
     fis | gis | a~ | a | cis | b | gis | a |
 
-    fis_\markup{(\dynamic{mf})} | gis | a~ | a |
+    fis\brmf | gis | a~ | a |
     cis | b | gis | a |
 
     fis | gis | a~ | a | cis | b | gis | a |
@@ -77,7 +77,7 @@ TwoCello = \relative e {
     r8 e e4 r | r8 dis dis4 r |
     r8\< cis cis4 r | r8 b b4 r |
 
-    r8\mf cis cis4 r | r8_"poco a poco decresc." b b4 r |
+    r8\mf cis cis4 r | r8\pDecresc b b4 r |
     r8 a a4 r | r8 gis gis4 r | r8 fis fis4 r |
     r8\mp\> gis gis4 r | r8 fis fis4 r |
     r8\p\> b b4 r | r8 b b4 r |

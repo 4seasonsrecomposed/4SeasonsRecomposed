@@ -57,8 +57,14 @@ endTrillLineBass = {
 
 pCresc = _"poco a poco cresc."
 
+pDecresc = _"poco a poco decresc."
+
 subpp = _\markup{sub\dynamic{pp}}
 
 subp = _\markup{sub\dynamic{p}}
 
 submf = _\markup{sub\dynamic{mf}}
+
+brmp = _\markup{(\dynamic{mp})}
+
+brmf = _\markup{(\dynamic{mf})}

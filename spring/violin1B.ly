@@ -25,7 +25,7 @@ OneViolinOneB = \relative e'' {
     a(\p gis) a( gis) fis8-. e-. r b'-. r b-. | r b-. 
     \repeat unfold 5 { r \acciaccatura cis8 b-. } e4-. e8( e,-.) | r e-. r e-. r b'-. r b-. |
 
-    r_\markup{(\dynamic{mp})} b-. \repeat unfold 5 { r \acciaccatura cis8 b-. } e4-. e8( e,-.) |
+    r\brmp b-. \repeat unfold 5 { r \acciaccatura cis8 b-. } e4-. e8( e,-.) |
     r e-. r4 b'-!( b-!) | b-!( b-! b-! b-!) | b8-.( b-. b-. b-. b-. b-. b-. b-.) |
     b-.( b-. b-. b-. b-. b-. b-.) cis16( dis) | b4-!( b-!) e16 dis cis b a gis fis e |
 
@@ -35,7 +35,7 @@ OneViolinOneB = \relative e'' {
     }
     b4-!( b-! b-! b-!) |
     
-    b8-.(_\markup{(\dynamic{mf})} b-. b-. b-. b-. b-. b-. b-.) |
+    b8-.(\brmf b-. b-. b-. b-. b-. b-. b-.) |
     b-.( b-. b-. b-. b-. b-. b-.) cis16( dis) | e dis cis b a gis fis e b'4-!( b-!) |
     e,8-. \acciaccatura a8 gis-. r e-. r e-. r e-. | r e-. e-. a16( gis) a( gis) a( gis) fis8-. e-. |
     b'4-!( b-!) b-!( b-! | b-! b-!) b8-.( b-. b-. b-. |

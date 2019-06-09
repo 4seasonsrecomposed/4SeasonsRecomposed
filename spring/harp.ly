@@ -31,12 +31,12 @@ OneHarpUpper = \relative e'' {
 
     a | b | cis~ | cis | e | dis | b | cis |
 
-    a_\markup{(\dynamic{mp})} | b | cis~ | cis |
+    a\brmp | b | cis~ | cis |
     e | dis | b | cis |
 
     a | b | cis~ | cis | e | dis | b | cis |
 
-    a_\markup{(\dynamic{mf})} | b | cis~ | cis |
+    a\brmf | b | cis~ | cis |
     e | dis | b | cis |
 
     a\< | b | cis~ | cis\!\f |
@@ -84,7 +84,7 @@ TwoHarpUpper = \relative e'' {
     r r8 e e4 | r r8 fis fis4 |
     r\< r8 e e4 | r r8 e e4 |
 
-    r\mf r8 e e4 | r_"poco a poco decresc." r8 dis dis4 |
+    r\mf r8 e e4 | r\pDecresc r8 dis dis4 |
     r r8 cis cis4 | r r8 dis dis4 | r r8 e e4 |
     r\mp\> r8 dis dis4 | r r8 e e4 |
     r\p\> r8 e e4 | r r8 e e4 |

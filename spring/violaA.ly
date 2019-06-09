@@ -29,12 +29,12 @@ OneViolaA = \relative e' {
 
     a | b | cis~ | cis | e | dis | cis~ | cis |
 
-    a_\markup{(\dynamic{mp})} | b | cis~ | cis |
+    a\brmp | b | cis~ | cis |
     e | dis | b | cis |
 
     a | b | cis~ | cis | e | dis | b | cis |
 
-    a_\markup{(\dynamic{mf})} | b | cis~ | cis |
+    a\brmf | b | cis~ | cis |
     e | dis | b | cis |
 
     a | b | cis~ | cis | e | dis | b | cis |
@@ -100,7 +100,7 @@ TwoViola = \relative e' {
     b16. e,32 b'16. e,32 b'16. e,32 b'16. e,32 b'16. e,32 b'16. e,32 |
 
     a16\mf e16 a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 | % that's weird
-    gis16._"poco a poco decresc." e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16 e16 | % that's weird
+    gis16.\pDecresc e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16 e16 | % that's weird
     a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 |
     gis16. e32 gis16 e16 gis16. e32 gis16. e32 gis16. e32 gis16. e32 | % that's weird
     fis16. cis32 fis16. cis32 fis16. cis32 fis16. cis32 fis16. cis32 fis16. cis32 |

@@ -48,7 +48,7 @@ TwoHarpsichordUpper = \relative e'' {
     r8 e e4 r | r8 dis dis4 r |
     r8\< cis cis4 r | r8 b b4 r |
 
-    r8\mf cis cis4 r | r8_"poco a poco decresc." b b4 r |
+    r8\mf cis cis4 r | r8\pDecresc b b4 r |
     r8 a a4 r | r8 gis gis4 r | r8 fis fis4 r |
     r8\mp\> gis gis4 r | r8 fis fis4 r |
     r8\p\> b b4 r | r8 b b4 r |

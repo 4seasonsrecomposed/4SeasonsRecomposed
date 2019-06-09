@@ -30,7 +30,7 @@ OneSolo = \relative e''{
     e'8-.(\p e-. e-. e-. e-. e-. e-. e-.) | e,-.( e-. e-. e-. e-. e-. e-. e-.) |
     r2 e4-!( e-!) | e8-. \acciaccatura a8 gis8-. r  e-. r e-. r e-. \bar "||"
 
-    r8_\markup{(\dynamic{mp})} e-. e-. a16( gis) a( gis) a( gis) fis8-. e-. |
+    r8\brmp e-. e-. a16( gis) a( gis) a( gis) fis8-. e-. |
     b'4-!( b-!) b-!( b-! | b-! b-!) b8-.( b-. b-. b-. |
     b-. b-. b-. b-.) b-.( b-. b-. b-. | b-. b-. b-.) cis16( dis) e dis cis b a gis fis e |
     b'4-!( b-! b-!) \acciaccatura cis8 b4-. |
@@ -44,7 +44,7 @@ OneSolo = \relative e''{
     e( e,-.) r e-. r e-. r4 | r8 b'-. r b-. r b-. r \acciaccatura cis8 b-. |
     r \acciaccatura cis8 b-. r \acciaccatura cis8 b-. r \acciaccatura cis8 b-. r \acciaccatura cis8 b-. \bar "||"
 
-    e4-!_\markup{(\dynamic{mf})} e8( e,-.) r e-. r4 | r8 b'-. r b-. r b-. r \acciaccatura cis8 b-. |
+    e4-!\brmf e8( e,-.) r e-. r4 | r8 b'-. r b-. r b-. r \acciaccatura cis8 b-. |
     r \acciaccatura cis8 b-. r \acciaccatura cis8 b-. r \acciaccatura cis8 b-. r \acciaccatura cis8 b-. |
     e4-! e8( e,-.) r e-. r4 | b'4-!( b-!) b-!( b-! | b-! b-!) b8-.( b-. b-. b-. |
     b-. b-. b-. b-.) b-.( b-. b-.) cis16( dis) | e dis cis b a gis fis e b'8-.( b-. b-. b-.) 
@@ -89,7 +89,7 @@ TwoSolo = \relative e'' {
     gis4(\pCresc e) cis | gis'8( fis) gis2 | e4( cis) gis | dis'8( cis) dis2 |
     gis4( e) b | gis'8( fis) gis2 | e4(\< cis) gis | dis'8( cis) dis2 \bar "||"
 
-    e4(\f cis) a | dis8(_"poco a poco decresc." cis) dis2 | e4( cis) a | b8( a) b2 |
+    e4(\f cis) a | dis8(\pDecresc cis) dis2 | e4( cis) a | b8( a) b2 |
     cis4( a) e | b'8(\mf\> a) b2 | cis4( a) e | b'8(\mp\> a) b2 | b8( a) b2 | b8( a) b2 | b8( a) b2\! \bar "|."
 
 

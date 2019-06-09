@@ -47,12 +47,12 @@ OneViolaB = \relative e' {
 
     a | b | cis~ | cis | e | dis | cis~ | cis |
 
-    a_\markup{(\dynamic{mp})} | b | cis~ | cis |
+    a\brmp | b | cis~ | cis |
     e | dis | b | cis |
 
     a | b | cis~ | cis | e | dis | b | cis |
 
-    a_\markup{(\dynamic{mf})} | b | cis~ | cis |
+    a\brmf | b | cis~ | cis |
     e | dis | b | cis |
 
     a | b | cis~ | cis | e | dis | b | cis |

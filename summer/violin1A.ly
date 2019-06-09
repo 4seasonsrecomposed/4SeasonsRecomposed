@@ -188,12 +188,12 @@ ThreeViolinOne = \relative g'' {
     bes'' g ees bes bes' g ees bes bes' g ees bes | ees bes g ees ees' bes g ees ees' bes g ees |
     bes'' g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
 
-    d''_\markup{(\dynamic{mp})} bes g d d' bes g d d' bes g d | g d bes g g' d bes g g' d bes g |
+    d''\brmp bes g d d' bes g d d' bes g d | g d bes g g' d bes g g' d bes g |
     d'' bes g ees d' bes g ees d' bes g ees | g ees bes g g' ees bes g g' ees bes g |
     c' g ees c c' g ees c c' g ees c | g' ees c g g' ees c g g' ees c g |
     d'' a g d d' a g d d' a g d | d a g d d' a g d d' a g d |
 
-    d''_\markup{(\dynamic{mf})} bes g d d' bes g d d' bes g d | g d bes g g' d bes g g' d bes g |
+    d''\brmf bes g d d' bes g d d' bes g d | g d bes g g' d bes g g' d bes g |
     d'' bes g ees d' bes g ees d' bes g ees | g ees bes g g' ees bes g g' ees bes g |
     c' g ees c c' g ees c c' g ees c | g' ees c g g' ees c g g' ees c g |
     d''\< a g d d' a g d d' a g d | d a g d d' a g d d' a g d |
@@ -203,12 +203,12 @@ ThreeViolinOne = \relative g'' {
     bes'' g ees bes bes' g ees bes bes' g ees bes | ees bes g ees ees' bes g ees ees' bes g ees |
     bes'' g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
 
-    d''_\markup{(\dynamic{mp})} bes g d d' bes g d d' bes g d | g d bes g g' d bes g g' d bes g |
+    d''\brmp bes g d d' bes g d d' bes g d | g d bes g g' d bes g g' d bes g |
     d'' bes g ees d' bes g ees d' bes g ees | g ees bes g g' ees bes g g' ees bes g |
     c' g ees c c' g ees c c' g ees c | g' ees c g g' ees c g g' ees c g |
     d'' a g d d' a g d d' a g d | d a g d d' a g d d' a g d |
 
-    bes''_\markup{(\dynamic{mf})}  g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
+    bes''\brmf  g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
     bes'' g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
     bes'' g ees bes bes' g ees bes bes' g ees bes | ees bes g ees ees' bes g ees ees' bes g ees |
     bes''\< g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |

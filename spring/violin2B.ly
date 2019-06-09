@@ -32,7 +32,7 @@ OneViolinTwoB = \relative e'' {
     r8\p cis'16( dis) e dis cis b a gis fis e \repeat unfold 6 { r8 \acciaccatura fis'8 e-. } r b-. r b-. r b-. |
     r b-. \repeat unfold 2 { \acciaccatura fis'8 e4-. } b4-! |
 
-    b-!_\markup{(\dynamic{mp})} b8-. cis16( dis) e dis cis b a gis fis e |
+    b-!\brmp b8-. cis16( dis) e dis cis b a gis fis e |
     \repeat unfold 4 { r8 \acciaccatura fis'8 e-. } | b4-!( b-!) b-!( b-! |
     b-! b-!) r8 b-. r b-. | r e( b-.) e16( b) r8 e16( b) r8 e16( b) |
     r8 e16( b) r8 e16( b) \repeat unfold 2 { e8-. \acciaccatura fis8 e8-.} |
@@ -43,7 +43,7 @@ OneViolinTwoB = \relative e'' {
     r8 b-. r b-. r b-. \repeat unfold 5 { r8 \acciaccatura cis8 b8-. } |
     e4-! e8( e,-.) r e-. r4 | e'8-.( e-. e-. e-. e-. e-. e-. e-.) |
 
-    e,-.(_\markup{(\dynamic{mf})} e-. e-. e-. e-. e-. e-. e-.)| r2 e4-! e-! |
+    e,-.(\brmf e-. e-. e-. e-. e-. e-. e-.)| r2 e4-! e-! |
     e16( a gis8-.) r e-. r e-. r e-. | r e-. e-. a16( gis) a( gis) a( gis) fis8-. e-. |
     b'4-!( b-!) b-!( b-! | b-! b-!) b8-.( b-. b-. b-. | b-. b-. b-. b-.) b-.( b-. b-. b-. |
     b-. b-. b-.) cis16( dis) e dis cis b a gis fis e |

@@ -32,7 +32,7 @@ OneViolinTwoA = \relative e'' {
     r8\p  e'-.( e-. e-. e-. e-. e-. e-. | e-.) b-.( b-. b-. b-. b-.b-. b-. |
     b4-!) r8 e,4-! e-! e16( a | gis8-.) r e-. r e-. r e-. r |
 
-    r8_\markup{(\dynamic{mp})} e-. r e-. e-. a16( gis) a( gis) a( gis) |
+    r8\brmp e-. r e-. e-. a16( gis) a( gis) a( gis) |
     fis8-.( e-.) b'4-!( b-!) b-!( | b-! b-!) e,8-.( e-. e-. e-. | e-. e-. e-. e-.) e-.( e-. e-. e-.) |
     b'-.( b-. b-. b-. b-. b-. b-.) cis16 ( dis) | e dis cis b a gis fis e r8 b'-. 
     \repeat unfold 5 { r8 \acciaccatura cis8 b8-. } | e4-. e8( e,-.) r e-. r4 |
@@ -43,7 +43,7 @@ OneViolinTwoA = \relative e'' {
     }
     e'8-.( e-. e-. e-. e-. e-. e-. e-.) | e,-.( e-. e-. e-. e-. e-. e-. e-.)
 
-    r8_\markup{(\dynamic{mf})} b'-. r b-. r b-. r b-. | r16 a gis a gis4\trill r8 b-. r b-. |
+    r8\brmf b'-. r b-. r b-. r b-. | r16 a gis a gis4\trill r8 b-. r b-. |
     r b-. r16 a gis a gis4\trill r4 |
     r8 b-. r b-. r b-. r b-. | r16 a gis a gis4\trill r8 b-. r b-. |
     r b-. r16 a gis a gis4\trill r4 |
@@ -106,7 +106,7 @@ TwoViolinTwoA = \relative e'' {
             gis'2.\pp | fis | gis | fis | gis~ | gis~ | gis | fis |
             a\pCresc | b | a | b | a | b | a\< | b~ |
 
-            b~\mf | b_"poco a poco decresc." | a | b | a |
+            b~\mf | b\pDecresc | a | b | a |
             b\mp\> | a |
             \oneVoice
             b~\p\> | b~ | b~ | b\! |
