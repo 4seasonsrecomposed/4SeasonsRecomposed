@@ -38,8 +38,8 @@ OneViolinTwoA = \relative g'' {
     d, a' a a a a g a d, a' a a a a g a |
     d, a' a a a a fis a d, a' a a a a fis a |
 
-    g4-._\markup{sub\dynamic{p}} d'-.-> r d-. |
-    d,-._"poco a poco cresc." a'-.-> r a-. |
+    g4-.\subp d'-.-> r d-. |
+    d,-.\pCresc a'-.-> r a-. |
     d,-. a'-.-> r a-. |
     g16 d' d d d d bes d g,16 d' d d d d bes d |
     d, a' a a a a g a d, a' a a a a g a |
@@ -52,7 +52,7 @@ OneViolinTwoA = \relative g'' {
     d, a' a a a a fis a d, a' a a a a fis a |
 
     bes4-.\mf g'-.-> r g -. |
-    a,-._"poco a poco cresc." g'-.-> r g-. |
+    a,-.\pCresc g'-.-> r g-. |
     a,-. fis'-.-> r fis-. |
     g,16 d' d d d d bes d g,16 d' d d d d bes d |
     d, a' a a a a g a d, a' a a a a g a |
@@ -65,7 +65,7 @@ OneViolinTwoA = \relative g'' {
     d, a' a a a a fis a d, a' a a a a fis a |
 
     g4-.\f d'-.-> r d-. |
-    d,-._"poco a poco cresc." a'-.-> r a-. |
+    d,-.\pCresc a'-.-> r a-. |
     d,-. a'-.-> r a-. |
     g16 d' d d d d bes d g,16 d' d d d d bes d |
     d, a' a a a a g a d, a' a a a a g a |
@@ -102,7 +102,7 @@ TwoViolinTwoA = \relative g'' {
     r2 r4\ppp <a, d\harmonic>4~ | <a d\harmonic>1~ |
     <a d\harmonic>2 <g c\harmonic>2~ | <g c\harmonic>1 |
 
-    <d' g\harmonic>~_"poco a poco cresc." | <d g\harmonic>4 <d, g\harmonic>2 <a' d\harmonic>4 |
+    <d' g\harmonic>~\pCresc | <d g\harmonic>4 <d, g\harmonic>2 <a' d\harmonic>4 |
     <g c\harmonic>2.\< <a d\harmonic>4~ | <a d\harmonic> <f bes\harmonic>2 <g c\harmonic>4 |
     <a d\harmonic>2.\p_"poco a poco dim." <g c\harmonic>4~ | <g c\harmonic>\> <g c\harmonic>2.~ |
     <g c\harmonic>4 <g c\harmonic>2.~ |<g c\harmonic>4\pp <g c\harmonic>4 <a d\harmonic>2 |
@@ -195,8 +195,8 @@ ThreeViolinTwo = \relative g''{
     d'-> d, d d d d d-> d d d d d | c'-> d, d d d d d-> d d d d d |
     bes'-> d, d d d d d-> d d d d d | a'-> d, d d d d d-> d d d d d |
 
-    bes'_\markup{sub\dynamic{p}} d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
-    bes_"poco a poco cresc." d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes'\subp d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes\pCresc d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
     bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
     bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
 
@@ -210,8 +210,8 @@ ThreeViolinTwo = \relative g''{
     c,, ees g c c, ees g c c, ees g c | g c ees g g, c ees g g, c ees g |
     d,\< g a d d, g a d d, g a d | d g a d d, g a d d, g a d |
 
-    bes,\!_\markup{sub\dynamic{p}} d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
-    bes_"poco a poco cresc." d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes,\!\subp d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
+    bes\pCresc d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
     bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
     bes d g bes bes, d g bes bes, d g bes | d,, g bes d d, g bes d d, g bes d |
 
@@ -235,28 +235,9 @@ ThreeViolinTwo = \relative g''{
     g,,1\<^\markup{\column{\line{One by one, creep in with one of these notes.}
     \line{Leave a while between entries. Fade in and out.}}} a c d\p
 
-    % START DIGITAL AUDIO
-    % Use Glissando to emulate the symbol, hide all notes in it
-    \hideNotes
-    % Change its style to trill
-    \override Glissando.style = #'trill
-    % Set it breakable when a line break
-    \override Glissando.breakable = ##t
-    \override Glissando.after-line-breaking = ##t
-    % Start Gliss. from the middle of shaff
-    b1\glissando 
-    % Skip several bars
-    \override NoteColumn.glissando-skip = ##t
-    % Stop Gliss at almost end of a bar
+    \startTrillLineTreble
     \repeat unfold 21 { s1 | }
     s1\> s1 s1 s1
-    s2...
-    % Stop skipping
-    \revert NoteColumn.glissando-skip
-    % Stop at the middle of shaff
-    b16\! |
-    % Show notes
-    \unHideNotes
-    % END DIGITAL AUDIO
+    \endTrillLineTreble
 
 }

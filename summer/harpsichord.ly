@@ -9,15 +9,15 @@ OneHarpsichordUpper = \relative g'' {
 
     \repeat unfold 42 { R1 | }
 
-    <<{ \oneVoice R1}\\{ s1_\markup{sub\dynamic{p}} }>> |
-    <<{ \oneVoice R1}\\{ s1_"poco a poco cresc." }>> | \repeat unfold 8 { R1 | }
+    <<{ \oneVoice R1}\\{ s1\subp }>> |
+    <<{ \oneVoice R1}\\{ s1\pCresc }>> | \repeat unfold 8 { R1 | }
     R1\f | R1 |
 
-    R1\mf | <<{ \oneVoice R1}\\{ s1_"poco a poco cresc." }>> |
+    R1\mf | <<{ \oneVoice R1}\\{ s1\pCresc }>> |
     R1 | R1 | R1 | R1 |
     R1\f | R1\< | R1 | R1 | R1\ff | R1 |
     
-    R1\f | <<{ \oneVoice R1}\\{ s1_"poco a poco cresc." }>> |
+    R1\f | <<{ \oneVoice R1}\\{ s1\pCresc }>> |
     \repeat unfold 8 { R1 | } R1\< | R1 |
 
     R1\ff | R1 | R1 | R1 | R1\< | R1 | R1\! |
@@ -180,8 +180,8 @@ ThreeHarpsichordUpper = \relative g'' {
 
     \repeat unfold 30 { R2. | }
 
-    d8_\markup{sub\dynamic{p}} d d d d d | d d d d d d |
-    d_"poco a poco cresc." d d d d d | d d d d d d |
+    d8\subp d d d d d | d d d d d d |
+    d\pCresc d d d d d | d d d d d d |
     \repeat unfold 12 { <ees g,>8 }
     d d d d d d | d d d d d d |
 
@@ -195,7 +195,7 @@ ThreeHarpsichordUpper = \relative g'' {
     \repeat unfold 12 { <ees g,>8 }
     d d d d d d | d d d d d d |
 
-    <d bes g>2. | <g d bes> | <ees bes g>_"poco a poco cresc." | <g ees bes> |
+    <d bes g>2. | <g d bes> | <ees bes g>\pCresc | <g ees bes> |
     <ees c g> | <g ees c> | <d bes g> | <g d bes> |
 
     <d bes g> | <g d bes> | <ees bes g> | <g ees bes> |

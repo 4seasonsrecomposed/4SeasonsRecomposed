@@ -1,5 +1,7 @@
 \version "2.18.2"
 
+\include "../snippets.ily"
+
 \include "solo.ly"
 \include "violin1A.ly"
 \include "violin1B.ly"
@@ -16,7 +18,6 @@
 \include "harp.ly"
 \include "harpsichord.ly"
 \include "bass.ly"
-
 
 ZeroScore = \score {
     <<

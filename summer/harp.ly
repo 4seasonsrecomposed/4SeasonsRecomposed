@@ -9,8 +9,8 @@ OneHarpUpper = \relative g'' {
 
     R1\mf | \repeat unfold 23 { R1 | }
 
-    bes,8_\markup{sub\dynamic{p}} r r d bes r r d |
-    a_"poco a poco cresc." r r d a r r d |
+    bes,8\subp r r d bes r r d |
+    a\pCresc r r d a r r d |
     a r r d a r r d |
     bes r r d bes r r d |
     a r r d a r r d |
@@ -23,7 +23,7 @@ OneHarpUpper = \relative g'' {
     a r r ees' a, r r ees' |
 
     bes8\mf r r d bes r r d |
-    a_"poco a poco cresc." r r d a r r d |
+    a\pCresc r r d a r r d |
     a r r d a r r d |
     bes r r d bes r r d |
     a r r d a r r d |
@@ -36,7 +36,7 @@ OneHarpUpper = \relative g'' {
     a r r ees' a, r r ees' |
 
     bes8\f r r d bes r r d |
-    a_"poco a poco cresc." r r d a r r d |
+    a\pCresc r r d a r r d |
     a r r d a r r d |
     bes r r d bes r r d |
     a r r d a r r d |
@@ -207,22 +207,22 @@ ThreeHarpUpper = \relative g'' {
 
     \repeat unfold 30 { R2. | }
 
-    d8_\markup{sub\dynamic{p}} d d d d d | d d d d d d |
-    d_"poco a poco cresc." d d d d d | d d d d d d |
+    d8\subp d d d d d | d d d d d d |
+    d\pCresc d d d d d | d d d d d d |
     \repeat unfold 12 { <ees g,>8 }
     d d d d d d | d d d d d d |
 
     d d d d d d | d d d d d d |
-    d_"poco a poco cresc." d d d d d | d d d d d d |
+    d\pCresc d d d d d | d d d d d d |
     \repeat unfold 12 { <ees g,>8 }
     d d d d d d | d d d d d d |
 
     d d d d d d | d d d d d d |
-    d_"poco a poco cresc." d d d d d | d d d d d d |
+    d\pCresc d d d d d | d d d d d d |
     \repeat unfold 12 { <ees g,>8 }
     d d d d d d | d d d d d d |
 
-    <d bes g>2. | <g d bes> | <ees bes g>_"poco a poco cresc." | <g ees bes> |
+    <d bes g>2. | <g d bes> | <ees bes g>\pCresc | <g ees bes> |
     <ees c g> | <g ees c> | <d bes g> | <g d bes> |
 
     <d bes g> | <g d bes> | <ees bes g> | <g ees bes> |

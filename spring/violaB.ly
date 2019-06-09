@@ -3,36 +3,10 @@ ZeroViolaB = \relative e' {
     \key e \major
     \time 4/4
     
-    <<
-        {
-            \oneVoice
-            fis8^"Play this line ad lib, fading in and out" fis fis fis fis fis fis fis|
-            % START DIGITAL AUDIO
-            % Use Glissando to emulate the symbol, hide all notes in it
-            \hideNotes
-            % Change its style to trill
-            \override Glissando.style = #'trill
-            % Set it breakable when a line break
-            \override Glissando.breakable = ##t
-            \override Glissando.after-line-breaking = ##t
-            % Start Gliss. from the middle of shaff
-            c1\glissando
-            % Skip several bars
-            \override NoteColumn.glissando-skip = ##t
-            % Stop Gliss at almost end of a bar
-            \repeat unfold 18 { s1 | } s2...
-            % Stop skipping
-            \revert NoteColumn.glissando-skip
-            % Stop at the middle of shaff
-            c16 |
-            % Show notes
-            \unHideNotes
-            % END DIGITAL AUDIO
-        }\\{
-            % Expressive marks
-            s1\< | s1 | s1 | s1 | s1\! | \repeat unfold 16 { s1 | }
-        }
-    >>
+    fis8\<^"Play this line ad lib, fading in and out" fis fis fis fis fis fis fis|
+    \startTrillLineAlto
+    s1 | s1 | s1\! | \repeat unfold 15 { s1 | }
+    \endTrillLineAlto
 }
 
 OneViolaB = \relative e' {
@@ -126,7 +100,7 @@ ThreeViolaB = \relative e' {
 
     e'\p e e e |
     dis dis dis dis |
-    dis_"poco a poco cresc." dis dis dis |
+    dis\pCresc dis dis dis |
     cis cis cis cis |
     cis cis cis cis |
     b b b b |
@@ -141,7 +115,7 @@ ThreeViolaB = \relative e' {
 
     e'\mp e e e |
     dis dis dis dis |
-    dis_"poco a poco cresc." dis dis dis |
+    dis\pCresc dis dis dis |
     cis cis cis cis |
     cis cis cis cis |
     b b b b |
@@ -156,7 +130,7 @@ ThreeViolaB = \relative e' {
 
     e'8\mf \repeat unfold 11 { e } |
     \repeat unfold 12 { dis } |
-    dis_"poco a poco cresc." \repeat unfold 11 { dis } |
+    dis\pCresc \repeat unfold 11 { dis } |
     \repeat unfold 12 { cis } |
     \repeat unfold 12 { cis } |
     \repeat unfold 12 { b } |
@@ -171,7 +145,7 @@ ThreeViolaB = \relative e' {
 
     e\mf \repeat unfold 11 { e } |
     \repeat unfold 12 { dis } |
-    dis_"poco a poco cresc." \repeat unfold 11 { dis } |
+    dis\pCresc \repeat unfold 11 { dis } |
     \repeat unfold 12 { cis } |
     \repeat unfold 12 { cis } |
     \repeat unfold 12 { b } |

@@ -86,7 +86,7 @@ TwoSolo = \relative e'' {
     gis''4(_\markup{\dynamic{p}espress.} e) cis | gis'8( fis) gis2 | e4( cis) gis | dis'8( cis) dis2 |
     gis4( e) b | gis'8( fis) gis2 | e4( cis) gis | dis'8( cis) dis2 \bar "||"
 
-    gis4(_"poco a poco cresc." e) cis | gis'8( fis) gis2 | e4( cis) gis | dis'8( cis) dis2 |
+    gis4(\pCresc e) cis | gis'8( fis) gis2 | e4( cis) gis | dis'8( cis) dis2 |
     gis4( e) b | gis'8( fis) gis2 | e4(\< cis) gis | dis'8( cis) dis2 \bar "||"
 
     e4(\f cis) a | dis8(_"poco a poco decresc." cis) dis2 | e4( cis) a | b8( a) b2 |
@@ -129,7 +129,7 @@ ThreeSolo = \relative e'' {
 
     a8-.\mp e-. a-. a16( b) cis8-.e-. a,-. e-. a-. a16( b) cis8-.e-. |
     b^"sim." fis b b16 cis dis8 fis b, fis b b16 cis dis8 fis |
-    b,_"poco a poco cresc." e, b' b16 cis dis8 e b e, b' b16 cis dis8 e |
+    b,\pCresc e, b' b16 cis dis8 e b e, b' b16 cis dis8 e |
     a, e a a16 b cis8 dis a e a a16 b cis8 dis |
     a dis, a' a16 b cis8 dis a dis, a' a16 b cis8 dis |
     gis, dis gis gis16 a b8 cis gis dis gis gis16 a b8 cis |
@@ -143,7 +143,7 @@ ThreeSolo = \relative e'' {
     cis, gis cis cis16 dis e8 gis cis, gis cis cis16 dis e8 gis \bar "||"
 
     fis,2.\mf^"legato" cis'2.~ | cis2. b2.~ |
-    b2._"poco a poco cresc." e,2.~ | e2. fis2.~ |
+    b2.\pCresc e,2.~ | e2. fis2.~ |
     fis2. cis'2.~ | cis2. b2.~ | 
     b2. e,2.~ | e2. fis2.~ \bar "||"
 
@@ -152,7 +152,7 @@ ThreeSolo = \relative e'' {
     fis2.\< b,2.~ | b2. cis2. \bar "||"
 
     fis,2.\f cis'2.~ | cis2. b2.~ |
-    b2._"poco a poco cresc." e,2.~ | e2. fis2.~ |
+    b2.\pCresc e,2.~ | e2. fis2.~ |
     fis2. cis'2.~ | cis2. b2.~ | 
     b2. e,2.~ | e2. fis2.~ \bar "||"
 
@@ -160,9 +160,9 @@ ThreeSolo = \relative e'' {
     b2. e2.~ | e2. fis2.~ |
     fis2.\< b,2.~ | b2. cis2.\ff \bar "||"
 
-    a16(_\markup{sub\dynamic{mf}} e a e' a, e) a( e' a, e a e') a,( e a e' a, e) a( e' a, e a e') |
+    a16(\submf e a e' a, e) a( e' a, e a e') a,( e a e' a, e) a( e' a, e a e') |
     b^"sim." fis b fis' b, fis b fis' b, fis b fis' b, fis b fis' b, fis b fis' b, fis b fis' |
-    b,_"poco a poco cresc." e, b' e b e, b' e b e, b' e b e, b' e b e, b' e b e, b' e |
+    b,\pCresc e, b' e b e, b' e b e, b' e b e, b' e b e, b' e b e, b' e |
     a, e a e' a, e a e' a, e a e' a, e a e' a, e a e' a, e a e' |
     cis fis, cis' fis cis fis, cis' fis cis fis, cis' fis cis fis, cis' fis cis fis, cis' fis cis fis, cis' fis |
     b, fis b fis' b, fis b fis' b, fis b fis' b, fis b fis' b, fis b fis' b, fis b fis' |

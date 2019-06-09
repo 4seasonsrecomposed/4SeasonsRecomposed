@@ -2,36 +2,10 @@ ZeroViolinTwoB = \relative e'' {
     \key e \major
     \time 4/4
     
-    <<
-        {
-            \oneVoice
-            e8^"Play this line ad lib, fading in and out" e e e e e e e|
-            % START DIGITAL AUDIO
-            % Use Glissando to emulate the symbol, hide all notes in it
-            \hideNotes
-            % Change its style to trill
-            \override Glissando.style = #'trill
-            % Set it breakable when a line break
-            \override Glissando.breakable = ##t
-            \override Glissando.after-line-breaking = ##t
-            % Start Gliss. from the middle of shaff
-            b1\glissando
-            % Skip several bars
-            \override NoteColumn.glissando-skip = ##t
-            % Stop Gliss at almost end of a bar
-            \repeat unfold 18 { s1 | } s2...
-            % Stop skipping
-            \revert NoteColumn.glissando-skip
-            % Stop at the middle of shaff
-            b16 |
-            % Show notes
-            \unHideNotes
-            % END DIGITAL AUDIO
-        }\\{
-            % Expressive marks
-            s1\< | s1 | s1 | s1 | s1\! | \repeat unfold 16 { s1 | }
-        }
-    >>
+    e8\<^"Play this line ad lib, fading in and out" e e e e e e e|
+    \startTrillLineTreble
+    s1 | s1 | s1\! | \repeat unfold 15 { s1 | }
+    \endTrillLineTreble
 }
 
 OneViolinTwoB = \relative e'' {
@@ -40,27 +14,8 @@ OneViolinTwoB = \relative e'' {
 
     <<
         {
-            % START DIGITAL AUDIO
-            % Use Glissando to emulate the symbol, hide all notes in it
-            \hideNotes
-            % Change its style to trill
-            \override Glissando.style = #'trill
-            % Set it breakable when a line break
-            \override Glissando.breakable = ##t
-            \override Glissando.after-line-breaking = ##t
-            % Start Gliss. from the middle of shaff
-            b1\glissando
-            % Skip several bars
-            \override NoteColumn.glissando-skip = ##t
-            % Stop Gliss at almost end of a bar
-            s2...
-            % Stop skipping
-            \revert NoteColumn.glissando-skip
-            % Stop at the middle of shaff
-            b16 |
-            % Show notes
-            \unHideNotes
-            % END DIGITAL AUDIO
+            \startTrillLineTreble
+            \endTrillLineTreble
         }\\{
             s1\> | s2... s16\! |
         }

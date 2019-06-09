@@ -39,7 +39,7 @@ OneViolinOneA = \relative g'' {
     c,-. a'-.-> r a-.-> |
     fis-. c'-.-> r c-.-> |
 
-    bes,16_\markup{sub\dynamic{p}} g' g g g g d g bes, g' g g g g d g |
+    bes,16\subp g' g g g g d g bes, g' g g g g d g |
     a,_"poco a poco cresc" g' g g g g d g a, g' g g g g d g |
     a, fis' fis fis fis fis d fis a, fis' fis fis fis fis d fis |
     bes,4-. g'-.-> r g-. |
@@ -98,7 +98,7 @@ TwoViolinOneA = \relative g'' {
     
     <d, g\harmonic>1~\ppp | <d g\harmonic>~ | <d g\harmonic>~ | <d g\harmonic>~ |
 
-    <d g\harmonic>~_"poco a poco cresc." | <d g\harmonic>~ | <d g\harmonic>~\< | <d g\harmonic> |
+    <d g\harmonic>~\pCresc | <d g\harmonic>~ | <d g\harmonic>~\< | <d g\harmonic> |
     <d g\harmonic>2.\p_"poco a poco dim." <g c\harmonic>4~ |
     <g c\harmonic>2.\> <d g\harmonic>4~ | <d g\harmonic>1~ | <d g\harmonic>4\pp <f bes\harmonic>2.~ |
 
@@ -183,8 +183,8 @@ ThreeViolinOne = \relative g'' {
     d'-> d, d d d d d-> d d d d d | c'-> d, d d d d d-> d d d d d |
     bes'-> d, d d d d d-> d d d d d | a'-> d, d d d d d-> d d d d d |
 
-    bes'_\markup{sub\dynamic{p}} g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
-    bes''_"poco a poco cresc." g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
+    bes'\subp g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
+    bes''\pCresc g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
     bes'' g ees bes bes' g ees bes bes' g ees bes | ees bes g ees ees' bes g ees ees' bes g ees |
     bes'' g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
 
@@ -198,8 +198,8 @@ ThreeViolinOne = \relative g'' {
     c' g ees c c' g ees c c' g ees c | g' ees c g g' ees c g g' ees c g |
     d''\< a g d d' a g d d' a g d | d a g d d' a g d d' a g d |
 
-    bes''\!_\markup{sub\dynamic{p}} g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
-    bes''_"poco a poco cresc." g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
+    bes''\!\subp g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
+    bes''\pCresc g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
     bes'' g ees bes bes' g ees bes bes' g ees bes | ees bes g ees ees' bes g ees ees' bes g ees |
     bes'' g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
 
@@ -222,7 +222,6 @@ ThreeViolinOne = \relative g'' {
 
     <d g\harmonic>1(\!^"Continue this note with minor variations in volume ad lib"
 
-    % START DIGITAL AUDIO
     % Use Glissando to emulate the symbol, hide all notes in it
     \hideNotes
     % Change its style to trill
@@ -234,44 +233,17 @@ ThreeViolinOne = \relative g'' {
     b'1)\glissando 
     % Skip several bars
     \override NoteColumn.glissando-skip = ##t
-    % Stop Gliss at almost end of a bar
     \repeat unfold 20 { s1 | }
     s1\> s1 s1 
-    s2...
-    % Stop skipping
-    \revert NoteColumn.glissando-skip
-    % Stop at the middle of shaff
-    b16\! |
-    % Show notes
-    \unHideNotes
-    % END DIGITAL AUDIO
+    \endTrillLineTreble
 
     <g, c\harmonic>2\<
     ^\markup{\column{\line{One by one, creep in with one of these notes.}
     \line{Gradually fade in and out.}}}
     <a d\harmonic> <c f\harmonic> <d g\harmonic>\pp
 
-    % START DIGITAL AUDIO
-    % Use Glissando to emulate the symbol, hide all notes in it
-    \hideNotes
-    % Change its style to trill
-    \override Glissando.style = #'trill
-    % Set it breakable when a line break
-    \override Glissando.breakable = ##t
-    \override Glissando.after-line-breaking = ##t
-    % Start Gliss. from the middle of shaff
-    b'1\glissando 
-    % Skip several bars
-    \override NoteColumn.glissando-skip = ##t
-    % Stop Gliss at almost end of a bar
+    \startTrillLineTreble
     \repeat unfold 12 { s1 | }
     s1\> s1 s1 s1
-    s2...
-    % Stop skipping
-    \revert NoteColumn.glissando-skip
-    % Stop at the middle of shaff
-    b16\! |
-    % Show notes
-    \unHideNotes
-    % END DIGITAL AUDIO
+    \endTrillLineTreble
 }

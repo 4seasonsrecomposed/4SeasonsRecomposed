@@ -29,7 +29,7 @@ ThreeCelloB = \relative e {
 
     a\p \repeat unfold 11 { a } |
     \repeat unfold 12 { a, } |
-    gis_"poco a poco cresc." \repeat unfold 11 { gis } |
+    gis\pCresc \repeat unfold 11 { gis } |
     \repeat unfold 12 { gis' } |
     \repeat unfold 12 { fis } |
     \repeat unfold 12 { fis, } |
@@ -44,7 +44,7 @@ ThreeCelloB = \relative e {
 
     a\mp \repeat unfold 11 { a } |
     \repeat unfold 12 { a, } |
-    gis_"poco a poco cresc." \repeat unfold 11 { gis } |
+    gis\pCresc \repeat unfold 11 { gis } |
     \repeat unfold 12 { gis' } |
     \repeat unfold 12 { fis } |
     \repeat unfold 12 { fis, } |
@@ -59,7 +59,7 @@ ThreeCelloB = \relative e {
 
     a\mf \repeat unfold 11 { a } |
     \repeat unfold 12 { a, } |
-    gis_"poco a poco cresc." \repeat unfold 11 { gis } |
+    gis\pCresc \repeat unfold 11 { gis } |
     \repeat unfold 12 { gis' } |
     \repeat unfold 12 { fis } |
     \repeat unfold 12 { fis, } |
@@ -74,7 +74,7 @@ ThreeCelloB = \relative e {
 
     a,\f \repeat unfold 11 { a } |
     \repeat unfold 12 { a } |
-    gis_"poco a poco cresc." \repeat unfold 11 { gis } |
+    gis\pCresc \repeat unfold 11 { gis } |
     \repeat unfold 12 { gis' } |
     fis^"(as before)" fis fis \repeat tremolo 3 fis^"..." \repeat unfold 2 { \repeat tremolo 3 fis } |
     \repeat unfold 4 { \repeat tremolo 3 fis, } |

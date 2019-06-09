@@ -38,8 +38,8 @@ OneViolinTwoB = \relative g'' {
     d,-. a'-.-> r a-.-> |
     d,-. a'-.-> r a-.-> |
 
-    g16_\markup{sub\dynamic{p}} d' d d d d bes d g,16 d' d d d d bes d |
-    d,_"poco a poco cresc." a' a a a a g a d, a' a a a a g a |
+    g16\subp d' d d d d bes d g,16 d' d d d d bes d |
+    d,\pCresc a' a a a a g a d, a' a a a a g a |
     d, a' a a a a fis a d, a' a a a a fis a |
     g4-. d'-.-> r d-. |
     d,-. a'-.-> r a-. |
@@ -52,7 +52,7 @@ OneViolinTwoB = \relative g'' {
     d,-. a'-.-> r a-. |
 
     bes16\mf g' g g g g d g bes, g' g g g g d g |
-    a,_"poco a poco cresc." g' g g g g d g a, g' g g g g d g |
+    a,\pCresc g' g g g g d g a, g' g g g g d g |
     a, fis' fis fis fis fis d fis a, fis' fis fis fis fis d fis |
     g,4-. d'-.-> r d-. |
     d,-. a'-.-> r a-. |
@@ -65,7 +65,7 @@ OneViolinTwoB = \relative g'' {
     d,-. a'-.-> r a-. |
 
     g16\f d' d d d d bes d g,16 d' d d d d bes d |
-    d,_"poco a poco cresc." a' a a a a g a d, a' a a a a g a |
+    d,\pCresc a' a a a a g a d, a' a a a a g a |
     d, a' a a a a fis a d, a' a a a a fis a |
     g4-. d'-.-> r d-. |
     d,-. a'-.-> r a-. |
@@ -100,7 +100,7 @@ TwoViolinTwoB = \relative g'' {
     <g, c\harmonic>1~\ppp | <g c\harmonic>1~ |
     <g c\harmonic>4 <f bes\harmonic>2.~ | <f bes\harmonic>4 <c f\harmonic>2.~ |
 
-    <c f\harmonic>2_"poco a poco cresc." <g' c\harmonic>~ |
+    <c f\harmonic>2\pCresc <g' c\harmonic>~ |
     <g c\harmonic> <bes, ees\harmonic> | <a d\harmonic>\< <c f\harmonic>~ |
     <c f\harmonic> <d g\harmonic>~ | <d g\harmonic>4\p_"poco a poco dim." <bes ees\harmonic>2. |
     <a d\harmonic>2\> <d g\harmonic>~ | <d g\harmonic> <d g\harmonic> |

@@ -40,8 +40,8 @@ OneViolaB = \relative g' {
     ees ees ees ees ees ees a, ees' a, ees' ees ees ees ees a, ees' |
     fis, d' d d d d a d fis, d' d d d d a d |
 
-    d4-._\markup{sub\dynamic{p}} bes'-.-> r bes-. |
-    d,_"poco a poco cresc." -. d-.-> r d-. |
+    d4-.\subp bes'-.-> r bes-. |
+    d,\pCresc -. d-.-> r d-. |
     fis,-. d'-.-> r d-. |
     d16 bes' bes bes bes bes g bes d, bes' bes bes bes bes g bes |
     d, d d d d d a d a d d d d d a d |
@@ -54,7 +54,7 @@ OneViolaB = \relative g' {
     fis, d' d d d d a d fis, d' d d d d a d |
 
     d4-.\mf bes'-.-> r bes-. |
-    d,_"poco a poco cresc." -. d-.-> r d-. |
+    d,\pCresc -. d-.-> r d-. |
     fis,-. d'-.-> r d-. |
     d16 bes' bes bes bes bes g bes d, bes' bes bes bes bes g bes |
     d, d d d d d a d a d d d d d a d |
@@ -67,7 +67,7 @@ OneViolaB = \relative g' {
     fis, d' d d d d a d fis, d' d d d d a d |
 
     d4-.\f bes'-.-> r bes-. |
-    d,_"poco a poco cresc." -. d-.-> r d-. |
+    d,\pCresc -. d-.-> r d-. |
     fis,-. d'-.-> r d-. |
     d16 bes' bes bes bes bes g bes d, bes' bes bes bes bes g bes |
     d, d d d d d a d a d d d d d a d |

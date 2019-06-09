@@ -43,7 +43,7 @@ TwoHarpsichordUpper = \relative e'' {
     r8 cis cis4 r | r8 cis cis4 r |
     r8 b b4 r | r8 b b4 r |
     r8 gis gis4 r | r8 gis gis4 r |
-    r8_"poco a poco cresc." a a4 r | r8 b b4 r |
+    r8\pCresc a a4 r | r8 b b4 r |
     r8 cis cis4 r | r8 dis dis4 r |
     r8 e e4 r | r8 dis dis4 r |
     r8\< cis cis4 r | r8 b b4 r |
@@ -95,19 +95,19 @@ ThreeHarpsichordUpper = \relative e'' {
     \time 12/8
 
     \repeat unfold 14 { R1. | }
-    R1.\p <<{\oneVoice R1.}\\{s2_"poco a poco cresc." s1 }>> \repeat unfold 10 { R1. | }
+    R1.\p <<{\oneVoice R1.}\\{s2\pCresc s1 }>> \repeat unfold 10 { R1. | }
     R1.\< R1.
 
-    R1.\mp R1. <<{\oneVoice R1.}\\{s2_"poco a poco cresc." s1 }>> \repeat unfold 9 { R1. | }
+    R1.\mp R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> \repeat unfold 9 { R1. | }
     R1.\< R1.
 
-    R1.\mp R1. <<{\oneVoice R1.}\\{s2_"poco a poco cresc." s1 }>> \repeat unfold 9 { R1. | }
+    R1.\mp R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> \repeat unfold 9 { R1. | }
     R1.\< R1.
 
-    R1.\mf R1. <<{\oneVoice R1.}\\{s2_"poco a poco cresc." s1 }>> \repeat unfold 9 { R1. | }
+    R1.\mf R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> \repeat unfold 9 { R1. | }
     <<{ \oneVoice R1. | R1. }\\{ s1.\< s1 s4 s4\ff }>>
 
-    R1.\f R1. <<{\oneVoice R1.}\\{s2_"poco a poco cresc." s1 }>> \repeat unfold 9 { R1. | }
+    R1.\f R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> \repeat unfold 9 { R1. | }
     <<{ \oneVoice R1. | R1. }\\{ s1.\< s1 s4 s4\! }>>
 
 }

@@ -1,37 +1,11 @@
 ZeroViolinOneA = \relative e'' {
     \key e \major
     \time 4/4
-    <<
-        {
-            \oneVoice
-            r8^"Play this line ad lib, fading in and out" e16 fis e8 e16 fis e8 e16 fis e8 e16 fis |
+    r8\<^"Play this line ad lib, fading in and out" e16 fis e8 e16 fis e8 e16 fis e8 e16 fis |
 
-            % START DIGITAL AUDIO
-            % Use Glissando to emulate the symbol, hide all notes in it
-            \hideNotes
-            % Change its style to trill
-            \override Glissando.style = #'trill
-            % Set it breakable when a line break
-            \override Glissando.breakable = ##t
-            \override Glissando.after-line-breaking = ##t
-            % Start Gliss. from the middle of shaff
-            b,1\glissando 
-            % Skip several bars
-            \override NoteColumn.glissando-skip = ##t
-            % Stop Gliss at almost end of a bar
-            \repeat unfold 18 { s1 | } s2...
-            % Stop skipping
-            \revert NoteColumn.glissando-skip
-            % Stop at the middle of shaff
-            b16 |
-            % Show notes
-            \unHideNotes
-            % END DIGITAL AUDIO
-        }\\{
-            % Expressive marks
-            s1\< | s1 | s1 | s1 | s1\! | \repeat unfold 16 { s1 | }
-        }
-    >>
+    \startTrillLineTreble
+    s1 | s1 | s1\! | \repeat unfold 15 { s1 | } 
+    \endTrillLineTreble
 }
 
 OneViolinOneA = \relative e'' {
@@ -102,7 +76,7 @@ TwoViolinOneA = \relative e'' {
     r r8 cis cis4 | r r8 cis cis4 |
     r r8 e e4 | r r8 fis fis4 | r r8 e e4 | r r8 fis fis4 |
 
-    r_"poco a poco cresc." r8 e e4 | r r8 dis dis4 | r r8 e e4 | r r8 fis fis4 |
+    r\pCresc r8 e e4 | r r8 dis dis4 | r r8 e e4 | r r8 fis fis4 |
     r r8 e e4 | r r8 fis fis4 | r\< r8 e e4 | r r8 e e4 |
 
     r\mf r8 e e4 | r_"poco a poco decresc." r8 dis dis4 | r r8 cis cis4 | r r8 dis dis4 |
@@ -143,7 +117,7 @@ ThreeViolinOne = \relative e'' {
                        \tuplet 2/3 { <fis cis>\p <fis cis> }
     \repeat unfold 3 { \tuplet 2/3 { <fis cis> <fis cis> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-                       \tuplet 2/3 { <e b>_"poco a poco cresc." <e b> }
+                       \tuplet 2/3 { <e b>\pCresc <e b> }
                        \tuplet 2/3 { <e b> <e b> }
     \repeat unfold 2 { \tuplet 2/3 { <e b'> <e b'> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b> <fis b> }} |
@@ -168,7 +142,7 @@ ThreeViolinOne = \relative e'' {
                        \tuplet 2/3 { <fis cis>\mp <fis cis> }
     \repeat unfold 3 { \tuplet 2/3 { <fis cis> <fis cis> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-                       \tuplet 2/3 { <e b>_"poco a poco cresc." <e b> }
+                       \tuplet 2/3 { <e b>\pCresc <e b> }
                        \tuplet 2/3 { <e b> <e b> }
     \repeat unfold 2 { \tuplet 2/3 { <e b'> <e b'> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b> <fis b> }} |
@@ -193,7 +167,7 @@ ThreeViolinOne = \relative e'' {
                        \tuplet 2/3 { <fis cis>\mf <fis cis> }
     \repeat unfold 3 { \tuplet 2/3 { <fis cis> <fis cis> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-                       \tuplet 2/3 { <e b>_"poco a poco cresc." <e b> }
+                       \tuplet 2/3 { <e b>\pCresc <e b> }
                        \tuplet 2/3 { <e b> <e b> }
     \repeat unfold 2 { \tuplet 2/3 { <e b'> <e b'> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b> <fis b> }} |
@@ -219,7 +193,7 @@ ThreeViolinOne = \relative e'' {
                        \tuplet 2/3 { <fis cis>\f <fis cis> }
     \repeat unfold 3 { \tuplet 2/3 { <fis cis> <fis cis> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-                       \tuplet 2/3 { <e b>_"poco a poco cresc." <e b> }
+                       \tuplet 2/3 { <e b>\pCresc <e b> }
                        \tuplet 2/3 { <e b> <e b> }
     \repeat unfold 2 { \tuplet 2/3 { <e b'> <e b'> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b> <fis b> }} |

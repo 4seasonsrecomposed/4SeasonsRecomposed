@@ -5,27 +5,9 @@ ZeroViolinOneB = \relative e'' {
         R1 |
     }
     r8\mf^"Play this line ad lib, fading in and out" gis8 gis gis gis gis16 a b4 |
-    % START DIGITAL AUDIO
-    % Use Glissando to emulate the symbol, hide all notes in it
-    \hideNotes
-    % Change its style to trill
-    \override Glissando.style = #'trill
-    % Set it breakable when a line break
-    \override Glissando.breakable = ##t
-    \override Glissando.after-line-breaking = ##t
-    % Start Gliss. from the middle of shaff
-    b,1\glissando
-    % Skip several bars
-    \override NoteColumn.glissando-skip = ##t
-    % Stop Gliss at almost end of a bar
-    \repeat unfold 8 { s1 | } s2...
-    % Stop skipping
-    \revert NoteColumn.glissando-skip
-    % Stop at the middle of shaff
-    b16 |
-    % Show notes
-    \unHideNotes
-    % END DIGITAL AUDIO
+    \startTrillLineTreble
+    \repeat unfold 8 { s1 | }
+    \endTrillLineTreble
 }
 
 OneViolinOneB = \relative e'' {

@@ -72,7 +72,7 @@ TwoCello = \relative e {
     r8    b   b4   r | r8 b   b4   r |
     r8    gis gis4 r | r8 gis gis4 r |
 
-    r8_"poco a poco cresc." a a4 r | r8 b b4 r |
+    r8\pCresc a a4 r | r8 b b4 r |
     r8 cis cis4 r | r8 dis dis4 r |
     r8 e e4 r | r8 dis dis4 r |
     r8\< cis cis4 r | r8 b b4 r |
@@ -108,7 +108,7 @@ ThreeCelloA = \relative e {
     b\< b b b | b b b b |
 
     a'\p a a a | a a a a |
-    gis_"poco a poco cresc." gis gis gis | gis gis gis gis |
+    gis\pCresc gis gis gis | gis gis gis gis |
     \repeat unfold 2 { fis fis fis fis | }
     \repeat unfold 2 { e e e e | }
     \repeat unfold 2 { dis dis dis dis | }
@@ -116,7 +116,7 @@ ThreeCelloA = \relative e {
     b\< b b b | b b b b |
 
     a'\mp a a a | a a a a |
-    gis_"poco a poco cresc." gis gis gis | gis gis gis gis |
+    gis\pCresc gis gis gis | gis gis gis gis |
     \repeat unfold 2 { fis fis fis fis | }
     \repeat unfold 2 { e e e e | }
     \repeat unfold 2 { dis dis dis dis | }
@@ -124,7 +124,7 @@ ThreeCelloA = \relative e {
     b\< b b b | b b b b |
 
     a'\mf a a a | a a a a |
-    gis_"poco a poco cresc." gis gis gis | gis gis gis gis |
+    gis\pCresc gis gis gis | gis gis gis gis |
     \repeat unfold 2 { fis fis fis fis | }
     \repeat unfold 2 { e e e e | }
     \repeat unfold 2 { dis dis dis dis | }
@@ -132,7 +132,7 @@ ThreeCelloA = \relative e {
     b\< b b b | b b b b\ff |
 
     a'\f a a a | a a a a |
-    gis_"poco a poco cresc." gis gis gis | gis gis gis gis |
+    gis\pCresc gis gis gis | gis gis gis gis |
     \repeat unfold 2 { fis fis fis fis | }
     \repeat unfold 2 { e e e e | }
     \repeat unfold 2 { dis dis dis dis | }

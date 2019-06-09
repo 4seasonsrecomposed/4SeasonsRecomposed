@@ -198,8 +198,8 @@ ThreeSolo = \relative g'' {
     d'-> d, d d d d d-> d d d d d | c'-> d, d d d d d-> d d d d d |
     bes'-> d, d d d d d-> d d d d d | a'-> d, d d d d d-> d d d d d \bar "||"
 
-    bes'_\markup{sub\dynamic{p}} g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
-    bes''_"poco a poco cresc." g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
+    bes'\subp g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
+    bes''\pCresc g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d |
     bes'' g ees bes bes' g ees bes bes' g ees bes | ees bes g ees ees' bes g ees ees' bes g ees |
     bes'' g d bes bes' g d bes bes' g d bes | d bes g d d' bes g d d' bes g d \bar "||"
 

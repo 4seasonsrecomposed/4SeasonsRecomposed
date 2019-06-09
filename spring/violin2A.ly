@@ -2,36 +2,11 @@ ZeroViolinTwoA = \relative e'' {
     \key e \major
     \time 4/4
     
-    <<
-        {
-            \oneVoice
-            fis8^"Play this line ad lib, fading in and out" fis fis fis fis fis fis fis|
-            % START DIGITAL AUDIO
-            % Use Glissando to emulate the symbol, hide all notes in it
-            \hideNotes
-            % Change its style to trill
-            \override Glissando.style = #'trill
-            % Set it breakable when a line break
-            \override Glissando.breakable = ##t
-            \override Glissando.after-line-breaking = ##t
-            % Start Gliss. from the middle of shaff
-            b,1\glissando
-            % Skip several bars
-            \override NoteColumn.glissando-skip = ##t
-            % Stop Gliss at almost end of a bar
-            \repeat unfold 18 { s1 | } s2...
-            % Stop skipping
-            \revert NoteColumn.glissando-skip
-            % Stop at the middle of shaff
-            b16 |
-            % Show notes
-            \unHideNotes
-            % END DIGITAL AUDIO
-        }\\{
-            % Expressive marks
-            s1\< | s1 | s1 | s1 | s1\! | \repeat unfold 16 { s1 | }
-        }
-    >>
+    fis8\<^"Play this line ad lib, fading in and out" fis fis fis fis fis fis fis|
+    \startTrillLineTreble
+    s1 | s1 | s1\! | \repeat unfold 15 { s1 | }
+    \endTrillLineTreble
+        
 }
 
 OneViolinTwoA = \relative e'' {
@@ -39,27 +14,8 @@ OneViolinTwoA = \relative e'' {
     \time 4/4
     <<
         {
-            % START DIGITAL AUDIO
-            % Use Glissando to emulate the symbol, hide all notes in it
-            \hideNotes
-            % Change its style to trill
-            \override Glissando.style = #'trill
-            % Set it breakable when a line break
-            \override Glissando.breakable = ##t
-            \override Glissando.after-line-breaking = ##t
-            % Start Gliss. from the middle of shaff
-            b1\glissando
-            % Skip several bars
-            \override NoteColumn.glissando-skip = ##t
-            % Stop Gliss at almost end of a bar
-            s2...
-            % Stop skipping
-            \revert NoteColumn.glissando-skip
-            % Stop at the middle of shaff
-            b16 |
-            % Show notes
-            \unHideNotes
-            % END DIGITAL AUDIO
+            \startTrillLineTreble
+            \endTrillLineTreble
         }\\{
             s1\> | s2... s16\! |
         }
@@ -148,7 +104,7 @@ TwoViolinTwoA = \relative e'' {
     <<
         {
             gis'2.\pp | fis | gis | fis | gis~ | gis~ | gis | fis |
-            a_"poco a poco cresc." | b | a | b | a | b | a\< | b~ |
+            a\pCresc | b | a | b | a | b | a\< | b~ |
 
             b~\mf | b_"poco a poco decresc." | a | b | a |
             b\mp\> | a |
@@ -173,7 +129,7 @@ ThreeViolinTwo = \relative e'' {
 
     <fis e cis>8--\p^"div á 3" \repeat unfold 11 { <fis e cis>-- } |
     <fis dis b>^"sim." \repeat unfold 11 { <fis dis b> } |
-    <e dis b>_"poco a poco cresc." \repeat unfold 11 { <e dis b> } |
+    <e dis b>\pCresc \repeat unfold 11 { <e dis b> } |
     \repeat unfold 12 { <fis cis a> } |
     \repeat unfold 12 { <dis cis a> } |
     \repeat unfold 12 { <dis b gis> } |
@@ -188,7 +144,7 @@ ThreeViolinTwo = \relative e'' {
 
     <fis e cis>\mp \repeat unfold 11 { <fis e cis> } |
     \repeat unfold 12 { <fis dis b> } |
-    <e dis b>_"poco a poco cresc." \repeat unfold 11 { <e dis b> } |
+    <e dis b>\pCresc \repeat unfold 11 { <e dis b> } |
     \repeat unfold 12 { <fis cis a> } |
     \repeat unfold 12 { <dis cis a> } |
     \repeat unfold 12 { <dis b gis> } |
@@ -203,7 +159,7 @@ ThreeViolinTwo = \relative e'' {
 
     <fis e cis>\mf \repeat unfold 11 { <fis e cis> } |
     \repeat unfold 12 { <fis dis b> } |
-    <e dis b>_"poco a poco cresc." \repeat unfold 11 { <e dis b> } |
+    <e dis b>\pCresc \repeat unfold 11 { <e dis b> } |
     \repeat unfold 12 { <fis cis a> } |
     \repeat unfold 12 { <dis cis a> } |
     \repeat unfold 12 { <dis b gis> } |
@@ -218,7 +174,7 @@ ThreeViolinTwo = \relative e'' {
 
     <fis e cis>\f \repeat unfold 11 { <fis e cis> } |
     \repeat unfold 12 { <fis dis b> } |
-    <e dis b>_"poco a poco cresc." \repeat unfold 11 { <e dis b> } |
+    <e dis b>\pCresc \repeat unfold 11 { <e dis b> } |
     \repeat unfold 12 { <fis cis a> } |
     \repeat unfold 12 { <dis cis a> } |
     \repeat unfold 12 { <dis b gis> } |

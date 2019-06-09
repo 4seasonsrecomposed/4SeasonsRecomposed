@@ -8,7 +8,7 @@ OneBassA = \relative g {
 
     \repeat unfold 42 { R1 | }
 
-    g,1_\markup{sub\dynamic{p}} | d~ | d | ees | f | d |
+    g,1\subp | d~ | d | ees | f | d |
     bes'8 bes bes'-> bes bes, bes bes'-> bes |
     c, c c'-> c c, c c'-> c |
     a, a a'-> a a, a a'-> a |
@@ -16,7 +16,7 @@ OneBassA = \relative g {
     c,\f c c'-> c c, c c'-> c |
     a, a a'-> a a, a a'-> a |
 
-    g,1\mf | d~_"poco a poco cresc." | d | ees | f | d |
+    g,1\mf | d~\pCresc | d | ees | f | d |
     bes'8\f bes bes'-> bes bes, bes bes'-> bes |
     c,\< c c'-> c c, c c'-> c |
     a, a a'-> a a, a a'-> a |
@@ -24,7 +24,7 @@ OneBassA = \relative g {
     c,\ff c c'-> c c, c c'-> c |
     a, a a'-> a a, a a'-> a |
 
-    g,1\f | d~_"poco a poco cresc." | d | ees | f | d |
+    g,1\f | d~\pCresc | d | ees | f | d |
     bes'8 bes bes'-> bes bes, bes bes'-> bes |
     c, c c'-> c c, c c'-> c |
     a, a a'-> a a, a a'-> a |
@@ -49,7 +49,7 @@ TwoBass = \relative g {
 
     R1 | R1 | R1 | R1 |
 
-    g,1\pp | f_"poco a poco cresc." | ees\< | d |
+    g,1\pp | f\pCresc | ees\< | d |
     g\p_"poco a poco dim." |  f\> | ees | d\pp |
 
     g\p | f | ees\< | d\> |
@@ -103,7 +103,7 @@ ThreeBass = \relative g {
     d'-> d,-> d-> | c'-> d,-> d-> | bes'-> d,-> d-> | a'-> d,-> d-> |
     bes'-> bes,-> bes-> | a'-> bes,-> bes-> | g'-> bes,-> bes-> | f'-> a,-> a-> |
 
-    g8_\markup{sub\dynamic{p}} g\< g g g g | g->\! g\p g g g g |
+    g8\subp g\< g g g g | g->\! g\p g g g g |
     ees ees\< ees ees ees ees | ees->\! ees\p ees ees ees ees |
     c c\< c c c c | c->\! c\p c c c c |
     d d\< d d d d | d->\! d\p d d d d |
@@ -118,7 +118,7 @@ ThreeBass = \relative g {
     c c\< c c c c | c->\! c\mf c c c c |
     d d\< d d d d | d-> d d d d d |
 
-    g4\!_\markup{sub\dynamic{p}} g\< g | g8->\! r r4 r |
+    g4\!\subp g\< g | g8->\! r r4 r |
     ees\p\< ees ees | ees8->\! r r4 r |
     c\p\< c c | c8->\! r r4 r |
     d\p\< d d | d8->\! r r4 r |

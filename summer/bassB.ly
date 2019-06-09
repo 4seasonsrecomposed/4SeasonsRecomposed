@@ -8,8 +8,8 @@ OneBassB = \relative g {
 
     \repeat unfold 42 { R1 | }
 
-    g,8^\markup{\italic{div.}}_\markup{sub\dynamic{p}} g g'-> g g, g g'-. g |
-    d,_"poco a poco cresc." d d'-> d d, d d'-> d |
+    g,8^\markup{\italic{div.}}\subp g g'-> g g, g g'-. g |
+    d,\pCresc d d'-> d d, d d'-> d |
     d, d d'-> d d, d d'-> d |
     ees, ees ees'-> ees ees, ees ees'-> ees |
     f, f f'-> f f, f f'-> f |
@@ -17,7 +17,7 @@ OneBassB = \relative g {
     bes1 | c | a | bes | c\f | a |
 
     g8\mf g g'-> g g, g g'-. g |
-    d,_"poco a poco cresc." d d'-> d d, d d'-> d |
+    d,\pCresc d d'-> d d, d d'-> d |
     d, d d'-> d d, d d'-> d |
     ees, ees ees'-> ees ees, ees ees'-> ees |
     f, f f'-> f f, f f'-> f |
@@ -25,7 +25,7 @@ OneBassB = \relative g {
     bes1\f | c\< | a | bes | c\ff | a |
 
     g8\f g g'-> g g, g g'-. g |
-    d,_"poco a poco cresc." d d'-> d d, d d'-> d |
+    d,\pCresc d d'-> d d, d d'-> d |
     d, d d'-> d d, d d'-> d |
     ees, ees ees'-> ees ees, ees ees'-> ees |
     f, f f'-> f f, f f'-> f |

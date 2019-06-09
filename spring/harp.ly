@@ -79,7 +79,7 @@ TwoHarpUpper = \relative e'' {
     r r8 e e4 | r r8 fis fis4 |
     r r8 e e4 | r r8 fis fis4 |
 
-    r_"poco a poco cresc." r8 e e4 | r r8 dis dis4 |
+    r\pCresc r8 e e4 | r r8 dis dis4 |
     r r8 e e4 | r r8 fis fis4 |
     r r8 e e4 | r r8 fis fis4 |
     r\< r8 e e4 | r r8 e e4 |
@@ -121,13 +121,13 @@ ThreeHarpUpper = \relative e'' {
     R1.\pp \repeat unfold 13 { R1. | }
     R1.\p \repeat unfold 11 { R1. | } R1.\< | R1. |
 
-    R1.\mp R1. <<{\oneVoice R1.}\\{s2_"poco a poco cresc." s1 }>>
+    R1.\mp R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>>
     \repeat unfold 9 { R1. | } R1.\< R1.
 
                        \tuplet 2/3 { <fis cis>8\mp <fis cis> }
     \repeat unfold 3 { \tuplet 2/3 { <fis cis> <fis cis> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-                       \tuplet 2/3 { <e b>_"poco a poco cresc." <e b> }
+                       \tuplet 2/3 { <e b>\pCresc <e b> }
                        \tuplet 2/3 { <e b> <e b> }
     \repeat unfold 2 { \tuplet 2/3 { <e b'> <e b'> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b> <fis b> }} |
@@ -152,7 +152,7 @@ ThreeHarpUpper = \relative e'' {
                        \tuplet 2/3 { <fis cis>\mf <fis cis> }
     \repeat unfold 3 { \tuplet 2/3 { <fis cis> <fis cis> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-                       \tuplet 2/3 { <e b>_"poco a poco cresc." <e b> }
+                       \tuplet 2/3 { <e b>\pCresc <e b> }
                        \tuplet 2/3 { <e b> <e b> }
     \repeat unfold 2 { \tuplet 2/3 { <e b'> <e b'> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b> <fis b> }} |
@@ -178,7 +178,7 @@ ThreeHarpUpper = \relative e'' {
                        \tuplet 2/3 { <fis cis>\f <fis cis> }
     \repeat unfold 3 { \tuplet 2/3 { <fis cis> <fis cis> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b,> <fis b,> }} |
-                       \tuplet 2/3 { <e b>_"poco a poco cresc." <e b> }
+                       \tuplet 2/3 { <e b>\pCresc <e b> }
                        \tuplet 2/3 { <e b> <e b> }
     \repeat unfold 2 { \tuplet 2/3 { <e b'> <e b'> }} |
     \repeat unfold 4 { \tuplet 2/3 { <fis b> <fis b> }} |

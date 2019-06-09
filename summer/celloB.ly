@@ -40,8 +40,8 @@ OneCelloB = \relative g {
     c,16 c' c c c c c, c' c, c' c c c c c, c' |
     a, a' a a a a a, a' a, a' a a a a a, a' |
 
-    g,8^\markup{\italic{unis.}}_\markup{sub\dynamic{p}} g g'-> g g, g g'-> g |
-    d,_"poco a poco cresc." d d'-> d d, d d'-> d |
+    g,8^\markup{\italic{unis.}}\subp g g'-> g g, g g'-> g |
+    d,\pCresc d d'-> d d, d d'-> d |
     d, d d'-> d d, d d'-> d |
     ees, ees ees'-> ees ees, ees ees'-> ees |
     f, f f'-> f f, f f'-> f |
@@ -67,7 +67,7 @@ OneCelloB = \relative g {
     a, a a'-> a a, a a'-> a |
 
     g,\f g g'-> g g, g g'-> g |
-    d,_"poco a poco cresc." d d'-> d d, d d'-> d |
+    d,\pCresc d d'-> d d, d d'-> d |
     d,16 d' d d d d d, d' d, d' d d d d d, d' |
     ees, ees' ees ees ees ees ees, ees' ees, ees' ees ees ees ees ees, ees' |
     f,8 f f'-> f f, f f'-> f |
@@ -100,7 +100,7 @@ TwoCelloB = \relative g {
 
     R1 | R1 | R1 | R1 |
 
-    g,1\pp | f_"poco a poco cresc." | ees\< | d |
+    g,1\pp | f\pCresc | ees\< | d |
     g\p_"poco a poco dim." |  f\> | ees | d\pp |
 
     g\p | f | ees\< | d\> |

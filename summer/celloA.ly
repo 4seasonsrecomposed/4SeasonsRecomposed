@@ -57,8 +57,8 @@ OneCelloA = \relative g {
     c,4-. c'-.-> r c-.-> |
     a,-. a'-.-> r a-.-> |
 
-    g,8^\markup{\italic{unis.}}_\markup{sub\dynamic{p}} g g'-> g g, g g'-> g |
-    d,_"poco a poco cresc." d d'-> d d, d d'-> d |
+    g,8^\markup{\italic{unis.}}\subp g g'-> g g, g g'-> g |
+    d,\pCresc d d'-> d d, d d'-> d |
     d, d d'-> d d, d d'-> d |
     ees, ees ees'-> ees ees, ees ees'-> ees |
     f, f f'-> f f, f f'-> f |
@@ -71,7 +71,7 @@ OneCelloA = \relative g {
     a, a a'-> a a, a a'-> a |
 
     g,16\mf g' g g g g g, g' g, g' g g g g g, g' |
-    d,_"poco a poco cresc." d' d d d d d, d' d, d' d d d d d, d' |
+    d,\pCresc d' d d d d d, d' d, d' d d d d d, d' |
     d,8 d d'-> d d, d d'-> d |
     ees, ees ees'-> ees ees, ees ees'-> ees |
     f,16 f' f f f f f, f' f, f' f f f f f, f' |
@@ -84,7 +84,7 @@ OneCelloA = \relative g {
     a, a' a a a a a, a' a, a' a a a a a, a' |
 
     g,\f g' g g g g g, g' g, g' g g g g g, g' |
-    d,_"poco a poco cresc." d' d d d d <d, d'> d' d, d' d d d d d, d' | % Emmmm
+    d,\pCresc d' d d d d <d, d'> d' d, d' d d d d d, d' | % Emmmm
     d,8 d d'-> d d, d d'-> d |
     ees, ees ees'-> ees ees, ees ees'-> ees |
     f,16 f' f f f f f, f' f, f' f f f f f, f' |
@@ -118,7 +118,7 @@ TwoCelloA = \relative g {
 
     R1 | R1 | R1 | R1 |
 
-    g,1\pp | f_"poco a poco cresc." | ees\< | d | g\p_"poco a poco dim." |
+    g,1\pp | f\pCresc | ees\< | d | g\p_"poco a poco dim." |
     f\> | ees | d\pp |
 
     g\p | f | ees\< | d\> | g\<_"poco" | f | ees\> | d |
@@ -239,7 +239,7 @@ ThreeCello = \relative g {
         }
     >>
 
-    g8^"tutti"_\markup{sub\dynamic{p}} g\< g g g g | g->\! g\p g g g g |
+    g8^"tutti"\subp g\< g g g g | g->\! g\p g g g g |
     ees ees\< ees ees ees ees | ees->\! ees\p ees ees ees ees |
     c c\< c c c c | c->\! c\p c c c c |
     d d\< d d d d | d->\! d\p d d d d |
@@ -254,7 +254,7 @@ ThreeCello = \relative g {
     c c\< c c c c | c->\! c\mf c c c c |
     d d\< d d d d | d-> d d d d d |
 
-    g\!_\markup{sub\dynamic{p}} g\< g g g g | g->\! g\p g g g g |
+    g\!\subp g\< g g g g | g->\! g\p g g g g |
     ees ees\< ees ees ees ees | ees->\! ees\p ees ees ees ees |
     c c\< c c c c | c->\! c\p c c c c |
     d d\< d d d d | d->\! d\p d d d d |
@@ -274,30 +274,11 @@ ThreeCello = \relative g {
     c c c c c c | c c c c c c |
     d\< d d d d d | d d d d d d |
 
-    d8\!_\markup{sub\dynamic{pp}}^"Repeat this figure with swells and accents as directed" d d d 
+    d8\!\subpp^"Repeat this figure with swells and accents as directed" d d d 
 
-    % START DIGITAL AUDIO
-    % Use Glissando to emulate the symbol, hide all notes in it
-    \hideNotes
-    % Change its style to trill
-    \override Glissando.style = #'trill
-    % Set it breakable when a line break
-    \override Glissando.breakable = ##t
-    \override Glissando.after-line-breaking = ##t
-    % Start Gliss. from the middle of shaff
-    d'2\glissando 
-    % Skip several bars
-    \override NoteColumn.glissando-skip = ##t
-    % Stop Gliss at almost end of a bar
-    \repeat unfold 40 { s1 | }
+    \startTrillLineBass
+    s2 \repeat unfold 39 { s1 | }
     s1\> s1 s1 s1
-    s2...
-    % Stop skipping
-    \revert NoteColumn.glissando-skip
-    % Stop at the middle of shaff
-    d16\! |
-    % Show notes
-    \unHideNotes
-    % END DIGITAL AUDIO
+    \endTrillLineBass
 
 }

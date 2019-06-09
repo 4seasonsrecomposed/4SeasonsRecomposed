@@ -26,7 +26,7 @@ TwoBass = \relative e {
     cis2.~\p | cis2. | cis2.~ | cis2. |
     b2.~ | b2. | gis2.~ | gis2. |
 
-    a2._"poco a poco cresc." | b2. | cis2.| dis2. |
+    a2.\pCresc | b2. | cis2.| dis2. |
     e2. | dis2.| cis2.\< | b2. |
 
     cis2.\mf | b2._"poco a poco decresc." | a2. | gis2. |
@@ -44,7 +44,7 @@ ThreeBass = \relative e {
 
     a,4.-_\p a-_ a-_ a-_ |
     a'^"sim." a a a |
-    gis_"poco a poco cresc." gis gis gis |
+    gis\pCresc gis gis gis |
     gis, gis gis gis |
     fis fis fis fis |
     fis' fis fis fis |
@@ -59,7 +59,7 @@ ThreeBass = \relative e {
 
     a,\mp a a a |
     a' a a a |
-    gis_"poco a poco cresc." gis gis gis |
+    gis\pCresc gis gis gis |
     gis, gis gis gis |
     fis fis fis fis |
     fis' fis fis fis |
@@ -76,7 +76,7 @@ ThreeBass = \relative e {
         {
             a,\mp a a a |
             a' a a a |
-            gis_"poco a poco cresc." gis gis gis |
+            gis\pCresc gis gis gis |
             gis, gis gis gis |
             fis fis fis fis |
             fis' fis fis fis |
@@ -98,7 +98,7 @@ ThreeBass = \relative e {
         {
             a4.\f a a a |
             a' a a a |
-            gis_"poco a poco cresc." gis gis gis |
+            gis\pCresc gis gis gis |
             gis, gis gis gis |
             fis fis fis fis |
             fis' fis fis fis |

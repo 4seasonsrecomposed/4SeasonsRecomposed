@@ -39,7 +39,7 @@ OneViolinOneB = \relative g'' {
     c, a' a a a a ees a c, a' a a a a ees a |
     fis c' c c c c a c fis, c' c c c c a c |
 
-    bes,4-._\markup{sub\dynamic{p}} g'-.-> r g-. |
+    bes,4-.\subp g'-.-> r g-. |
     a,-._"poco a poco cresc" g'-.-> r g-. |
     a,-. fis'-.-> r fis-. |
     bes,16 g' g g g g d g bes, g' g g g g d g |
@@ -66,7 +66,7 @@ OneViolinOneB = \relative g'' {
     fis c' c c c c a c fis, c' c c c c a c |
 
     d,4-.\f bes'-.-> r bes-. |
-    c,-._"poco a poco cresc." a'-.-> r a-. |
+    c,-.\pCresc a'-.-> r a-. |
     fis-. c'-.-> r c-. |
     bes,16 g' g g g g d g bes, g' g g g g d g |
     a, g' g g g g d g a, g' g g g g d g |

@@ -4,34 +4,15 @@ ZeroViolinOneC = \relative e'' {
     \repeat unfold 11 {
         R1 |
     }
-    r8\pp^"Play this line ad lib, fading in and out" \acciaccatura cis'8 b-.
+    r8\pp^"Play this line ad lib, fading in and out" \acciaccatura cis8 b-.
     \repeat unfold 3 { r \acciaccatura cis8  b-. } |
-    % START DIGITAL AUDIO
-    % Use Glissando to emulate the symbol, hide all notes in it
-    \hideNotes
-    % Change its style to trill
-    \override Glissando.style = #'trill
-    % Set it breakable when a line break
-    \override Glissando.breakable = ##t
-    \override Glissando.after-line-breaking = ##t
-    % Start Gliss. from the middle of shaff
-    b,1\glissando
-    % Skip several bars
-    \override NoteColumn.glissando-skip = ##t
-    % Stop Gliss at almost end of a bar
-    \repeat unfold 3 { s1 | } s2...
-    % Stop skipping
-    \revert NoteColumn.glissando-skip
-    % Stop at the middle of shaff
-    b16 |
-    % Show notes
-    \unHideNotes
-    % END DIGITAL AUDIO
-    b'8-^\< b-^ b-^ b-^ b-^ b-^ b-^ b-^ |
+    \startTrillLineTreble
+    \repeat unfold 3 { s1 | }
+    \endTrillLineTreble
+    b8-^\< b-^ b-^ b-^ b-^ b-^ b-^ b-^ |
     b-^\f\> b-^ b-^ b-^ b-^ b-^ b-^ b-^ |
     r\pp^"as before" \acciaccatura cis8 b-.
     r \acciaccatura cis8 b-.
-    % START DIGITAL AUDIO
     % Use Glissando to emulate the symbol, hide all notes in it
     \hideNotes
     % Change its style to trill
@@ -40,7 +21,7 @@ ZeroViolinOneC = \relative e'' {
     \override Glissando.breakable = ##t
     \override Glissando.after-line-breaking = ##t
     % Start Gliss. from the middle of shaff
-    b,2\glissando
+    \absolute { b'2\glissando }
     % Skip several bars
     \override NoteColumn.glissando-skip = ##t
     % Stop Gliss at almost end of a bar
@@ -51,7 +32,6 @@ ZeroViolinOneC = \relative e'' {
     b16 |
     % Show notes
     \unHideNotes
-    % END DIGITAL AUDIO
 
 }
 
@@ -60,27 +40,8 @@ OneViolinOneC = \relative e'' {
     \time 4/4
     <<
         {
-            % START DIGITAL AUDIO
-            % Use Glissando to emulate the symbol, hide all notes in it
-            \hideNotes
-            % Change its style to trill
-            \override Glissando.style = #'trill
-            % Set it breakable when a line break
-            \override Glissando.breakable = ##t
-            \override Glissando.after-line-breaking = ##t
-            % Start Gliss. from the middle of shaff
-            b1\glissando
-            % Skip several bars
-            \override NoteColumn.glissando-skip = ##t
-            % Stop Gliss at almost end of a bar
-            s2...
-            % Stop skipping
-            \revert NoteColumn.glissando-skip
-            % Stop at the middle of shaff
-            b16 |
-            % Show notes
-            \unHideNotes
-            % END DIGITAL AUDIO
+            \startTrillLineTreble
+            \endTrillLineTreble
         }\\{
             s1\> | s2... s16\! |
         }
@@ -143,7 +104,7 @@ TwoViolinOneC = \relative e'' {
         {
             e'2.\pp | dis | cis | fis | e | dis | b | cis~ |
 
-            cis_"poco a poco cresc." | dis | e | dis |cis | dis | e\< | dis |
+            cis\pCresc | dis | e | dis |cis | dis | e\< | dis |
 
             e\mf | dis_"poco a poco decresc." | cis | dis | e |
             dis\mp\> | cis | e~\p\> | e~ | e~ | e\! |

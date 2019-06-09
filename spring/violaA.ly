@@ -3,36 +3,10 @@ ZeroViolaA = \relative e' {
     \key e \major
     \time 4/4
     
-    <<
-        {
-            \oneVoice
-            a8^"Play this line ad lib, fading in and out" a a a a a a a|
-            % START DIGITAL AUDIO
-            % Use Glissando to emulate the symbol, hide all notes in it
-            \hideNotes
-            % Change its style to trill
-            \override Glissando.style = #'trill
-            % Set it breakable when a line break
-            \override Glissando.breakable = ##t
-            \override Glissando.after-line-breaking = ##t
-            % Start Gliss. from the middle of shaff
-            c,1\glissando
-            % Skip several bars
-            \override NoteColumn.glissando-skip = ##t
-            % Stop Gliss at almost end of a bar
-            \repeat unfold 18 { s1 | } s2...
-            % Stop skipping
-            \revert NoteColumn.glissando-skip
-            % Stop at the middle of shaff
-            c16 |
-            % Show notes
-            \unHideNotes
-            % END DIGITAL AUDIO
-        }\\{
-            % Expressive marks
-            s1\< | s1 | s1 | s1 | s1\! | \repeat unfold 16 { s1 | }
-        }
-    >>
+    a8\<^"Play this line ad lib, fading in and out" a a a a a a a|
+    \startTrillLineAlto
+    s1 | s1 | s1\! | \repeat unfold 15 { s1 | } 
+    \endTrillLineAlto
 }
 
 OneViolaA = \relative e' {
@@ -42,27 +16,8 @@ OneViolaA = \relative e' {
 
     <<
         {
-            % START DIGITAL AUDIO
-            % Use Glissando to emulate the symbol, hide all notes in it
-            \hideNotes
-            % Change its style to trill
-            \override Glissando.style = #'trill
-            % Set it breakable when a line break
-            \override Glissando.breakable = ##t
-            \override Glissando.after-line-breaking = ##t
-            % Start Gliss. from the middle of shaff
-            c1\glissando
-            % Skip several bars
-            \override NoteColumn.glissando-skip = ##t
-            % Stop Gliss at almost end of a bar
-            s2...
-            % Stop skipping
-            \revert NoteColumn.glissando-skip
-            % Stop at the middle of shaff
-            c16 |
-            % Show notes
-            \unHideNotes
-            % END DIGITAL AUDIO
+            \startTrillLineAlto
+            \endTrillLineAlto
         }\\{
             s1\> | s2... s16\! |
         }
@@ -135,7 +90,7 @@ TwoViola = \relative e' {
     gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 |
     gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32\! |
 
-    a'16._"poco a poco cresc." e32 a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 |
+    a'16.\pCresc e32 a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 |
     gis16. e32  gis16. e32  gis16. e32  gis16. e32  gis16. e32  gis16. e32 |
     a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 |
     b'16. fis32 b16. fis32 b16. fis32 b16. fis32 b16. fis32 b16. fis32 |
@@ -193,7 +148,7 @@ ThreeViolaA = \relative e' {
 
     <fis' cis'>\p \repeat unfold 5 { <fis cis'> } |
     \repeat unfold 6 { <fis b> } |
-    <e b'>_"poco a poco cresc." \repeat unfold 5 { <e b'> } |
+    <e b'>\pCresc \repeat unfold 5 { <e b'> } |
     \repeat unfold 6 { <e a> } |
     \repeat unfold 6 { <dis a'> } |
     \repeat unfold 6 { <dis gis> } |
@@ -208,7 +163,7 @@ ThreeViolaA = \relative e' {
 
     <fis' cis'>\mp \repeat unfold 5 { <fis cis'> } |
     \repeat unfold 6 { <fis b> } |
-    <e b'>_"poco a poco cresc." \repeat unfold 5 { <e b'> } |
+    <e b'>\pCresc \repeat unfold 5 { <e b'> } |
     \repeat unfold 6 { <e a> } |
     \repeat unfold 6 { <dis a'> } |
     \repeat unfold 6 { <dis gis> } |
@@ -223,7 +178,7 @@ ThreeViolaA = \relative e' {
 
     <fis' cis'>\mf \repeat unfold 5 { <fis cis'> } |
     \repeat unfold 6 { <fis b> } |
-    <e b'>_"poco a poco cresc." \repeat unfold 5 { <e b'> } |
+    <e b'>\pCresc \repeat unfold 5 { <e b'> } |
     \repeat unfold 6 { <e a> } |
     \repeat unfold 6 { <dis a'> } |
     \repeat unfold 6 { <dis gis> } |
@@ -238,7 +193,7 @@ ThreeViolaA = \relative e' {
 
     <fis' cis'>\f \repeat unfold 5 { <fis cis'> } |
     \repeat unfold 6 { <fis b> } |
-    <e b'>_"poco a poco cresc." \repeat unfold 5 { <e b'> } |
+    <e b'>\pCresc \repeat unfold 5 { <e b'> } |
     \repeat unfold 6 { <e a> } |
     \repeat unfold 6 { <dis a'> } |
     \repeat unfold 6 { <dis gis> } |

@@ -40,8 +40,8 @@ OneViolaA = \relative g' {
     ees-. ees-.-> r ees-.-> |
     fis,-. d'-.-> r d-.-> |
 
-    d16_\markup{sub\dynamic{p}} bes' bes bes bes bes g bes d, bes' bes bes bes bes g bes |
-    d,_"poco a poco cresc." d d d d d a d a d d d d d a d |
+    d16\subp bes' bes bes bes bes g bes d, bes' bes bes bes bes g bes |
+    d,\pCresc d d d d d a d a d d d d d a d |
     fis, d' d d d d a d fis, d' d d d d a d |
     d4-. bes'-.-> r bes-. |
     d, -. d-.-> r d-. |
@@ -54,7 +54,7 @@ OneViolaA = \relative g' {
     fis,-. d'-.-> r d-. |
 
     d16\mf bes' bes bes bes bes g bes d, bes' bes bes bes bes g bes |
-    d,_"poco a poco cresc." d d d d d a d a d d d d d a d |
+    d,\pCresc d d d d d a d a d d d d d a d |
     fis, d' d d d d a d fis, d' d d d d a d |
     d4-. bes'-.-> r bes-. |
     d, -. d-.-> r d-. |
@@ -67,7 +67,7 @@ OneViolaA = \relative g' {
     fis,-. d'-.-> r d-. |
 
     d16\f bes' bes bes bes bes g bes d, bes' bes bes bes bes g bes |
-    d,_"poco a poco cresc." d d d d d a d a d d d d d a d |
+    d,\pCresc d d d d d a d a d d d d d a d |
     fis, d' d d d d a d fis, d' d d d d a d |
     d4-. bes'-.-> r bes-. |
     d, -. d-.-> r d-. |
@@ -219,8 +219,8 @@ ThreeViola = \relative g' {
     d'-> d, d d d d d-> d d d d d | c'-> d, d d d d d-> d d d d d |
     bes'-> d, d d d d d-> d d d d d | a'-> d, d d d d d-> d d d d d |
 
-    d8->_\markup{sub\dynamic{p}} d d d d d | d-> d d d d d |
-    d->_"poco a poco cresc." d d d d d | d-> d d d d d |
+    d8->\subp d d d d d | d-> d d d d d |
+    d->\pCresc d d d d d | d-> d d d d d |
     <ees g,>->^"div." <ees g,> <ees g,> <ees g,> <ees g,> <ees g,> |
     <ees g,>->^"unis." <ees g,> <ees g,> <ees g,> <ees g,> <ees g,> |
     d-> d d d d d | d-> d d d d d |
@@ -235,8 +235,8 @@ ThreeViola = \relative g' {
     \repeat unfold 6 { g, c ees g } |
     a,\< d e a a, d e a a, d e a | a, d e a a, d e a a, d e a |
 
-    d,8\!_\markup{sub\dynamic{p}} d d d d d | d d d d d d |
-    d_"poco a poco cresc." d d d d d | d d d d d d |
+    d,8\!\subp d d d d d | d d d d d d |
+    d\pCresc d d d d d | d d d d d d |
     <ees g,>^"div." <ees g,> <ees g,> <ees g,> <ees g,> <ees g,> |
     <ees g,>^"unis." <ees g,> <ees g,> <ees g,> <ees g,> <ees g,> |
     d d d d d d | d d d d d d |
@@ -262,29 +262,10 @@ ThreeViola = \relative g' {
     d,1\<^\markup{\column{\line{Play one of these notes for a while. Then the other. Ad lib swells.}
     \line{Roughly follow Principal Viola for changes in pitch and volume.}}} ees\p 
 
-    % START DIGITAL AUDIO
-    % Use Glissando to emulate the symbol, hide all notes in it
-    \hideNotes
-    % Change its style to trill
-    \override Glissando.style = #'trill
-    % Set it breakable when a line break
-    \override Glissando.breakable = ##t
-    \override Glissando.after-line-breaking = ##t
-    % Start Gliss. from the middle of shaff
-    c1\glissando 
-    % Skip several bars
-    \override NoteColumn.glissando-skip = ##t
-    % Stop Gliss at almost end of a bar
+    \startTrillLineAlto
     \repeat unfold 31 { s1 | }
     s1\> s1 s1 s1
-    s2...
-    % Stop skipping
-    \revert NoteColumn.glissando-skip
-    % Stop at the middle of shaff
-    c16\! |
-    % Show notes
-    \unHideNotes
-    % END DIGITAL AUDIO
+    \endTrillLineAlto
 
 
 }
