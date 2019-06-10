@@ -141,7 +141,7 @@ OneSolo = \relative f'' {
     f8\! f4 e16 d e8 e4 g16 a |
     bes8\> bes4 a16 g a4\!
     \set subdivideBeams = ##t
-    r32 f( g a bes c d e) |
+    r32^"Solo" f( g a bes c d e) |
     \set subdivideBeams = ##f
     f16 c a c f c a f f,4
     \set subdivideBeams = ##t

@@ -28,40 +28,40 @@ OneScore = \score {
             
         }
         \OneSolo
-        %\new StaffGroup <<
-        %    \new Staff \with {
-        %        instrumentName = \markup{\center-column{\line{1st Violin}A}}
-%
-        %    }
-        %    \OneViolinOneA
-        %    \new Staff \with {
-        %        instrumentName = \markup{\center-column{\line{1st Violin}B}}
-%
-        %    }
-        %    \OneViolinOneB
-        %    \new Staff \with {
-        %        instrumentName = \markup{\center-column{\line{1st Violin}\line{C + D}}}
-        %        
-        %    }
-        %    \OneViolinOneC
-        %>>
-        %\new StaffGroup <<
-        %    \new Staff \with {
-        %        instrumentName = \markup{\center-column{\line{2nd Violin}A}}
-        %        
-        %    }
-        %    \OneViolinTwoA
-        %    \new Staff \with {
-        %        instrumentName = \markup{\center-column{\line{2nd Violin}\line{B + C}}}
-        %        
-        %    }
-        %    \OneViolinTwoB
-        %    \new Staff \with {
-        %        instrumentName = \markup{\center-column{\line{2nd Violin}D}}
-        %        
-        %    }
-        %    \OneViolinTwoD
-        %>>
+        \new StaffGroup <<
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{1st Violin}A}}
+
+            }
+            \OneViolinOneA
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{1st Violin}B}}
+
+            }
+            \OneViolinOneB
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{1st Violin}\line{C + D}}}
+                
+            }
+            \OneViolinOneC
+        >>
+        \new StaffGroup <<
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{2nd Violin}A}}
+                
+            }
+            \OneViolinTwoA
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{2nd Violin}\line{B + C}}}
+                
+            }
+            \OneViolinTwoB
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{2nd Violin}D}}
+                
+            }
+            \OneViolinTwoD
+        >>
         %\new Staff \with {
         %    instrumentName = #"Viola"
         %    
@@ -91,7 +91,7 @@ OneScore = \score {
     \header{
         title = \markup{\abs-fontsize #16 {I}}
     }
-    \midi { \tempo 4 = 120 }
+    %\midi { \tempo 4 = 120 }
 }
 
 %TwoScore = \score {
