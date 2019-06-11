@@ -1,4 +1,3 @@
-%"I. Allegro"
 %"II. Adagio molto"
 %"III. Allegro"
 
@@ -62,11 +61,11 @@ OneScore = \score {
             }
             \OneViolinTwoD
         >>
-        %\new Staff \with {
-        %    instrumentName = #"Viola"
-        %    
-        %}
-        %\OneViola
+        \new Staff \with {
+            instrumentName = #"Viola"
+           
+        }
+        \OneViola
         %\new Staff \with {
         %    instrumentName = #"Cello"
         %    

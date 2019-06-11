@@ -1,7 +1,9 @@
 OneSolo = \relative f'' {
     \key f \major
     \time 4/4
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
 
+    \mark "Allegro"
     a8\f^"Tutti" a a bes a4 a8 bes | a8 a a bes a4 a8 bes |
     \time 3/4
     a g16 a bes8 a g r |
@@ -104,7 +106,7 @@ OneSolo = \relative f'' {
     \time 4/4
     g) g g f( ees) ees ees ees( | f) f f ees( d) d d d |
     \time 6/8
-    ees ees( d) cis cis( e) |
+    ees[ ees( d)] cis[ cis( e)] |
     \time 4/4
     f\f f f g f f f g |
     \time 5/4

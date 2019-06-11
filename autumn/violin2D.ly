@@ -41,7 +41,7 @@ OneViolinTwoD = \relative f'' {
     g fis16 g a8 g f r |
     r r r b( c) c c bes( | a) a a a( bes) bes bes a |
     g g~ g a e'( cis) | d\f d d e d d d e |
-    d d d e d cis16 d e8 c d4 |
+    d d d e d cis16 d e8 cis d4 |
     d,8\p d d e d-. r d |
     d d d e d cis16 d e8 cis |
 
