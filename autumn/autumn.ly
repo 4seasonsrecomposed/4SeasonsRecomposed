@@ -51,26 +51,26 @@ OneScore = \score {
             }
             \OneViolinTwoA
             \new Staff \with {
-                instrumentName = \markup{\center-column{\line{2nd Violin}\line{B + C}}}
+                instrumentName = \markup{\center-column{\line{2nd Violin}\line{B + D}}}
                 
             }
             \OneViolinTwoB
             \new Staff \with {
-                instrumentName = \markup{\center-column{\line{2nd Violin}D}}
+                instrumentName = \markup{\center-column{\line{2nd Violin}C}}
                 
             }
-            \OneViolinTwoD
+            \OneViolinTwoC
         >>
         \new Staff \with {
             instrumentName = #"Viola"
            
         }
         \OneViola
-        %\new Staff \with {
-        %    instrumentName = #"Cello"
-        %    
-        %}
-        %\OneCello
+        \new Staff \with {
+            instrumentName = #"Cello"
+            
+        }
+        \OneCello
         %\new Staff \with {
         %    instrumentName = #"Bass"
         %}
