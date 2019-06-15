@@ -4,10 +4,10 @@ OneHarpsichordUpper = \relative g'' {
 
     % No notes but some marks in this line. Use 's' to mark them.
 
-    R4.\pp | \repeat unfold 9 { R4. | } R4.^\fermataMarkup
-    \repeat unfold 19 { R4. | }
+    R4.\pp | R4.*9 | R4.^\fermataMarkup
+    R4.*19 |
 
-    \repeat unfold 42 { R1 | }
+    R1*42 |
 
     <<{ \oneVoice R1}\\{ s1\subp }>> |
     <<{ \oneVoice R1}\\{ s1\pCresc }>> | \repeat unfold 8 { R1 | }
@@ -142,7 +142,7 @@ TwoHarpsichordUpper = \relative g'' {
     \key g \minor
     \time 4/4 
 
-    \repeat unfold 44 { R1 | }
+    R1*44 |
 }
 
 TwoHarpsichordLower = \relative g {
@@ -150,7 +150,7 @@ TwoHarpsichordLower = \relative g {
     \key g \minor
     \time 4/4 
 
-    \repeat unfold 44 { R1 | }
+    R1*44 |
 }
 
 ThreeHarpsichordUpper = \relative g'' {
@@ -168,17 +168,17 @@ ThreeHarpsichordUpper = \relative g'' {
     \repeat unfold 12 { <ees g,>8 }
     d d d d d d | d d d d d d |
 
-    \repeat unfold 29 { R2. | }
+    R2.*29 |
 
     c'4.\f c, | bes' c, | aes' c, | g' c, |
 
-    \repeat unfold 11 { R2. | }
+    R2.*11 |
 
     c4.\f c | aes' c, | b b | g' bes, |
     a a | f' aes, | g g' | ees' g, |
     fis fis | d' f, | e e | c' ees, |
 
-    \repeat unfold 30 { R2. | }
+    R2.*30 |
 
     d8\subp d d d d d | d d d d d d |
     d\pCresc d d d d d | d d d d d d |
@@ -207,7 +207,7 @@ ThreeHarpsichordUpper = \relative g'' {
     <d bes g>\f | <g d bes> | <ees bes g> | <g ees bes> |
     <ees c g> | <g ees c> | <<{ <d a g> |  <g d a> }\\{ s2.\< | s2 s4\! }>> |
 
-    \repeat unfold 46 { R1 | }
+    R1*46 |
 
 }
 
@@ -226,7 +226,7 @@ ThreeHarpsichordLower = \relative g {
     g g g | g g g | ees ees ees | ees ees ees |
     c c c | c c c | d d d | d d d |
 
-    \repeat unfold 29 { R2. | }
+    R2.*29 |
 
     c''4 c, c | bes' c, c | aes' c, c | g' c, c |
 
@@ -238,7 +238,7 @@ ThreeHarpsichordLower = \relative g {
     a, a a | f' f f | g, g' g | ees' ees ees |
     fis, fis fis | d' d d | e, e e | c' c c |
 
-    \repeat unfold 30 { R2. | }
+    R2.*30 |
 
     g4 g g | g g g | ees ees ees | ees ees ees |
     c c c | c c c | d d d | d d d |
@@ -261,6 +261,6 @@ ThreeHarpsichordLower = \relative g {
     g g g | g g g | ees ees ees | ees ees ees |
     c c c | c c c | d d d | d d d |
 
-    \repeat unfold 46 { R1 | }
+    R1*46 |
 
 }

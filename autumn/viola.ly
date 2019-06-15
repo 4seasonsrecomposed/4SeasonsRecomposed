@@ -24,7 +24,7 @@ OneViola = \relative f' {
     a8\p a e a a e |
     a a a e a a d, c c4 |
 
-    \repeat unfold 6 { R1 | }
+    R1*6 |
     r2 c''8\f c c e, |
 
     c4 r r2 | c'8 c c e, c4 r |
@@ -49,7 +49,7 @@ OneViola = \relative f' {
     a a a cis a a bes a |
 
     a4 r d r | d r d r | d r r2 |
-    \repeat unfold 7 { R1 | }
+    R1*7 |
 
     c'8\f c c c c4 c8 |
     c c c c c4 c8 c | c c a a d, d g f |

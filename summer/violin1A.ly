@@ -10,8 +10,7 @@ OneViolinOneA = \relative g'' {
     r8 bes'16( c) d8 | r aes16( bes) c8 | r g16( a) bes8 | r fis16( g) a8 | r g4 |
     r8 bes,16( c) d8 | r aes16( bes) c8 | r g16( a) bes8 | r fis16( g) a8 | r g4 |
 
-
-    \repeat unfold 18 { R1 | }
+    R1*18 |
 
     bes16\mf g' g g g g d g bes, g' g g g g d g |
     a, g' g g g g d g a, g' g g g g d g |
@@ -141,7 +140,7 @@ ThreeViolinOne = \relative g'' {
 
     d4 \p d d | d d d | d d d | d r r |
     d d d | d d d | d d d | d r r |
-    \repeat unfold 6 { R2. | }
+    R2.*6 |
 
     d8\f d d d' f a | bes d,, d d' g bes | bes e,, e e' g bes |
     a f, f c' f a | a d,, d d' f a | g ees, ees bes' ees g |
@@ -155,7 +154,7 @@ ThreeViolinOne = \relative g'' {
     c-> c, c c c c c-> c c c c c | bes'-> c, c c c c c-> c c c c c |
     aes'-> c, c c c c c-> c c c c c | g'-> c, c c c c c-> c c8 r |
 
-    \repeat unfold 11 { R2. | }
+    R2.*11 |
 
     c16->\f c c c c c c-> c c c c c | aes'-> c, c c aes' c, c-> c aes' c, c c |
     b-> b b b b b b-> b b b b b | g'-> bes, bes bes g' bes, bes-> bes g' bes, bes bes |
@@ -164,7 +163,7 @@ ThreeViolinOne = \relative g'' {
     fis-> fis fis fis fis fis fis-> fis fis fis fis fis | d'-> f, f f d' f, f-> f d' f, f f |
     e-> e e e e e e-> e e e e e | c'-> ees, ees ees c' ees, ees-> ees c' ees, ees ees |
 
-    d4 r r | R2. | R | R |
+    d4 r r | R2.*3 |
     r16 d' c bes a g fis e d c bes a |
 
     g g'' f ees d c bes a g f ees d | c c c c c c c c c c c c |

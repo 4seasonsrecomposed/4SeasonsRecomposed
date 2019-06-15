@@ -10,7 +10,7 @@ OneViolinTwoB = \relative g'' {
     r8 g'16( a) bes8 | r c,16( d) ees8 | r bes16( c) d8 | r a16( bes) c8 | r bes4 |
     r8 g16( a) bes8 | r c,16( d) ees8 | r bes16( c) d8 | r a16( bes) c8 | r bes4 |
 
-    \repeat unfold 18 { R1 | }
+    R1*18 |
 
     g'16\mf d' d d d d bes d g,16 d' d d d d bes d |
     d, a' a a a a g a d, a' a a a a g a |

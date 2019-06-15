@@ -3,10 +3,10 @@ OneBassB = \relative g {
     \key g \minor
     \time 3/8
 
-    \repeat unfold 10 { R4. | } R4.^\fermataMarkup |
-    \repeat unfold 19 { R4. | }
+    R4.*10 | R4.^\fermataMarkup |
+    R4.*19 |
 
-    \repeat unfold 42 { R1 | }
+    R1*42 |
 
     g,8^\markup{\italic{div.}}\subp g g'-> g g, g g'-. g |
     d,\pCresc d d'-> d d, d d'-> d |

@@ -3,10 +3,10 @@ OneBassA = \relative g {
     \key g \minor
     \time 3/8
 
-    \repeat unfold 10 { R4. | } R4.^\fermataMarkup |
-    \repeat unfold 19 { R4. | }
+    R4.*10 | R4.^\fermataMarkup |
+    R4.*19 |
 
-    \repeat unfold 42 { R1 | }
+    R1*42 |
 
     g,1\subp | d~ | d | ees | f | d |
     bes'8 bes bes'-> bes bes, bes bes'-> bes |
@@ -47,7 +47,7 @@ TwoBass = \relative g {
     \key g \minor
     \time 4/4
 
-    R1 | R1 | R1 | R1 |
+    R1*4 |
 
     g,1\pp | f\pCresc | ees\< | d |
     g\p_"poco a poco dim." |  f\> | ees | d\pp |
@@ -80,19 +80,19 @@ ThreeBass = \relative g {
     g8\mf g\< g g g g | g->\! r r4 r | ees8\mf ees\< ees ees ees ees | ees->\! r r4 r |
     c8\mf c\< c c c c | c->\! r r4 r | bes8\mf bes\< bes bes bes bes | bes->\! r r4 r | 
 
-    \repeat unfold 26 { R2. | }
+    R2.*26 |
 
     ees'8\p\< ees ees ees ees ees | f f f f f f | g g g g g,\f g |
 
     c4-> c-> c-> | bes'-> c,-> c-> | aes'-> c,-> c-> | g'-> c,-> c8-> r |
 
-    \repeat unfold 11 { R2. | }
+    R2.*11 |
 
     c4->\f c-> c-> | aes'8-> c, aes'-> c, aes'-> c, | b4-> b-> b-> | g'8-> bes, g'-> bes, g'-> bes, |
     a4-> a-> a-> | f'8-> aes, f'-> aes, f'-> aes, | g4-> g'-> g-> | ees'8-> g, ees'-> g, ees'-> g, |
     fis4-> fis-> fis-> | d'8-> f,-> d'-> f, d'-> f, | e4-> e-> e-> | c'8-> ees, c'-> ees, c'-> ees, |
 
-    \repeat unfold 5 { R2. | }
+    R2.*5 |
 
     ees,8\f ees ees ees ees ees | c' c c c c c | c c c c c c | ees ees ees ees ees ees |
     ees ees ees ees ees ees | g g g g g g | g g g g g g | g g g g g g | g\< g d' g, d' g, |
@@ -138,5 +138,5 @@ ThreeBass = \relative g {
     c c c c c c | c c c c c c |
     d\< d d d d d | d d d d d d\! |
 
-    \repeat unfold 46 { R1 | }
+    R1*46 |
 }

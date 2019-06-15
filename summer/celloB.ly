@@ -12,7 +12,7 @@ OneCelloB = \relative g {
     r g' g, | r c' c, | r g' g, | r d' d, | r g4 |
     r8 g' g, | r c c, | r g'' g, | r d' d, | r g4 | 
 
-    \repeat unfold 18 { R1 | }
+    R1*18 |
 
     g4-.\mf g'-.-> r g-.-> |
     d,-. d'-.-> r d-.-> |
@@ -98,7 +98,7 @@ TwoCelloB = \relative g {
     \key g \minor
     \time 4/4
 
-    R1 | R1 | R1 | R1 |
+    R1*4 |
 
     g,1\pp | f\pCresc | ees\< | d |
     g\p_"poco a poco dim." |  f\> | ees | d\pp |

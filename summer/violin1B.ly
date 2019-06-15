@@ -10,8 +10,7 @@ OneViolinOneB = \relative g'' {
     r8 bes'16( c) d8 | r aes16( bes) c8 | r g16( a) bes8 | r fis16( g) a8 | r g4 |
     r8 bes,16( c) d8 | r aes16( bes) c8 | r g16( a) bes8 | r fis16( g) a8 | r g4 |
 
-
-    \repeat unfold 18 { R1 | }
+    R1*18 |
 
     bes4-.\mf g'-.-> r g-.-> |
     a,-. g'-.-> r g-.-> |

@@ -23,7 +23,7 @@ OneViolinTwoC = \relative f'' {
     f,8\p f g f f g |
     f f f g f e16 f g8 e f4 |
 
-    \repeat unfold 6 { R1 | }
+    R1*6 |
     r2 f'8\f f f g |
 
     f4 r r2 | f8 f f g f4 r |
@@ -46,7 +46,7 @@ OneViolinTwoC = \relative f'' {
     d d d e d cis16 d e8 cis |
 
     d4 r r d | r d r d | r d r2 |
-    \repeat unfold 7 { R1 | }
+    R1*7 |
 
     e'8\f e e f e4 f8 | e e e f e4 e8 f |
     e f16 e d8 c b4 r8 c16 d |

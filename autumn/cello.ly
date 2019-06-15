@@ -81,7 +81,7 @@ OneCello = \relative f {
     r\! g'16 f g8 g, r c'16 b c8 c, | r\> c'16 b c8 c, f,4\! r |
     r2 f4 r | r2 f4 r |
 
-    \repeat unfold 5 { R1 | }
+    R1*5 |
 
     f_\markup{\dynamic{p}dolce} | ees | des | c |
     <des f'>\<^\markup{\italic{div.}} | <ees ees'> |

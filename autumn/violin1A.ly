@@ -23,7 +23,7 @@ OneViolinOneA = \relative f'' {
     a,8\p a bes a a bes |
     a a a bes a g16 a bes8 g a4 |
 
-    \repeat unfold 6 { R1 | }
+    R1*6 |
     r2 a'8\f a a bes |
 
     a4 r r2 | a8 a a bes a4 r |
@@ -46,7 +46,7 @@ OneViolinOneA = \relative f'' {
     f f f g f e16 f g8 e |
 
     f4 r r d | r d r d | r d r2 |
-    \repeat unfold 7 { R1 | }
+    R1*7 |
 
     g'8\f g g a g4 a8 |
     g g g a g4 g8 a | g8 a16 g f8 e d4 r8 e16 f |

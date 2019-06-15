@@ -116,7 +116,7 @@ TwoCelloA = \relative g {
     \key g \minor
     \time 4/4
 
-    R1 | R1 | R1 | R1 |
+    R1*4 |
 
     g,1\pp | f\pCresc | ees\< | d | g\p_"poco a poco dim." |
     f\> | ees | d\pp |
@@ -163,7 +163,7 @@ ThreeCello = \relative g {
     g8\mf^"tutti" g\< g g g g | g->\! g\mf g g g g |ees ees\< ees ees ees ees | ees->\! ees\mf ees ees ees ees |
     c c\< c c c c | c->\! c\mf c c c c | d d\< d d d d | d->\! d\mf d d d d |
 
-    \repeat unfold 12 { R2. | }
+    R2.*12 |
 
     d'8\mp\< a d a d a | d a d a d a |
 

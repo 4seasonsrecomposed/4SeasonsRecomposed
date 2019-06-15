@@ -100,7 +100,7 @@ TwoSolo = \relative g'' {
     c ees,2 bes'4~ | bes d,2 a'4~ \bar "||"
     
     a2_"dim poco a poco" g~ | g g~ | g g~ | g g~ | g r |
-    R1 | R1 | R1 \bar "|." 
+    R1*3 \bar "|." 
     
 }
 
@@ -225,6 +225,6 @@ ThreeSolo = \relative g'' {
 
     \time 4/4
 
-    \repeat unfold 46 { R1\! | } \bar "|."
+    R1\! | R1*45 \bar "|."
 
 }

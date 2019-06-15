@@ -10,7 +10,7 @@ OneViolinTwoA = \relative g'' {
     r8 g'16( a) bes8 | r c,16( d) ees8 | r bes16( c) d8 | r a16( bes) c8 | r bes4 |
     r8 g16( a) bes8 | r c,16( d) ees8 | r bes16( c) d8 | r a16( bes) c8 | r bes4 |
 
-    \repeat unfold 18 { R1 | }
+    R1*18 |
 
     g'4-.\mf d'-.-> r d-.-> |
     d,-. a'-.-> r a-.-> |
@@ -154,7 +154,7 @@ ThreeViolinTwo = \relative g''{
 
     d,4 \p d d | d d d | d d d | d r r |
     d d d | d d d | d d d | d r r |
-    \repeat unfold 6 { R2. | }
+    R2.*6 |
 
     f'8 a,, a a' d f | g d, d bes' d g | g c,, c c' e g |
     f c, c a' c f | f bes,, bes bes' d f | ees bes, bes g' bes ees |
@@ -168,7 +168,7 @@ ThreeViolinTwo = \relative g''{
     c-> c, c c c c c-> c c c c c | bes'-> c, c c c c c-> c c c c c |
     aes'-> c, c c c c c-> c c c c c | g'-> c, c c c c c-> c c8 r |
 
-    \repeat unfold 11 { R2. | }
+    R2.*11 |
 
     c16->\f c c c c c c-> c c c c c | aes'-> c, c c aes' c, c-> c aes' c, c c |
     b-> b b b b b b-> b b b b b | g'-> bes, bes bes g' bes, bes-> bes g' bes, bes bes |

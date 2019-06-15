@@ -2,12 +2,12 @@ OneHarpUpper = \relative g'' {
     \key g \minor
     \time 3/8
 
-    \repeat unfold 10 { R4. | } R4.^\fermataMarkup |
-    \repeat unfold 19 { R4. | }
+    R4.*10 | R4.^\fermataMarkup |
+    R4.*19 |
 
-    \repeat unfold 18 { R1 | }
+    R1*18 |
 
-    R1\mf | \repeat unfold 23 { R1 | }
+    R1\mf | R1*23 |
 
     bes,8\subp r r d bes r r d |
     a\pCresc r r d a r r d |
@@ -68,10 +68,10 @@ OneHarpLower = \relative g {
     \key g \minor
     \time 3/8
 
-    \repeat unfold 10 { R4. | } R4.^\fermataMarkup |
-    \repeat unfold 19 { R4. | }
+    R4.*10 | R4.^\fermataMarkup |
+    R4.*19 |
 
-    \repeat unfold 18 { R1 | }
+    R1*18 |
 
     g,1 | d | d | ees | f | d | bes' | c | a | bes | c | a |
     g | d | d | ees | f | d | bes' | c | a | bes | c | a |
@@ -133,7 +133,7 @@ TwoHarpUpper = \relative g'' {
     \key g \minor
     \time 4/4 
 
-    R1 | R1 | R1 | R1 |
+    R1*4 |
 
     <<
         {

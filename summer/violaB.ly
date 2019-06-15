@@ -6,13 +6,13 @@ OneViolaB = \relative g' {
     r8\pp d' d | r d, fis | r fis fis | r d d | d4 r8 |
     fis4 r8 | fis4 r8 | g4 r8 | g4 r8 | g4 c,8 | a4.\fermata |
 
-    R4. | R4. | fis'8( ees d | c16 bes a8 g) | fis4.~ | fis |
+    R4.*2 | fis'8( ees d | c16 bes a8 g) | fis4.~ | fis |
     bes'8( a g | fis16 ees d8 c) | bes4 r8 |
 
     r d d | r ees ees | r d d | r fis fis | r d4 |
     r8 d d | r ees ees | r d d | r fis, fis | r d4 |
 
-    \repeat unfold 18 { R1 | }
+    R1*18 |
 
     d'4-.\mf bes'-.-> r bes-.-> |
     d,-. d-.-> r d-.-> |

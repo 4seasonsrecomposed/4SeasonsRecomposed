@@ -12,7 +12,7 @@ OneViolaA = \relative g' {
     r d d | r ees ees | r d d | r fis fis | r d4 |
     r8 d d | r ees ees | r d d | r fis, fis | r d4 |
 
-    \repeat unfold 18 { R1 | }
+    R1*18 |
 
     d'16\mf^\markup{\italic{tutti div.}} bes' bes bes bes bes g bes d, bes' bes bes bes bes g bes |
     d, d d d d d a d a d d d d d a d |
@@ -100,7 +100,7 @@ TwoViola = \relative g' {
     \key g \minor
     \time 4/4
 
-    R1 | R1 | R1 | R1 |
+    R1*4 |
 
     <bes, g>16.\p\>^"div. - poco sul pont." <bes g>32 <bes g>16. <bes g>32 <bes g>8 r\!
     <bes g>16.\p\> <bes g>32 <bes g>16. <bes g>32 <bes g>8 r\! |
@@ -180,7 +180,7 @@ ThreeViola = \relative g' {
 
     d4\p d d | d d d | d d d | d r r |
     d d d | d d d | d d d | d r r |
-    \repeat unfold 6 { R2. | }
+    R2.*6 |
 
     d4 r8 a' f16 g f e | d4 r8 d' bes16 a g f | e4 r8 g e16 d c bes |
     c4 r8 c' a16 g f e | d4 r8 f d16 c bes a | bes4 r8 bes' g16 f ees d |
@@ -192,7 +192,7 @@ ThreeViola = \relative g' {
     ees16-> c c c c c c-> c c c c c | bes'-> c, c c c c c-> c c c c c |
     aes'-> c, c c c c c-> c c c c c | g'-> c,-> c c c c c-> c c8 r |
 
-    \repeat unfold 11 { R2. | }
+    R2.*11 |
 
     c16->\f c c c c c c-> c c c c c | aes'-> c, c c aes' c, c-> c aes' c, c c |
     b-> b b b b b b-> b b b b b | g'-> bes, bes bes g' bes, bes-> bes g' bes, bes bes |
@@ -201,7 +201,7 @@ ThreeViola = \relative g' {
     fis-> fis fis fis fis fis fis-> fis fis fis fis fis | d'-> f, f f d' f, f-> f d' f, f f |
     e-> e e e e e e-> e e e e e | c'-> ees, ees ees c' ees, ees-> ees c' ees, ees ees |
 
-    d4 r r | R2. | R | R | R |
+    d4 r r | R2.*4 |
 
     g,16\f g g g g g g g g g g g |
     \repeat unfold 24 { c } |
@@ -257,7 +257,7 @@ ThreeViola = \relative g' {
     \repeat unfold 6 { g, c ees g } |
     a,\< d e a a, d e a a, d e a | a, d e a a, d e a a, d e a\! |
 
-    \repeat unfold 7 { R1 | }
+    R1*7 |
 
     d,1\<^\markup{\column{\line{Play one of these notes for a while. Then the other. Ad lib swells.}
     \line{Roughly follow Principal Viola for changes in pitch and volume.}}} ees\p 
