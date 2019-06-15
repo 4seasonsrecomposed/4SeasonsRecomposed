@@ -20,7 +20,7 @@ OneViolinTwoC = \relative e'' {
             s1\> | s2... s16\! |
         }
     >>
-    R1 | R1 | R1 | R1 | R1 | R1 |
+    R1*6 |
     b'4-!( b-! b-! b8-.) cis16( dis) |e dis cis b a gis fis e e'4-! e-! |
     e-! e-! e8( b-.) r b-. | r b-. r b-. r b-. r b-. | r b-. r b-. r b-. r b-. |
 

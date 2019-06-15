@@ -21,7 +21,7 @@ OneViolinTwoB = \relative e'' {
         }
     >>
 
-    R1 | R1 | R1 | R1 |
+    R1*4 |
     r2 r8_\markup{\dynamic{pp} poco a poco cresc} cis'16( dis) e dis cis b |
     a gis fis e \repeat unfold 6 { r8 \acciaccatura fis'8 e-. } r8 b-. |
     r b-. r b-. r b-. \repeat unfold 2 { \acciaccatura fis'8 e4-. } b4-! b-! b8-. cis16( dis) |

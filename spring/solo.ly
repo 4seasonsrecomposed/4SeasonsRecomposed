@@ -4,9 +4,7 @@ ZeroSolo = \relative e'' {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
 
     \mark "Dolce"
-    \repeat unfold 21 {
-        R1|
-    }
+    R1*21 |
 }
 
 OneSolo = \relative e''{

@@ -20,7 +20,7 @@ OneViolinTwoA = \relative e'' {
             s1\> | s2... s16\! |
         }
     >>
-    R1 | R1 | R1 |
+    R1*3 |
     r2 r8_\markup{\dynamic{pp} poco a poco cresc} b'-. r b-. |
     \repeat unfold 6 { r e16( b) } e16( fis e8-.) e16( fis e8-.) |
     e16( b e8-.) e16( b e8-.) e16( b e8-.) b4-! | b-! b8-. b-. r b-. r b-. |
@@ -125,7 +125,7 @@ ThreeViolinTwo = \relative e'' {
     \key e \major
     \time 12/8
 
-    \repeat unfold 28 { R1. | }
+    R1.*28 |
 
     <fis e cis>8--\p^"div á 3" \repeat unfold 11 { <fis e cis>-- } |
     <fis dis b>^"sim." \repeat unfold 11 { <fis dis b> } |

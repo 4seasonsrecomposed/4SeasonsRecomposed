@@ -1,42 +1,34 @@
 ZeroHarpsichordUpper = \relative e'' {
     \key e \major
     \time 4/4
-    \repeat unfold 21 {
-        R1 |
-    }
+    R1*21 |
 }
 
 ZeroHarpsichordLower = \relative e {
     \clef bass
     \key e \major
     \time 4/4
-    \repeat unfold 21 {
-        R1 |
-    }
+    R1*21 |
 }
 
 OneHarpsichordUpper = \relative e {
     \key e \major
     \time 4/4
-    \repeat unfold 65 {
-        R1 |
-    }
+    R1*65 |
 }
 
 OneHarpsichordLower = \relative e {
     \clef bass
     \key e \major
     \time 4/4
-    \repeat unfold 65 {
-        R1 |
-    }
+    R1*65 |
 }
 
 TwoHarpsichordUpper = \relative e'' {
     \key e \major
     \time 3/4
     R2.\pp
-    \repeat unfold 27 { R2. | }
+    R2.*27 |
 
     \clef bass
     r8\pp cis,, cis4 r | r8 cis cis4 r |
@@ -94,20 +86,20 @@ ThreeHarpsichordUpper = \relative e'' {
     \key e \major
     \time 12/8
 
-    \repeat unfold 14 { R1. | }
-    R1.\p <<{\oneVoice R1.}\\{s2\pCresc s1 }>> \repeat unfold 10 { R1. | }
+    R1.*14 |
+    R1.\p <<{\oneVoice R1.}\\{s2\pCresc s1 }>> R1.*10 |
     R1.\< R1.
 
-    R1.\mp R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> \repeat unfold 9 { R1. | }
+    R1.\mp R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> R1.*9 |
     R1.\< R1.
 
-    R1.\mp R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> \repeat unfold 9 { R1. | }
+    R1.\mp R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> R1.*9 |
     R1.\< R1.
 
-    R1.\mf R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> \repeat unfold 9 { R1. | }
+    R1.\mf R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> R1.*9 |
     <<{ \oneVoice R1. | R1. }\\{ s1.\< s1 s4 s4\ff }>>
 
-    R1.\f R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> \repeat unfold 9 { R1. | }
+    R1.\f R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>> R1.*9 |
     <<{ \oneVoice R1. | R1. }\\{ s1.\< s1 s4 s4\! }>>
 
 }

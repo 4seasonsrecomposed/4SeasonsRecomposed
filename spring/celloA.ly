@@ -3,9 +3,7 @@ ZeroCello = \relative e {
     \key e \major
     \time 4/4
 
-    \repeat unfold 12 {
-        R1 |
-    }
+    R1*12 |
     <<{\oneVoice b2\p r2}\\{s4\< s4\> s2\!}>>  |
     R1 | R1 |
     <a e>8\<^"div." <a e> <a e> <a e> 

@@ -40,7 +40,7 @@ OneViolaB = \relative e' {
             s1\> | s2... s16\! |
         }
     >>
-    R1 | R1 |
+    R1*2 |
     
     R1 | cis1~_\markup{\dynamic{pp} poco a poco cresc} | cis |
     e~ | e | dis~ | dis | cis~ | cis |

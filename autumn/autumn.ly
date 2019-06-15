@@ -71,15 +71,15 @@ OneScore = \score {
             
         }
         \OneCello
-        %\new Staff \with {
-        %    instrumentName = #"Bass"
-        %}
-        %\OneBass
-        %\new PianoStaff <<
-        %    \set PianoStaff.instrumentName = #"Harp"
-        %    \new Staff \OneHarpUpper
-        %    \new Staff \OneHarpLower
-        %>>
+        \new Staff \with {
+            instrumentName = #"Bass"
+        }
+        \OneBass
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harp"
+            \new Staff \OneHarpUpper
+            \new Staff \OneHarpLower
+        >>
         %\new PianoStaff <<
         %    \set PianoStaff.instrumentName = #"Harpsichord"
         %    \new Staff \OneHarpsichordUpper

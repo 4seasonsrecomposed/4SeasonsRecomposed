@@ -1,18 +1,14 @@
 ZeroHarpUpper = \relative e'' {
     \key e \major
     \time 4/4
-    \repeat unfold 21 {
-        R1 |
-    }
+    R1*21 |
 }
 
 ZeroHarpLower = \relative e {
     \clef bass
     \key e \major
     \time 4/4
-    \repeat unfold 21 {
-        R1 |
-    }
+    R1*21 |
 }
 
 OneHarpUpper = \relative e'' {
@@ -72,7 +68,7 @@ TwoHarpUpper = \relative e'' {
     \key e \major
     \time 3/4
 
-    \repeat unfold 28 { R2. | }
+    R2.*28 |
 
     r4\pp r8 cis-. cis4-- | r r8^\markup{\italic{sim.}} cis cis4 |
     r r8 cis cis4 | r r8 cis cis4 |
@@ -98,7 +94,7 @@ TwoHarpLower = \relative e {
     \key e \major
     \time 3/4
 
-    \repeat unfold 28 { R2. | }
+    R2.*28 |
 
     cis,2.~ | cis2. | cis2.~ | cis2. |
     b2.~ | b2. | gis2.~ | gis2. |
@@ -118,11 +114,11 @@ ThreeHarpUpper = \relative e'' {
     \key e \major
     \time 12/8
 
-    R1.\pp \repeat unfold 13 { R1. | }
-    R1.\p \repeat unfold 11 { R1. | } R1.\< | R1. |
+    R1.\pp | R1.*13 |
+    R1.\p | R1.*11 | R1.\< | R1. |
 
     R1.\mp R1. <<{\oneVoice R1.}\\{s2\pCresc s1 }>>
-    \repeat unfold 9 { R1. | } R1.\< R1.
+    R1.*9 |  R1.\< | R1. |
 
     \tuplet 2/3 4. {
         <fis cis>8\mp <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> <fis cis> |

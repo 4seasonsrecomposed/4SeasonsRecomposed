@@ -70,7 +70,7 @@ TwoViolinOneA = \relative e'' {
     \key e \major
     \time 3/4
 
-    \repeat unfold 28 { R2. | }
+    R2.*28 |
 
     r4 r8\pp cis-. cis4-- | r r8^\markup{\italic{sim.}} cis cis4 |
     r r8 cis cis4 | r r8 cis cis4 |
@@ -87,7 +87,7 @@ ThreeViolinOne = \relative e'' {
     \key e \major
     \time 12/8
     
-    \repeat unfold 14 { R1. | }
+    R1.* 14 |
     \tuplet 2/3 4. {
         <fis cis>8-_\pp^"div." <fis cis>-_ <fis cis>-_ <fis cis>-_ <fis cis>-_ <fis cis>-_ <fis cis>-_ <fis cis>-_  |
         <fis b,>^"sim." <fis b,> <fis b,> <fis b,> <fis b,> <fis b,> <fis b,> <fis b,> |
