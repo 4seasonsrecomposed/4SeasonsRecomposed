@@ -80,11 +80,11 @@ OneScore = \score {
             \new Staff \OneHarpUpper
             \new Staff \OneHarpLower
         >>
-        %\new PianoStaff <<
-        %    \set PianoStaff.instrumentName = #"Harpsichord"
-        %    \new Staff \OneHarpsichordUpper
-        %    \new Staff \OneHarpsichordLower
-        %>>
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harpsichord"
+            \new Staff \OneHarpsichordUpper
+            \new Staff \OneHarpsichordLower
+        >>
 
     >>
     \header{

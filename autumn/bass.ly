@@ -37,9 +37,9 @@ OneBass = \relative f {
     gis,4 r r r16\f a' e cis |
     a4 r e''8( d cis bes | a g f e) a,4 r |
     r r16\f d'16 a fis d4 r | d r d r |
-    R1 | R |
+    R1*2 |
     r4 r16 d' a fis d4 r |
-    R1 | R | R | R2 |
+    R1*3 | R2 |
 
     g8\p g c, g'4 g8 c, | g' g g g a a d, |
     g[ g] c,[ cis] d[ c] |
@@ -62,7 +62,7 @@ OneBass = \relative f {
     r\! g'16 f g8 g, r c'16 b c8 c, | r\> c'16 b c8 c, f,4\! r |
     R1*7 |
 
-    f'_\markup{\dynamic{p}dolce} | ees | des | c |
+    f'1_\markup{\dynamic{p}dolce} | ees | des | c |
     des\< | ees | f | g |
 
     f\mp | ees\< | des | c |

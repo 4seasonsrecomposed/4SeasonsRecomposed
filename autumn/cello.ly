@@ -83,7 +83,7 @@ OneCello = \relative f {
 
     R1*5 |
 
-    f_\markup{\dynamic{p}dolce} | ees | des | c |
+    f1_\markup{\dynamic{p}dolce} | ees | des | c |
     <des f'>\<^\markup{\italic{div.}} | <ees ees'> |
     <f aes'> | <g e'> |
 
