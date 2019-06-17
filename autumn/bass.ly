@@ -72,3 +72,5 @@ OneBass = \relative f {
     f~ | f\! |
 
 }
+
+TwoBass = \TwoCello

@@ -74,4 +74,16 @@ TwoViola = \relative f' {
     \clef alto
     \key f \major
     
+    R2. | bes,~^"sordino"_\markup{sempre\dynamic{p}} | bes~ | bes~ | bes |
+    e~ | e |
+
+    d | b' | c~ | c( | cis~) | cis | b~ | b~ |
+
+    b~ | b | a~ | a | c,~ | c | d~ | d |
+
+    c~ | c | aes' | b,~ | b | a' | b | a~ |
+
+    a\p | cis | a~ | a~ | a | cis | a~ | a~ |
+
+    a\pp | gis~ | gis | a~ | a~ | a\fermata |
 }

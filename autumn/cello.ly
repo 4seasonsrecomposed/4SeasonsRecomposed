@@ -93,3 +93,25 @@ OneCello = \relative f {
     <des f'>\p | <ees ees'>\> | <f aes'> | <g e'> |
     <f f'>~ | <f f'>\! |
 }
+
+TwoCello = \relative f {
+    \clef bass
+    \key f \major
+
+    d2.~^"sordino"_\markup{sempre\dynamic{p}} | d~ | d~ | d |
+    cis~ | cis~ | cis( |
+    
+    c!) | d( | dis~) | dis |
+    ais~ | ais( | a!) | g |
+
+    gis~ | gis( | g!) | f |
+    e~ | e | b'~ | b |
+    
+    bes | aes~ | aes | g~ |
+    g~ | g | gis | a~ |
+
+    a~\p | a~ | a~ | a~ |
+    a~_\markup{più\dynamic{p}} | a~ | a~ | a~ |
+
+    a~\pp | a~ | a~ | a~ | a~ | a\fermata |
+}

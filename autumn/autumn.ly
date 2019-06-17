@@ -114,21 +114,21 @@ TwoScore = \score {
             
         }
         \TwoViola
-%        \new Staff \with {
-%            instrumentName = #"Cello"
-%            
-%        }
-%        \TwoCello
-%        \new Staff \with {
-%            instrumentName = #"Bass"
-%            
-%        }
-%        \TwoBass
-%        \new PianoStaff <<
-%            \set PianoStaff.instrumentName = #"Harp"
-%            \new Staff \TwoHarpUpper
-%            \new Staff \TwoHarpLower
-%        >>
+        \new Staff \with {
+            instrumentName = #"Cello"
+            
+        }
+        \TwoCello
+        \new Staff \with {
+            instrumentName = #"Bass"
+            
+        }
+        \TwoBass
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harp"
+            \new Staff \TwoHarpUpper
+            \new Staff \TwoHarpLower
+        >>
         \new PianoStaff <<
             \set PianoStaff.instrumentName = #"Harpsichord"
             \new Staff \TwoHarpsichordUpper

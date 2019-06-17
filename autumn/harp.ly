@@ -74,3 +74,16 @@ OneHarpLower = \relative f {
     <des f'> | <ees ees'> | <f aes'> | <g e'> |
     <f f'>~ | <f f'> |
 }
+
+TwoHarpUpper = \relative f'' {
+    \key f \major
+
+    R2.*45 |
+}
+
+TwoHarpLower = \relative f'' {
+    \clef bass
+    \key f \major
+
+    R2.*45 |
+}
