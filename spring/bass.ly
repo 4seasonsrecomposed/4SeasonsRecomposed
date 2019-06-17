@@ -1,8 +1,7 @@
 ZeroBass = \relative e {
     \clef bass
     \key e \major
-    \time 4/4
-    R1*12
+        R1*12
     <<{\oneVoice b'2\p r2}\\{s4\< s4\> s2\!}>>  |
     R1 | R1 |
     e,8\< e e e 
@@ -17,8 +16,7 @@ OneBass = \OneCello
 TwoBass = \relative e {
     \clef bass
     \key e \major
-    \time 4/4
-
+    
     R2.*28 |
 
     cis2.~\p | cis2. | cis2.~ | cis2. |
@@ -36,8 +34,7 @@ TwoBass = \relative e {
 ThreeBass = \relative e {
     \clef bass
     \key e \major
-    \time 12/8
-
+    
     R1.*28 |
 
     a,4.-_\p a-_ a-_ a-_ |

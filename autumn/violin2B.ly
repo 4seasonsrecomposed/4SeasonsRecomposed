@@ -1,7 +1,6 @@
 OneViolinTwoB = \relative f'' {
     \key f \major
-    \time 4/4
-
+    
     f8\f f f g f4 f8 g | f f f g f4 f8 g |
     f e16 f g8 f e r |
     f,\p f f g f4 f8 g | f f f g f4 f8 g |

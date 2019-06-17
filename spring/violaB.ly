@@ -1,8 +1,7 @@
 ZeroViolaB = \relative e' {
     \clef alto
     \key e \major
-    \time 4/4
-    
+        
     fis8\<^"Play this line ad lib, fading in and out" fis fis fis fis fis fis fis|
     \startTrillLineAlto
     s1 | s1 | s1\! | \repeat unfold 15 { s1 | }
@@ -12,8 +11,7 @@ ZeroViolaB = \relative e' {
 OneViolaB = \relative e' {
     \clef alto
     \key e \major
-    \time 4/4
-    <<
+        <<
         {
             % START DIGITAL AUDIO
             % Use Glissando to emulate the symbol, hide all notes in it
@@ -66,8 +64,7 @@ OneViolaB = \relative e' {
 ThreeViolaB = \relative e' {
     \clef alto
     \key e \major
-    \time 12/8
-
+    
     e4.-_\pp^"div á 3" e-_ e-_ e-_ |
     dis^"sim." dis dis dis |
     dis dis dis dis |

@@ -1,7 +1,6 @@
 OneViola = \relative f' {
     \clef alto
     \key f \major
-    \time 4/4
 
     a8\f a a e a4 a8 e | a a a e a4 a8 e |
     a[ a] d,[ d] e r |
@@ -69,4 +68,10 @@ OneViola = \relative f' {
 
     aes~\mp | aes2\> g~ | g f~ | f e |
     aes2.\p bes4 | g2\> c | des1 | c | aes~ | aes\! |
+}
+
+TwoViola = \relative f' {
+    \clef alto
+    \key f \major
+    
 }

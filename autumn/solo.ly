@@ -170,11 +170,31 @@ OneSolo = \relative f'' {
     aes,2. f'4 | g,1 |
     f1 | R1\! \bar "|."
 
+}
 
+TwoSolo = \relative f'' {
+    \key f \major
+    \time 3/4
+    \set Score.currentBarNumber = #120
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
 
+    \mark "Adagio molto"
+    R2.*3 | e2.~^"sordino"_\markup{sempre\dynamic{p}} | e |
+    bes'2.~ | \slurDashed bes4( a) g \bar "||"
 
+    a2. | gis | a~ | a4( g fis) |
+    g2.~ | g4( fis) e | fis2. | g4( a) b \bar "||"
 
+    f2.~ | f4\( ( e) d\) | e2. | f4\( ( g) a\) |
+    bes2.~ | bes4\( ( aes) g\) | aes2.~ | aes4\( ( g) f\) \bar "||"
 
+    g2.~ | g | f~ | f~ | f4( e) d |
+    e2. | f | e4\( ( f) g\) \bar "||"
+
+    \slurSolid a2.\p( | g | f) |
+    e | f( | g) | f( | e) \bar "||"
+
+    f\pp | e~ | e~ | e~ | e~ | e\fermata \bar "|."
 
 
 }

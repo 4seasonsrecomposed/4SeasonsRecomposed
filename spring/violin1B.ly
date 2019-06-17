@@ -1,7 +1,6 @@
 ZeroViolinOneB = \relative e'' {
     \key e \major
-    \time 4/4
-    R1*10 |
+        R1*10 |
     r8\mf^"Play this line ad lib, fading in and out" gis8 gis gis gis gis16 a b4 |
     \startTrillLineTreble
     \repeat unfold 8 { s1 | }
@@ -10,8 +9,7 @@ ZeroViolinOneB = \relative e'' {
 
 OneViolinOneB = \relative e'' {
     \key e \major
-    \time 4/4
-    R1*2 |
+        R1*2 |
     b'4-!(_\markup{\dynamic{pp} poco a poco cresc} b-!) b-!( b-! | b-! b-!) b8-.( b-. b-. b-. |
     b-. b-. b-. b-.) b-.( b-. b-. b-. | b-. b-. b-.) cis16( dis) e dis cis b a gis fis e |
     e4-! e-! e8-. \acciaccatura a8 gis8-. r e-. | r e-. r e-. r e-. e-. a16( gis) |

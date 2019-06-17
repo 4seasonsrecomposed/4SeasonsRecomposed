@@ -1,7 +1,6 @@
 OneViolinOneA = \relative f'' {
     \key f \major
-    \time 4/4
-
+    
     a8\f a a bes a4 a8 bes | a8 a a bes a4 a8 bes |
     a g16 a bes8 a g r |
     a,8\p a a bes a4 a8 bes | a8 a a bes a4 a8 bes |
@@ -90,5 +89,28 @@ OneViolinOneA = \relative f'' {
     <g e> <g e> <g e> <g e> <g e> <g e> <g e> <g e> |
     <c aes> <c aes> <c aes> <c aes> <c aes> <c aes> <c aes> <c aes> |
     <c aes>1\! |
+
+}
+
+TwoViolinOne = \relative f'' {
+    \key f \major
+    
+    R2.*3 | e2.~^"sordino"_\markup{sempre\dynamic{p}} | e |
+    bes'2.~ | \slurDashed bes4( a) g |
+
+    a2. | gis | a~ | a4( g fis) |
+    g2.~ | g4( fis) e | fis2. | g4( a) b |
+
+    f2.~ | f4\( ( e) d\) | e2. | f4\( ( g) a\) |
+    bes2.~ | bes4\( ( aes) g\) | aes2.~ | aes4\( ( g) f\) |
+
+    g2.~ | g | f~ | f~ | f4( e) d |
+    e2. | f | e4\( ( f) g\) |
+
+    \slurSolid a2.\p( | g | f) |
+    e | f( | g) | f( | e) |
+
+    f\pp | e~ | e~ | e~ | e~ | e\fermata |
+
 
 }

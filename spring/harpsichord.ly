@@ -1,33 +1,28 @@
 ZeroHarpsichordUpper = \relative e'' {
     \key e \major
-    \time 4/4
-    R1*21 |
+        R1*21 |
 }
 
 ZeroHarpsichordLower = \relative e {
     \clef bass
     \key e \major
-    \time 4/4
-    R1*21 |
+        R1*21 |
 }
 
 OneHarpsichordUpper = \relative e {
     \key e \major
-    \time 4/4
-    R1*65 |
+        R1*65 |
 }
 
 OneHarpsichordLower = \relative e {
     \clef bass
     \key e \major
-    \time 4/4
-    R1*65 |
+        R1*65 |
 }
 
 TwoHarpsichordUpper = \relative e'' {
     \key e \major
-    \time 3/4
-    R2.\pp
+        R2.\pp
     R2.*27 |
 
     \clef bass
@@ -50,8 +45,7 @@ TwoHarpsichordUpper = \relative e'' {
 TwoHarpsichordLower = \relative e {
     \clef bass
     \key e \major
-    \time 3/4
-    
+        
     r8 cis-. cis4-- r | r8^\markup{\italic{sim.}} cis cis4 r |
     r8 cis cis4 r | r8 cis cis4 r |
     r8 b b4 r | r8 b b4 r |
@@ -84,8 +78,7 @@ TwoHarpsichordLower = \relative e {
 
 ThreeHarpsichordUpper = \relative e'' {
     \key e \major
-    \time 12/8
-
+    
     R1.*14 |
     R1.\p <<{\oneVoice R1.}\\{s2\pCresc s1 }>> R1.*10 |
     R1.\< R1.
@@ -107,8 +100,7 @@ ThreeHarpsichordUpper = \relative e'' {
 ThreeHarpsichordLower = \relative e {
     \clef bass
     \key e \major
-    \time 12/8
-
+    
     \repeat unfold 14 { R1. | }
     a,4( a') cis( fis) cis( a) | a, fis' b dis b fis |
     gis, gis' b e b gis | gis, e' a cis a e |

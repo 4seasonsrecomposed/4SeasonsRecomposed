@@ -1,7 +1,6 @@
 OneHarpsichordUpper = \relative g'' {
     \key g \minor
-    \time 3/8
-
+    
     % No notes but some marks in this line. Use 's' to mark them.
 
     R4.\pp | R4.*9 | R4.^\fermataMarkup
@@ -28,8 +27,7 @@ OneHarpsichordUpper = \relative g'' {
 OneHarpsichordLower = \relative g {
     \clef bass
     \key g \minor
-    \time 3/8
-
+    
     r8 g d | r g, d | r d' d, | r d' d, | g4 r8 |
     d'4 r8 | d4 r8 | g,4 r8 | g4 r8 | c4 r8 | c4.\fermata |
 
@@ -140,23 +138,20 @@ OneHarpsichordLower = \relative g {
 
 TwoHarpsichordUpper = \relative g'' {
     \key g \minor
-    \time 4/4 
-
+    
     R1*44 |
 }
 
 TwoHarpsichordLower = \relative g {
     \clef bass
     \key g \minor
-    \time 4/4 
-
+    
     R1*44 |
 }
 
 ThreeHarpsichordUpper = \relative g'' {
     \key g \minor
-    \time 3/4
-    \set Timing.beamExceptions = #'()
+        \set Timing.beamExceptions = #'()
 
     g4.\f g, | f' g, | ees' g, | d' g, |
     g4. g, | f' g, | ees' g, | d' g, |
@@ -214,8 +209,7 @@ ThreeHarpsichordUpper = \relative g'' {
 ThreeHarpsichordLower = \relative g {
     \clef bass
     \key g \minor
-    \time 3/4
-    \set Timing.beamExceptions = #'()
+        \set Timing.beamExceptions = #'()
 
     g4 g, g | f' g, g | ees' g, g | d' g, g |
     ees' ees, ees | d' ees, ees | c' ees, ees | bes' ees, ees |

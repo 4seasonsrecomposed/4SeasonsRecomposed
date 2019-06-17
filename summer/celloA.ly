@@ -1,8 +1,7 @@
 OneCelloA = \relative g {
     \clef bass
     \key g \minor
-    \time 3/8
-
+    
     r8\pp g d | r g, d | r d' d, | r d' d, | g4 r8 |
     d'4 r8 | d4 r8 | g,4 r8 | g4 r8 | c4 r8 | c4.\fermata |
 
@@ -114,8 +113,7 @@ OneCelloA = \relative g {
 TwoCelloA = \relative g {
     \clef bass
     \key g \minor
-    \time 4/4
-
+    
     R1*4 |
 
     g,1\pp | f\pCresc | ees\< | d | g\p_"poco a poco dim." |
@@ -137,8 +135,7 @@ TwoCelloA = \relative g {
 ThreeCello = \relative g {
     \clef bass
     \key g \minor
-    \time 3/4
-    \set Timing.beamExceptions = #'()
+        \set Timing.beamExceptions = #'()
 
     <<
         {

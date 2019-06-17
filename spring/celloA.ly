@@ -1,8 +1,7 @@
 ZeroCello = \relative e {
     \clef bass
     \key e \major
-    \time 4/4
-
+    
     R1*12 |
     <<{\oneVoice b2\p r2}\\{s4\< s4\> s2\!}>>  |
     R1 | R1 |
@@ -16,8 +15,7 @@ ZeroCello = \relative e {
 OneCello = \relative e {
     \clef bass
     \key e \major
-    \time 4/4
-
+    
     R1 | R1 | R1 | R1 |
 
     R1 | a,1~_\markup{\dynamic{pp} poco a poco cresc} | a |
@@ -45,8 +43,7 @@ OneCello = \relative e {
 TwoCello = \relative e {
     \clef bass
     \key e \major
-    \time 3/4
-
+    
     r8\pp\< cis-. cis4-- r4 | r8\>^\markup{\italic{sim.}} cis cis4 r |
     r8\< cis cis4 r | r8\> cis cis4 r |
     r8\< b b4 r | r8 b b4 r |
@@ -85,8 +82,7 @@ TwoCello = \relative e {
 ThreeCelloA = \relative e {
     \clef bass
     \key e \major
-    \time 12/8
-
+    
     a4.-_\pp^"1 player" a-_ a-_ a-_ |
     a^"sim." a a a |
     \repeat percent 2 { gis gis gis gis | }

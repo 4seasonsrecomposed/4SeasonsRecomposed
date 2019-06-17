@@ -1,20 +1,17 @@
 ZeroHarpUpper = \relative e'' {
     \key e \major
-    \time 4/4
-    R1*21 |
+        R1*21 |
 }
 
 ZeroHarpLower = \relative e {
     \clef bass
     \key e \major
-    \time 4/4
-    R1*21 |
+        R1*21 |
 }
 
 OneHarpUpper = \relative e'' {
     \key e \major
-    \time 4/4
-
+    
     R1 | R1 | R1 | R1 |
 
     R1 | cis,1~_\markup{\dynamic{pp} poco a poco cresc} | cis |
@@ -41,8 +38,7 @@ OneHarpUpper = \relative e'' {
 OneHarpLower = \relative e{
     \clef bass
     \key e \major
-    \time 4/4
-
+    
     R1 | R1 | R1 | R1 |
 
     R1 | < a,~ a,~ >1 | < a a, > | < cis~ cis,~ > | < cis cis, > |  < b~ b,~ > | < b b, > |  < a~ a,~ > | < a a, > |
@@ -66,8 +62,7 @@ OneHarpLower = \relative e{
 
 TwoHarpUpper = \relative e'' {
     \key e \major
-    \time 3/4
-
+    
     R2.*28 |
 
     r4\pp r8 cis-. cis4-- | r r8^\markup{\italic{sim.}} cis cis4 |
@@ -92,8 +87,7 @@ TwoHarpUpper = \relative e'' {
 TwoHarpLower = \relative e {
     \clef bass
     \key e \major
-    \time 3/4
-
+    
     R2.*28 |
 
     cis,2.~ | cis2. | cis2.~ | cis2. |
@@ -112,8 +106,7 @@ TwoHarpLower = \relative e {
 
 ThreeHarpUpper = \relative e'' {
     \key e \major
-    \time 12/8
-
+    
     R1.\pp | R1.*13 |
     R1.\p | R1.*11 | R1.\< | R1. |
 
@@ -171,8 +164,7 @@ ThreeHarpUpper = \relative e'' {
 ThreeHarpLower = \relative e {
     \clef bass
     \key e \major
-    \time 12/8
-
+    
     a4.( r) r2. | a4.( r) r2. |
     gis4.( r) r2. | gis4.( r) r2. |
     fis4.( r) r2. | fis4.( r) r2. |

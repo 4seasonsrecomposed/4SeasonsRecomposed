@@ -1,8 +1,7 @@
 OneViolaB = \relative g' {
     \clef alto
     \key g \minor
-    \time 3/8
-
+    
     r8\pp d' d | r d, fis | r fis fis | r d d | d4 r8 |
     fis4 r8 | fis4 r8 | g4 r8 | g4 r8 | g4 c,8 | a4.\fermata |
 

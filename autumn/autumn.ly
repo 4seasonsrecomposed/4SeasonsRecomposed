@@ -1,4 +1,3 @@
-%"II. Adagio molto"
 %"III. Allegro"
 
 \version "2.18.2"
@@ -93,28 +92,28 @@ OneScore = \score {
     %\midi { \tempo 4 = 120 }
 }
 
-%TwoScore = \score {
-%    <<
-%        \new Staff \with {
-%            instrumentName = #"Solo Violin"
-%            
-%        }
-%        \TwoSolo
-%        \new Staff \with {
-%            instrumentName = #"1st Violin"
-%
-%        }
-%        \TwoViolinOne
-%        \new Staff \with {
-%            instrumentName = #"2nd Violin"
-%           
-%        }
-%        \TwoViolinTwo
-%        \new Staff \with {
-%            instrumentName = #"Viola"
-%            
-%        }
-%        \TwoViola
+TwoScore = \score {
+    <<
+        \new Staff \with {
+            instrumentName = #"Solo Violin"
+            
+        }
+        \TwoSolo
+        \new Staff \with {
+            instrumentName = #"1st Violin"
+
+        }
+        \TwoViolinOne
+        \new Staff \with {
+            instrumentName = #"2nd Violin"
+           
+        }
+        \TwoViolinTwo
+        \new Staff \with {
+            instrumentName = #"Viola"
+            
+        }
+        \TwoViola
 %        \new Staff \with {
 %            instrumentName = #"Cello"
 %            
@@ -130,17 +129,18 @@ OneScore = \score {
 %            \new Staff \TwoHarpUpper
 %            \new Staff \TwoHarpLower
 %        >>
-%        \new PianoStaff <<
-%            \set PianoStaff.instrumentName = #"Harpsichord"
-%            \new Staff \TwoHarpsichordUpper
-%            \new Staff \TwoHarpsichordLower
-%        >>
-%
-%    >>
-%    \header {
-%        title = \markup{\abs-fontsize #16 {II}}
-%    }
-%}
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harpsichord"
+            \new Staff \TwoHarpsichordUpper
+            \new Staff \TwoHarpsichordLower
+        >>
+
+    >>
+    \header {
+        title = \markup{\abs-fontsize #16 {II}}
+    }
+    %\midi { \tempo 4 = 80 }
+}
 %
 %ThreeScore = \score {
 %    <<
@@ -234,7 +234,7 @@ OneScore = \score {
         title = \markup{\abs-fontsize #20 {Autumn}}
     }
     \markup { \vspace #1 }
-    \OneScore
-    %\TwoScore
+    %\OneScore
+    \TwoScore
     %\ThreeScore
 }

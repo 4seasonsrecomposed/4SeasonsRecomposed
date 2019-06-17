@@ -1,8 +1,7 @@
 ThreeCelloB = \relative e {
     \clef bass
     \key e \major
-    \time 12/8
-
+    
     a4.-_\pp^"altri" a-_ a-_ a-_ |
     a^"sim." a a a |
     \repeat percent 2 { gis gis gis gis | }

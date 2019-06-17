@@ -1,7 +1,6 @@
 OneViolinTwoA = \relative g'' {
     \key g \minor
-    \time 3/8
-
+    
     r8\pp g fis | r g, fis | r a16( bes) c8 | r fis,16( g) a8 | g'4 r8 |
     a,( g fis) | a'4 r8 | bes,( a g) | bes'4 r8 | c,( bes a) c,4.\fermata |
 
@@ -96,8 +95,7 @@ OneViolinTwoA = \relative g'' {
 
 TwoViolinTwoA = \relative g'' {
     \key g \minor
-    \time 4/4
-    \set harmonicDots = ##t
+        \set harmonicDots = ##t
     
     r2 r4\ppp <a, d\harmonic>4~ | <a d\harmonic>1~ |
     <a d\harmonic>2 <g c\harmonic>2~ | <g c\harmonic>1 |
@@ -134,8 +132,7 @@ TwoViolinTwoA = \relative g'' {
 
 ThreeViolinTwo = \relative g''{
     \key g \minor
-    \time 3/4
-    \set Timing.beamExceptions = #'()
+        \set Timing.beamExceptions = #'()
 
     g,16->\f g, g g g g g-> g g g g g | f'-> g, g g g g g-> g g g g g |
     ees'-> g, g g g g g-> g g g g g | d'-> g, g g g g g-> g g g g g |

@@ -1,7 +1,6 @@
 ZeroViolinTwoB = \relative e'' {
     \key e \major
-    \time 4/4
-    
+        
     e8\<^"Play this line ad lib, fading in and out" e e e e e e e|
     \startTrillLineTreble
     s1 | s1 | s1\! | \repeat unfold 15 { s1 | }
@@ -10,8 +9,7 @@ ZeroViolinTwoB = \relative e'' {
 
 OneViolinTwoB = \relative e'' {
     \key e \major
-    \time 4/4
-
+    
     <<
         {
             \startTrillLineTreble

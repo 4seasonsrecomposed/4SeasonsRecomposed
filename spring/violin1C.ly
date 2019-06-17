@@ -1,7 +1,6 @@
 ZeroViolinOneC = \relative e'' {
     \key e \major
-    \time 4/4
-    R1*11 |
+        R1*11 |
     r8\pp^"Play this line ad lib, fading in and out" \acciaccatura cis8 b-.
     \repeat unfold 3 { r \acciaccatura cis8  b-. } |
     \startTrillLineTreble
@@ -35,8 +34,7 @@ ZeroViolinOneC = \relative e'' {
 
 OneViolinOneC = \relative e'' {
     \key e \major
-    \time 4/4
-    <<
+        <<
         {
             \startTrillLineTreble
             \endTrillLineTreble
@@ -94,8 +92,7 @@ OneViolinOneC = \relative e'' {
 
 TwoViolinOneC = \relative e'' {
     \key e \major
-    \time 3/4
-
+    
     R2.*28 |
 
     <<

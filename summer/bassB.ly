@@ -1,8 +1,7 @@
 OneBassB = \relative g {
     \clef bass
     \key g \minor
-    \time 3/8
-
+    
     R4.*10 | R4.^\fermataMarkup |
     R4.*19 |
 

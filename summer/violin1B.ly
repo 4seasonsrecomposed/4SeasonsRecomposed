@@ -1,7 +1,6 @@
 OneViolinOneB = \relative g'' {
     \key g \minor
-    \time 3/8
-
+    
     r8\pp bes a | r bes, a | r c16( d) ees8 | r a,16( bes) c8 | bes'4 r8 |
     c,( bes a) | c'4 r8 | d,( c bes) | d'4 r8 | ees,( d c) fis,4.\fermata |
 
@@ -94,8 +93,7 @@ OneViolinOneB = \relative g'' {
 
 TwoViolinOneB = \relative g'' {
     \key g \minor
-    \time 4/4
-    \set harmonicDots = ##t
+        \set harmonicDots = ##t
     
     <<R1\\{s1^"div"}>> | r4\ppp <c,, f\harmonic>2.~ |
     <c f\harmonic>2 <a d\harmonic>2 | <bes ees\harmonic>2. <c f\harmonic>4~ |

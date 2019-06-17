@@ -1,8 +1,7 @@
 ZeroViolaA = \relative e' {
     \clef alto
     \key e \major
-    \time 4/4
-    
+        
     a8\<^"Play this line ad lib, fading in and out" a a a a a a a|
     \startTrillLineAlto
     s1 | s1 | s1\! | \repeat unfold 15 { s1 | } 
@@ -12,8 +11,7 @@ ZeroViolaA = \relative e' {
 OneViolaA = \relative e' {
     \clef alto
     \key e \major
-    \time 4/4
-
+    
     <<
         {
             \startTrillLineAlto
@@ -48,8 +46,7 @@ OneViolaA = \relative e' {
 TwoViola = \relative e' {
     \clef alto
     \key e \major
-    \time 3/4
-
+    
     cis16.\pp\<(^"poco sul tasto"  gis32 cis16. gis32 cis16. gis32) cis16.( gis32 cis16. gis32 cis16. gis32) |
     cis16.\>^\markup{\italic{sim.}} gis32 cis16. gis32 cis16. gis32 cis16. gis32 cis16. gis32 cis16. gis32 |
     cis16.\< gis32 cis16. gis32 cis16. gis32 cis16. gis32 cis16. gis32 cis16. gis32 |
@@ -114,8 +111,7 @@ TwoViola = \relative e' {
 ThreeViolaA = \relative e' {
     \clef alto
     \key e \major
-    \time 12/8
-
+    
     <fis cis'>4.-_\pp \repeat unfold 3 { <fis cis'>-_ } |
     <fis b>^"sim." \repeat unfold 3 { <fis b> } |
     \repeat unfold 4 { <e b'> } |

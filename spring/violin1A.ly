@@ -1,7 +1,6 @@
 ZeroViolinOneA = \relative e'' {
     \key e \major
-    \time 4/4
-    r8\<^"Play this line ad lib, fading in and out" e16 fis e8 e16 fis e8 e16 fis e8 e16 fis |
+        r8\<^"Play this line ad lib, fading in and out" e16 fis e8 e16 fis e8 e16 fis e8 e16 fis |
 
     \startTrillLineTreble
     s1 | s1 | s1\! | \repeat unfold 15 { s1 | } 
@@ -10,8 +9,7 @@ ZeroViolinOneA = \relative e'' {
 
 OneViolinOneA = \relative e'' {
     \key e \major
-    \time 4/4
-    r2 r16_\markup{\dynamic{pp} poco a poco cresc} a gis a gis4\trill | 
+        r2 r16_\markup{\dynamic{pp} poco a poco cresc} a gis a gis4\trill | 
     \repeat unfold 3 { r16 a gis a gis4\trill }
     r16 fis e fis e4\trill | r16 fis e fis e4\trill r8 b'-. r b-. |
 
@@ -68,8 +66,7 @@ OneViolinOneA = \relative e'' {
 
 TwoViolinOneA = \relative e'' {
     \key e \major
-    \time 3/4
-
+    
     R2.*28 |
 
     r4 r8\pp cis-. cis4-- | r r8^\markup{\italic{sim.}} cis cis4 |
@@ -85,8 +82,7 @@ TwoViolinOneA = \relative e'' {
 
 ThreeViolinOne = \relative e'' {
     \key e \major
-    \time 12/8
-    
+        
     R1.* 14 |
     \tuplet 2/3 4. {
         <fis cis>8-_\pp^"div." <fis cis>-_ <fis cis>-_ <fis cis>-_ <fis cis>-_ <fis cis>-_ <fis cis>-_ <fis cis>-_  |

@@ -1,7 +1,6 @@
 ZeroViolinTwoC = \relative e'' {
     \key e \major
-    \time 4/4
-    
+        
     dis8\<^"Play this line ad lib, fading in and out" dis dis dis dis dis dis dis|
     \startTrillLineTreble
     s1 | s1 | s1\! | \repeat unfold 15 { s1 | }
@@ -10,8 +9,7 @@ ZeroViolinTwoC = \relative e'' {
 
 OneViolinTwoC = \relative e'' {
     \key e \major
-    \time 4/4
-
+    
     <<
         {
             \startTrillLineTreble
@@ -63,8 +61,7 @@ OneViolinTwoC = \relative e'' {
 
 TwoViolinTwoC = \relative e'' {
     \key e \major
-    \time 3/4
-
+    
     gis,16.\pp\<(^"poco sul tasto" e32 gis16. e32 gis16. e32) gis16.( e32 gis16. e32 gis16. e32) |
     gis16.^\markup{\italic{sim.}}\> dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 |
     gis16.\< e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 |

@@ -1,7 +1,6 @@
 OneViolinTwoA = \relative f'' {
     \key f \major
-    \time 4/4
-
+    
     f8\f f f g f4 f8 g | f f f g f4 f8 g |
     f e16 f g8 f e r |
     f,\p f f g f4 f8 g | f f f g f4 f8 g |
@@ -92,4 +91,25 @@ OneViolinTwoA = \relative f'' {
     <c aes> <c aes> <c aes> <c aes> <c aes> <c aes> <c aes> <c aes> |
     <c aes>1\! |
 
+}
+
+TwoViolinTwo = \relative f'' {
+    \key f \major
+    
+    R2. | R | g,~^"sordino"_\markup{sempre\dynamic{p}} | g~ | g |
+    \slurDashed
+    g'~ | g4( f) e |
+
+    fis2. | e | fis~ | fis4( e) dis |
+    e2.~ | e4( dis) cis | dis2. | e4( fis) g |
+    
+    d2.~ | d4( \( c) b\) | cis2. | d4( \( e) f\) |
+    g2.~ | g4( \( f) e\) | f2.~ | f4( \( e) d\) |
+    
+    e2. | ees | c | d~ | d4( c) b |
+    cis2. | d | cis4( d) e |
+    
+    \slurSolid f2.\p( | e | d) | cis | d( | e) | d( | cis) |
+
+    d\pp~ | d~ | d | cis~ | cis~ | cis\fermata |
 }

@@ -1,8 +1,7 @@
 OneBass = \relative f {
     \clef bass
     \key f \major
-    \time 4/4
-
+    
     f8\f f f c f4 f8 c | f f f c f4 f8 c |
     f[ f] bes,[ b] c r |
 

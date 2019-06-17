@@ -1,7 +1,6 @@
 OneHarpUpper = \relative g'' {
     \key g \minor
-    \time 3/8
-
+    
     R4.*10 | R4.^\fermataMarkup |
     R4.*19 |
 
@@ -66,8 +65,7 @@ OneHarpUpper = \relative g'' {
 OneHarpLower = \relative g {
     \clef bass
     \key g \minor
-    \time 3/8
-
+    
     R4.*10 | R4.^\fermataMarkup |
     R4.*19 |
 
@@ -131,8 +129,7 @@ OneHarpLower = \relative g {
 
 TwoHarpUpper = \relative g'' {
     \key g \minor
-    \time 4/4 
-
+    
     R1*4 |
 
     <<
@@ -162,8 +159,7 @@ TwoHarpUpper = \relative g'' {
 TwoHarpLower = \relative g {
     \clef bass
     \key g \minor
-    \time 4/4 
-
+    
     R1 | R1 | R1 | R1 |
 
     g,1 | f | ees | d |
@@ -184,8 +180,7 @@ TwoHarpLower = \relative g {
 
 ThreeHarpUpper = \relative g'' {
     \key g \minor
-    \time 3/4
-    \set Timing.beamExceptions = #'()
+        \set Timing.beamExceptions = #'()
 
     g4.\f g, | f' g, | ees' g, | d' g, |
     g4. g, | f' g, | ees' g, | d' g, |
@@ -241,8 +236,7 @@ ThreeHarpUpper = \relative g'' {
 ThreeHarpLower = \relative g {
     \clef bass
     \key g \minor
-    \time 3/4
-    \set Timing.beamExceptions = #'()
+        \set Timing.beamExceptions = #'()
 
     g4 g, g | f' g, g | ees' g, g | d' g, g |
     ees' ees, ees | d' ees, ees | c' ees, ees | bes' ees, ees |

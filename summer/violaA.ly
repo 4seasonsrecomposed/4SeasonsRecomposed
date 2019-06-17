@@ -1,8 +1,7 @@
 OneViolaA = \relative g' {
     \clef alto
     \key g \minor
-    \time 3/8
-
+    
     r8\pp d' d | r d, fis | r fis fis | r d d | d4 r8 |
     fis4 r8 | fis4 r8 | g4 r8 | g4 r8 | g4 c,8 | a4.\fermata |
 
@@ -98,8 +97,7 @@ OneViolaA = \relative g' {
 TwoViola = \relative g' {
     \clef alto
     \key g \minor
-    \time 4/4
-
+    
     R1*4 |
 
     <bes, g>16.\p\>^"div. - poco sul pont." <bes g>32 <bes g>16. <bes g>32 <bes g>8 r\!
@@ -161,8 +159,7 @@ TwoViola = \relative g' {
 ThreeViola = \relative g' {
     \clef alto
     \key g \minor
-    \time 3/4
-    \set Timing.beamExceptions = #'()
+        \set Timing.beamExceptions = #'()
 
     g16->\f g, g g g g g-> g g g g g | f'-> g, g g g g g-> g g g g g |
     ees'-> g, g g g g g-> g g g g g | d'-> g, g g g g g-> g g g g g |
