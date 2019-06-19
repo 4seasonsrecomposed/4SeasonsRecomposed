@@ -112,5 +112,29 @@ TwoViolinOne = \relative f'' {
 
     f\pp | e~ | e~ | e~ | e~ | e\fermata |
 
+}
 
+ThreeViolinOneA = \relative f'' {
+    \key f \major
+    \set Timing.beamExceptions = #'()
+
+    f,4-._\markup{\dynamic{mp}dolce} f8 f f f | f4-. f8 f-> f f |
+    \repeat unfold 15 { f4-. f8-> f f f | f4-. f8 f-> f f | }
+
+    \repeat unfold 2 {
+        \repeat unfold 2 { c'4-. c8 c c c | c4-. a-. a-. | }
+        \repeat unfold 2 { f'4-. f8 f f f | f4-. c-. c-. | }
+    }
+
+    f,-. c'-> c8\< c | c c c4-.->\! a-. |
+    a-. c-.-> c8 c | c c c4-. a-. |
+    a-. f'-.-> f8 f | f f f4-. c-. |
+    c-. f-. f8 f | f f f4-. c-. |
+
+    \repeat unfold 3 {
+        c-. c-.-> c8\< c | c c c4-.->\! a-. |
+        a-. c-.-> c8 c | c c c4-. a-. |
+        a-. f'-.-> f8 f | f f f4-. c-. |
+        c-. f-. f8 f | f f f4-. c-. |
+    }
 }

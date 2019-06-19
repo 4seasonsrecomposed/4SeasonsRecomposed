@@ -115,3 +115,54 @@ TwoCello = \relative f {
 
     a~\pp | a~ | a~ | a~ | a~ | a\fermata |
 }
+
+ThreeCello = \relative f {
+    \clef bass
+    \key f \major
+    \set Timing.beamExceptions = #'()
+
+    R2.*16 |
+    <<
+        {
+            \voiceOne
+            f2.~^"div." | f~ | f~ | f |
+            d~ | d~ | d~ | d |
+
+            c~ | c~ | c~ | c |
+            d~ | d~ | d~ | d |
+
+            \oneVoice
+            R2.*8 |
+
+            \voiceOne
+            f2.~^"div." | f~ | f~ | f |
+            d~ | d~ | d~ | d |
+
+            c~ | c~ | c~ | c |
+            d~ | d~ | d~ | d |
+
+            \oneVoice
+            R2.\! |
+
+        }\\{
+            \voiceTwo
+            d,2.~\mp\< | d~ | d~ | d |
+            bes'~\> | bes~ | bes~ | bes |
+            
+            f~\< | f~ | f~ | f |
+            bes~\> | bes~ | bes~ | bes |
+
+            s2.*8\! |
+
+            d,2.~\mp\< | d~ | d~ | d |
+            bes'~\> | bes~ | bes~ | bes |
+            
+            f~\< | f~ | f~ | f |
+            bes~\> | bes~ | bes~ | bes |
+
+            s2.\!
+        }
+    >>
+
+    R2.*23 |
+}

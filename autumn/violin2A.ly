@@ -113,3 +113,26 @@ TwoViolinTwo = \relative f'' {
 
     d\pp~ | d~ | d | cis~ | cis~ | cis\fermata |
 }
+
+ThreeViolinTwoA = \relative f'' {
+    \key f \major
+    \set Timing.beamExceptions = #'()
+
+    R2.*8 |
+    a,8_\markup{\dynamic{p}dolce} c, bes' c, a'-> c, | bes'-> a c, bes' c, a' |
+    c, bes' a c, bes'-> c, | a'-> c, bes' a c, bes' |
+    c, a' c, bes' a-> c, | bes'-> c, a' c, bes' a |
+    c, bes' c, a' c,-> bes' | a-> c, bes' c, a' c, |
+
+    \repeat unfold 7 {
+        a' c, bes' c, a'-> c, | bes'-> a c, bes' c, a' |
+        c, bes' a c, bes'-> c, | a'-> c, bes' a c, bes' |
+        c, a' c, bes' a-> c, | bes'-> c, a' c, bes' a |
+        c, bes' c, a' c,-> bes' | a-> c, bes' c, a' c, |
+    }
+
+    a' c, bes' c, a'-> c, | bes'-> a c, bes' c, a' |
+    c, bes' a c, bes'-> c, | a'-> c, bes' a c, bes' |
+    c,\> a' c, bes' a-> c, | bes'-> c, a' c, bes' a |
+    c, bes' c, a' c,-> bes' | a-> c, bes' c, a' c,\! |
+}

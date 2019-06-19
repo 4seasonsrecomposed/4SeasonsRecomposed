@@ -93,3 +93,19 @@ OneViolinOneB = \relative f'' {
         }
     >>
 }
+
+ThreeViolinOneB = \relative f''{
+    \key f \major
+    \set Timing.beamExceptions = #'()
+
+    R2.*8 |
+
+    c'8-._\markup{\dynamic{p}dolce} c-> r c c4-. |
+    \repeat unfold 67 { c8-. c-> r c c4-. | }
+
+    c8-.\> c-> r c c4-. |
+    c8-. c-> r c c4-. |
+    c8-. c-> r c c4-. |
+    c8-. c-> r c c4-.\! |
+
+}

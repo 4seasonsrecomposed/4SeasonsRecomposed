@@ -87,3 +87,27 @@ TwoViola = \relative f' {
 
     a\pp | gis~ | gis | a~ | a~ | a\fermata |
 }
+
+ThreeViola = \relative f' {
+    \clef alto
+    \key f \major
+    \set Timing.beamExceptions = #'()
+
+    R2.*16 |
+
+    f,2.~\mp\< | f~ | f~ | f |
+    d~\> | d~ | d~ | d |
+
+    c~\< | c~ | c~ | c |
+    d~\> | d~ | d~ | d |
+
+    R2.*8\! |
+
+    f2.~\mp\< | f~ | f~ | f |
+    d~\> | d~ | d~ | d |
+
+    c~\< | c~ | c~ | c |
+    d~\> | d~ | d~ | d |
+
+    R2.*24\! |
+}

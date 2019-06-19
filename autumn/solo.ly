@@ -196,5 +196,37 @@ TwoSolo = \relative f'' {
 
     f\pp | e~ | e~ | e~ | e~ | e\fermata \bar "|."
 
+}
+
+ThreeSolo = \relative f'' {
+    \key f \major
+    \time 3/4
+    \set Score.currentBarNumber = #165
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \set Timing.beamExceptions = #'()
+
+    \mark "Allegro"
+    <f c>4-.^"accents ad lib - odd number bars can be hemiola"_\markup{\dynamic{mf}dolce} <f c>8 <f c> <f c> <f c> |
+    <f c>4-. <c a>-. <c a>-. |
+    <f c>-. <f c>8 <f c> <f c> <f c> | <f c>4-. <c a>-. <c a>-. |
+    \repeat unfold 2 { <a' f>-. <a f>8 <a f> <a f> <a f> | <a f>4-. <f c>-. <f c>-. } \bar "||"
+
+    \repeat unfold 2 { <f c>-. <f c>8 <f c> <f c> <f c> | <f c>4-. <c a>-. <c a>-. | }
+    \repeat unfold 2 { <a' f>-. <a f>8 <a f> <a f> <a f> | <a f>4-. <f c>-. <f c>-. } \bar "||"
+
+    \repeat unfold 2 { <f c>-. <c a>8 <c a> <c a> <c a> | <c a>4-. <a f>-. <a f>-. | }
+    \repeat unfold 2 { <a' f>-. <a f>8 <a f> <a f> <a f> | <a f>4-. <f c>-. <f c>-. } \bar "||"
+
+    \repeat unfold 2 { <f c>-. <f c>8 <f c> <f c> <f c> | <f c>4-. <c a>-. <c a>-. | }
+    \repeat unfold 2 { <a' f>-. <a f>8 <a f> <a f> <a f> | <a f>4-. <f c>-. <f c>-. } \bar "||"
+
+    \repeat unfold 5 {
+        \repeat unfold 2 { <f c>4-> <f c>8 <f c>4 <f c>8 | <f c>-. <f c>4.-- <c a>8-. <c a>-. | }
+        \repeat unfold 2 { <a' f>4-> <a f>8 <a f>4 <a f>8 | <a f>-. <a f>4.-- <f c>8-. <f c> } \bar "||"
+    }
+
+    \repeat unfold 2 { <f c>4-> <f c>8 <f c>4 <f c>8 | <f c>-. <f c>4.-- <c a>8-. <c a>-. | }
+    \repeat unfold 2 { <a' f>4-> <a f>8 <a f>4 <a f>8 | <a f>-. <a f>4.-- <f c>8-. <f c> } \bar "|."
+    
 
 }

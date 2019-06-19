@@ -221,3 +221,7 @@ TwoHarpsichordLower = \relative f {
         }
     >>
 }
+
+ThreeHarpsichordUpper = \ThreeHarpUpper 
+
+ThreeHarpsichordLower = \ThreeHarpLower 

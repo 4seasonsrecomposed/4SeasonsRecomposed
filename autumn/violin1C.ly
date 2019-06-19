@@ -96,3 +96,26 @@ OneViolinOneC = \relative f'' {
     >>
 
 }
+
+ThreeViolinOneC = \relative f'' {
+    \key f \major
+    \set Timing.beamExceptions = #'()
+
+    R2.*8 |
+
+    f'8_\markup{\dynamic{p}dolce} f r4 r8 f |
+    \repeat unfold 14 { f8 f r4 r8 f | }
+    f8 f r4 r |
+
+    \repeat unfold 7 { f8 f r4 r8 f | }
+    f8 f r4 r |
+
+    \repeat unfold 39 { f8 f r4 r8 f | }
+    f8 f r4 r | 
+
+    \repeat unfold 4 { f8 f r4 r8 f | }
+    f8\> f r4 r8 f |
+    f8 f r4 r8 f | 
+    f8 f r4 r8 f | 
+    f8 f r4 r\! | 
+}

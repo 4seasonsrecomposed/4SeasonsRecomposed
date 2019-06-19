@@ -1,5 +1,3 @@
-%"III. Allegro"
-
 \version "2.18.2"
 
 \include "../snippets.ily"
@@ -141,100 +139,101 @@ TwoScore = \score {
     }
     %\midi { \tempo 4 = 80 }
 }
-%
-%ThreeScore = \score {
-%    <<
-%        \new Staff \with {
-%            instrumentName = #"Solo Violin"
-%            
-%        }
-%        \ThreeSolo
-%        \new StaffGroup <<
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{1st Violin}A}}
-%
-%            }
-%            \ThreeViolinOneA
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{1st Violin}B}}
-%
-%            }
-%            \ThreeViolinOneB
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{1st Violin}C}}
-%                
-%            }
-%            \ThreeViolinOneC
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{1st Violin}D}}
-%                
-%            }
-%            \ThreeViolinOneD
-%        >>
-%        \new StaffGroup <<
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{2nd Violin}A}}
-%                
-%            }
-%            \ThreeViolinTwoA
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{2nd Violin}B}}
-%                
-%            }
-%            \ThreeViolinTwoB
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{2nd Violin}C}}
-%                
-%            }
-%            \ThreeViolinTwoC
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{2nd Violin}D}}
-%                
-%            }
-%            \ThreeViolinTwoD
-%        >>
-%        \new Staff \with {
-%            instrumentName = #"Viola"
-%            
-%        }
-%        \ThreeViola
-%        \new Staff \with {
-%            instrumentName = #"Cello"
-%            
-%        }
-%        \ThreeCello
-%        \new Staff \with {
-%            instrumentName = #"Bass"
-%        }
-%        \ThreeBass
-%        \new PianoStaff <<
-%            \set PianoStaff.instrumentName = #"Harp"
-%            \new Staff \ThreeHarpUpper
-%            \new Staff \ThreeHarpLower
-%        >>
-%        \new PianoStaff <<
-%            \set PianoStaff.instrumentName = #"Harpsichord"
-%            \new Staff \ThreeHarpsichordUpper
-%            \new Staff \ThreeHarpsichordLower
-%        >>
-%    >>
-%    \header{
-%        title = \markup{\abs-fontsize #16 {III}}
-%    }
-%}
+
+ThreeScore = \score {
+    <<
+        \new Staff \with {
+            instrumentName = #"Solo Violin"
+            
+        }
+        \ThreeSolo
+        \new StaffGroup <<
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{1st Violin}A}}
+
+            }
+            \ThreeViolinOneA
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{1st Violin}B}}
+
+            }
+            \ThreeViolinOneB
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{1st Violin}C}}
+                
+            }
+            \ThreeViolinOneC
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{1st Violin}D}}
+                
+            }
+            \ThreeViolinOneD
+        >>
+        \new StaffGroup <<
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{2nd Violin}A}}
+                
+            }
+            \ThreeViolinTwoA
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{2nd Violin}B}}
+                
+            }
+            \ThreeViolinTwoB
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{2nd Violin}C}}
+                
+            }
+            \ThreeViolinTwoC
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{2nd Violin}D}}
+                
+            }
+            \ThreeViolinTwoD
+        >>
+        \new Staff \with {
+            instrumentName = #"Viola"
+            
+        }
+        \ThreeViola
+        \new Staff \with {
+            instrumentName = #"Cello"
+            
+        }
+        \ThreeCello
+        \new Staff \with {
+            instrumentName = #"Bass"
+        }
+        \ThreeBass
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harp"
+            \new Staff \ThreeHarpUpper
+            \new Staff \ThreeHarpLower
+        >>
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harpsichord"
+            \new Staff \ThreeHarpsichordUpper
+            \new Staff \ThreeHarpsichordLower
+        >>
+    >>
+    \header{
+        title = \markup{\abs-fontsize #16 {III}}
+    }
+    %\midi{\tempo 4 = 160}
+}
 
 #(set-global-staff-size 14)
 
 \book {
     \paper{
-        %\pointAndClickOff
+        \pointAndClickOff
         print-all-headers = ##t
     }
     \header{
         title = \markup{\abs-fontsize #20 {Autumn}}
     }
     \markup { \vspace #1 }
-    %\OneScore
+    \OneScore
     \TwoScore
-    %\ThreeScore
+    \ThreeScore
 }

@@ -74,3 +74,27 @@ OneBass = \relative f {
 }
 
 TwoBass = \TwoCello
+
+ThreeBass = \relative f {
+    \clef bass
+    \key f \major
+    \set Timing.beamExceptions = #'()
+
+    R2.*16 |
+
+    d2.~\mp\< | d~ | d~ | d |
+    bes~\> | bes~ | bes~ | bes |
+
+    f~\< | f~ | f~ | f |
+    bes~\> | bes~ | bes~ | bes |
+    
+    R2.*8\! |
+
+    d2.~\mp\< | d~ | d~ | d |
+    bes~\> | bes~ | bes~ | bes |
+
+    f~\< | f~ | f~ | f |
+    bes~\> | bes~ | bes~ | bes |
+
+    R2.*24\! |
+}

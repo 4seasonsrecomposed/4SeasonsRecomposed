@@ -87,3 +87,50 @@ TwoHarpLower = \relative f'' {
 
     R2.*45 |
 }
+
+ThreeHarpUpper = \relative f'' {
+    \key f \major
+    \set Timing.beamExceptions = #'()
+
+    R2.*16 |
+    \clef bass
+    f,,2.~\mp\< | f~ | f~ | f |
+    d~\> | d~ | d~ | d |
+
+    c~\< | c~ | c~ | c |
+    d~\> | d~ | d~ | d |
+
+    R2.*8\! |
+
+    f2.~\mp | f~ | f~ | f |
+    d~ | d~ | d~ | d |
+
+    c~ | c~ | c~ | c |
+    d~ | d~ | d~ | d |
+
+    R2.*24 |
+}
+
+ThreeHarpLower = \relative f {
+    \clef bass
+    \key f \major
+    \set Timing.beamExceptions = #'()
+
+    R2.*16 |
+
+    d,2.~ | d~ | d~ | d |
+    bes~ | bes~ | bes~ | bes |
+
+    f~ | f~ | f~ | f |
+    bes~ | bes~ | bes~ | bes |
+
+    R2.*8 |
+
+    d2.~ | d~ | d~ | d |
+    bes~ | bes~ | bes~ | bes |
+
+    f~ | f~ | f~ | f |
+    bes~ | bes~ | bes~ | bes |
+
+    R2.*24 |
+}

@@ -89,3 +89,23 @@ OneViolinTwoB = \relative f'' {
         }
     >>
 }
+
+ThreeViolinTwoB = \relative f'' {
+    \key f \major
+    \set Timing.beamExceptions = #'()
+    
+    R2.*16 |
+    d,8->^"same every 2 bars"_\markup{\dynamic{p}dolce} a d-> e d-> a | d-. a d e-> d a |
+    \repeat unfold 3 { d-> a d-> e d-> a | d-. a d e-> d a | }
+    
+    \repeat unfold 3 {
+        \repeat unfold 4 { c' c-> f, g c-> f, | c' c f,-> g c f, | }
+
+        \repeat unfold 4 { d a-> d e d-> a | d a d-> e d a | }
+    }
+
+    c' c-> f, g c-> f, | c' c f,-> g c f, |
+    c' c-> f, g c-> f, | c' c f,-> g c f, |
+    c'\> c-> f, g c-> f, | c' c f,-> g c f, |
+    c' c-> f, g c-> f, | c' c f,-> g c f,\! |
+}
