@@ -17,7 +17,7 @@ OneViolinTwoD = \relative e'' {
             s1\> | s2... s16\! |
         }
     >>
-    R1*8 |
+    R1*7 |
     r2 r8 cis'16( dis) e dis cis b | a gis fis e \repeat unfold 6 { r8 \acciaccatura fis'8 e8-. } r b-. |
     r b-. r b-. r b-. \acciaccatura fis'8 e4-. |
 

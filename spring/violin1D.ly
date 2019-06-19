@@ -43,10 +43,8 @@ OneViolinOneD = \relative e'' {
             s1\> | s2... s16\! |
         }
     >>
-    R1 | R1 |
-    
-    R1 | R1 |
-    r8._\markup{\dynamic{pp} poco a poco cresc} a'16 gis a gis8\trill 
+    R1*4 |
+    r8._\markup{\dynamic{pp} poco a poco cresc} a16 gis a gis8\trill 
     \repeat unfold 3 {r8. a16 gis a gis8\trill }
     r8. fis16 e fis e8\trill r8. fis16 e fis e8\trill |
     r4 b'-! b-! b-! | \repeat unfold 4 { \acciaccatura cis8 b4-. } |

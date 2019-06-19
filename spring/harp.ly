@@ -165,47 +165,47 @@ ThreeHarpLower = \relative e {
     \clef bass
     \key e \major
     
-    a4.( r) r2. | a4.( r) r2. |
-    gis4.( r) r2. | gis4.( r) r2. |
-    fis4.( r) r2. | fis4.( r) r2. |
-    e4.( r) r2. | e4.( r) r2. |
-    dis4.( r) r2. | dis4.( r) r2. |
-    cis4.( r) r2. | cis4.( r) r2. |
-    b4.( r) r2. | b4.( r) r2. |
+    a4.\laissezVibrer r r2. | a4.\laissezVibrer r r2. |
+    gis4.\laissezVibrer r r2. | gis4.\laissezVibrer r r2. |
+    fis4.\laissezVibrer r r2. | fis4.\laissezVibrer r r2. |
+    e4.\laissezVibrer r r2. | e4.\laissezVibrer r r2. |
+    dis4.\laissezVibrer r r2. | dis4.\laissezVibrer r r2. |
+    cis4.\laissezVibrer r r2. | cis4.\laissezVibrer r r2. |
+    b4.\laissezVibrer r r2. | b4.\laissezVibrer r r2. |
 
-    a4.( r) r2. | a4.( r) r2. |
-    gis4.( r) r2. | gis4.( r) r2. |
-    fis4.( r) r2. | fis4.( r) r2. |
-    e4.( r) r2. | e4.( r) r2. |
-    dis4.( r) r2. | dis4.( r) r2. |
-    cis4.( r) r2. | cis4.( r) r2. |
-    b4.( r) r2. | b4.( r) r2. |
+    a4.\laissezVibrer r r2. | a4.\laissezVibrer r r2. |
+    gis4.\laissezVibrer r r2. | gis4.\laissezVibrer r r2. |
+    fis4.\laissezVibrer r r2. | fis4.\laissezVibrer r r2. |
+    e4.\laissezVibrer r r2. | e4.\laissezVibrer r r2. |
+    dis4.\laissezVibrer r r2. | dis4.\laissezVibrer r r2. |
+    cis4.\laissezVibrer r r2. | cis4.\laissezVibrer r r2. |
+    b4.\laissezVibrer r r2. | b4.\laissezVibrer r r2. |
 
     \set doubleSlurs = ##t
 
-    <a' a,>4.( r) r2. | <a a,>4.( r) r2. |
-    <gis gis,>4.( r) r2. | <gis gis,>4.( r) r2. |
-    <fis fis,>4.( r) r2. | <fis fis,>4.( r) r2. |
-    <e e,>4.( r) r2. | <e e,>4.( r) r2. |
-    <dis dis,>4.( r) r2. | <dis dis,>4.( r) r2. |
-    <cis cis,>4.( r) r2. | <cis cis,>4.( r) r2. |
-    <b b,>4.( r) r2. | <b b,>4.( r) r2. |
+    <a' a,>4.\laissezVibrer r r2. | <a a,>4.\laissezVibrer r r2. |
+    <gis gis,>4.\laissezVibrer r r2. | <gis gis,>4.\laissezVibrer r r2. |
+    <fis fis,>4.\laissezVibrer r r2. | <fis fis,>4.\laissezVibrer r r2. |
+    <e e,>4.\laissezVibrer r r2. | <e e,>4.\laissezVibrer r r2. |
+    <dis dis,>4.\laissezVibrer r r2. | <dis dis,>4.\laissezVibrer r r2. |
+    <cis cis,>4.\laissezVibrer r r2. | <cis cis,>4.\laissezVibrer r r2. |
+    <b b,>4.\laissezVibrer r r2. | <b b,>4.\laissezVibrer r r2. |
 
-    \repeat unfold 4 { <a' a,>4.( r) }
-    \repeat unfold 4 { <gis gis,>4.( r) }
-    \repeat unfold 4 { <fis fis,>4.( r) }
-    \repeat unfold 4 { <e e,>4.( r) }
-    \repeat unfold 4 { <dis dis,>4.( r) }
-    \repeat unfold 4 { <cis cis,>4.( r) }
-    \repeat unfold 4 { <b b,>4.( r) }
+    \repeat unfold 4 { <a' a,>4.\laissezVibrer r }
+    \repeat unfold 4 { <gis gis,>4.\laissezVibrer r }
+    \repeat unfold 4 { <fis fis,>4.\laissezVibrer r }
+    \repeat unfold 4 { <e e,>4.\laissezVibrer r }
+    \repeat unfold 4 { <dis dis,>4.\laissezVibrer r }
+    \repeat unfold 4 { <cis cis,>4.\laissezVibrer r }
+    \repeat unfold 4 { <b b,>4.\laissezVibrer r }
 
-    \repeat unfold 4 { <a' a,>4.( r) }
-    \repeat unfold 4 { <gis gis,>4.( r) }
-    \repeat unfold 4 { <fis fis,>4.( r) }
-    \repeat unfold 4 { <e e,>4.( r) }
-    \repeat unfold 4 { <dis dis,>4.( r) }
-    \repeat unfold 4 { <cis cis,>4.( r) }
-    \repeat unfold 4 { <b b,>4.( r) }
+    \repeat unfold 4 { <a' a,>4.\laissezVibrer r }
+    \repeat unfold 4 { <gis gis,>4.\laissezVibrer r }
+    \repeat unfold 4 { <fis fis,>4.\laissezVibrer r }
+    \repeat unfold 4 { <e e,>4.\laissezVibrer r }
+    \repeat unfold 4 { <dis dis,>4.\laissezVibrer r }
+    \repeat unfold 4 { <cis cis,>4.\laissezVibrer r }
+    \repeat unfold 4 { <b b,>4.\laissezVibrer r }
 
     <<
         {
