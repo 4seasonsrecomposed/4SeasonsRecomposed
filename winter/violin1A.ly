@@ -20,7 +20,7 @@ OneViolinOne = \relative f'' {
     \set subdivideBeams = ##t
     \set baseMoment = #(ly:make-moment 1/8)
     \set beatStructure = #'(2 2 2 2)
-    des16\f^"Nat." g'32 g g g g g 
+    ees16\f^"Nat." g'32 g g g g g 
     \set subdivideBeams = ##f
     g16 g g g |
 
@@ -65,7 +65,7 @@ OneViolinOne = \relative f'' {
     e bes e bes e bes e | f g32 g g g g g g16 g g |
 
     f\ff\> f32 f f f f f f16 f f | c c32 c c c c c c16 c c |
-    c, c32 c c c c c c16 c c |
+    c, c32 c c c c c c16 c c \breathe |
     << 
         c2--\p\fermata 
         \new Voice { s8\< s\> s s\!}

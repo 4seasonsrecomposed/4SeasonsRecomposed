@@ -31,7 +31,7 @@ OneSolo = \relative f'' {
     f-.( f-. f-. f-.) f-.( f-. f-. f-.)
     \teeny
     \set subdivideBeams = ##t
-    des16\f^"Nat." g'32 g g g g g 
+    ees16\f^"Nat." g'32 g g g g g 
     \set subdivideBeams = ##f
     g16 g g g \bar "||"
 

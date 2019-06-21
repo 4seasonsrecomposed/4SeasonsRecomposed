@@ -26,7 +26,7 @@ OneScore = \score {
         \OneSolo
         \new Staff \with {
             instrumentName = #"1st Violin"
-
+            
         }
         \OneViolinOne
         \new Staff \with {
@@ -34,16 +34,16 @@ OneScore = \score {
             
         }
         \OneViolinTwo
-%        \new Staff \with {
-%            instrumentName = #"Viola"
-%           
-%        }
-%        \OneViola
-%        \new Staff \with {
-%            instrumentName = #"Cello"
-%            
-%        }
-%        \OneCello
+        \new Staff \with {
+            instrumentName = #"Viola"
+            
+        }
+        \OneViola
+        \new Staff \with {
+            instrumentName = #"Cello"
+            
+        }
+        \OneCello
 %        \new Staff \with {
 %            instrumentName = #"Bass"
 %        }
@@ -64,7 +64,7 @@ OneScore = \score {
         title = \markup{\abs-fontsize #16 {I}}
     }
     \layout{}
-    %\midi { \tempo 4 = 70 }
+    \midi { \tempo 4 = 70 }
 }
 
 %TwoScore = \score {
