@@ -78,14 +78,14 @@ OneHarpLower = \relative f {
 TwoHarpUpper = \relative f'' {
     \key f \major
 
-    R2.*45 |
+    R2.*44 | R2.^\fermataMarkup |
 }
 
 TwoHarpLower = \relative f'' {
     \clef bass
     \key f \major
 
-    R2.*45 |
+    R2.*44 | R2.^\fermataMarkup |
 }
 
 ThreeHarpUpper = \relative f'' {

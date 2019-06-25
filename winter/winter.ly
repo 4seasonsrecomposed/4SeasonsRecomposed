@@ -44,15 +44,15 @@ OneScore = \score {
             
         }
         \OneCello
-%        \new Staff \with {
-%            instrumentName = #"Bass"
-%        }
-%        \OneBass
-%        \new PianoStaff <<
-%            \set PianoStaff.instrumentName = #"Harp"
-%            \new Staff \OneHarpUpper
-%            \new Staff \OneHarpLower
-%        >>
+        \new Staff \with {
+            instrumentName = #"Bass"
+        }
+        \OneBass
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harp"
+            \new Staff \OneHarpUpper
+            \new Staff \OneHarpLower
+        >>
 %        \new PianoStaff <<
 %            \set PianoStaff.instrumentName = #"Harpsichord"
 %            \new Staff \OneHarpsichordUpper
@@ -64,7 +64,7 @@ OneScore = \score {
         title = \markup{\abs-fontsize #16 {I}}
     }
     \layout{}
-    \midi { \tempo 4 = 70 }
+    %\midi { \tempo 4 = 70 }
 }
 
 %TwoScore = \score {
