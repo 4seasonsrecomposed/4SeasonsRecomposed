@@ -18,7 +18,6 @@ OneHarpUpper = \relative f'' {
     R1*7/16\f | R1*7/16*7\< |
 
     R1*7/16\ff\> | R1*7/16*2 \breathe |
-
     << 
         R2\p\fermataMarkup
         \new Voice { s8\< s\> s s\!}
@@ -48,10 +47,6 @@ OneHarpLower = \relative f {
         c16 c, c' c, c' c, c' | c c c c c c c |
 
     }
-    f8-.\ff\> f-. f-. f16 | f8-. f-. f-. f16 |
-    f8-. f-. f-. f16 |
-    << 
-        f,2--\p\fermata
-        \new Voice { s8\< s\> s s\!}
-    >>
+    f8-. f-. f-. f16 | f8-. f-. f-. f16 |
+    f8-. f-. f-. f16 | f,2--\fermata | % a \breathe may be lost
 }
