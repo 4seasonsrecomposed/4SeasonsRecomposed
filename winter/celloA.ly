@@ -68,6 +68,20 @@ OneCello = \relative f {
         <c' f,>2--\p\fermata^"div."
         \new Voice { s8\< s\> s s\!}
     >>
+}
 
+TwoCello = \relative f {
+    \clef bass
+    \key f \minor
+    
+    \set harmonicDots = ##t
+    r4 <bes ees\harmonic>2.~\p | <bes ees\harmonic>1~ |
 
+    <bes ees\harmonic>~_\markup{\italic{stagger bowing}}
+    \repeat unfold 3 { <bes ees\harmonic>~ | }
+    <bes ees\harmonic>2. <bes ees\harmonic>4~ |
+    \repeat unfold 6 { <bes ees\harmonic>1~ | }
+    <bes ees\harmonic>2 <bes ees\harmonic>2~ |
+    \repeat unfold 5 { <bes ees\harmonic>1~ | }
+    <bes ees\harmonic>\fermata |
 }

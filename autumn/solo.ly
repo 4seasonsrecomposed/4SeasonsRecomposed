@@ -151,6 +151,7 @@ OneSolo = \relative f'' {
     \set subdivideBeams = ##f
     f16 c a c f c a f f,4 r \bar "||"
 
+    \mark "Larghetto"
     c'2._\markup{\dynamic{p}dolce} aes'4 | bes,2. g'4 |
     aes,2. f'4 | g,1 | f1 \bar "||"
 

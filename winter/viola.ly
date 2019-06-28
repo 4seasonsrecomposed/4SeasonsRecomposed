@@ -69,4 +69,25 @@ OneViola = \relative f' {
         \new Voice { s8\< s\> s s\!}
     >>
 
-} 
+}
+
+TwoViola = \relative f' {
+    \clef alto
+    \key f \minor
+
+    R1*2 |
+
+    \set harmonicDots = ##t
+    \set doubleSlurs = ##t
+    r4^\markup{\italic{stagger bowing}} <ees aes\harmonic>2.~\p |
+    <ees aes\harmonic>1( | r4) <ees aes\harmonic>2.~ |
+    \repeat unfold 3 { <ees aes\harmonic>1~ | }
+    <ees aes\harmonic>4 <ees aes\harmonic>2.~ |
+    <ees aes\harmonic> <ees aes\harmonic>4~ |
+
+    <ees aes\harmonic>1~ | <ees aes\harmonic>~ |
+    <ees aes\harmonic>4 <ees aes\harmonic>2.~ |
+    \repeat unfold 4 { <ees aes\harmonic>1~ | }
+    <ees aes\harmonic>2 <ees aes\harmonic>~ |
+    <ees aes\harmonic>1~ | <ees aes\harmonic>\fermata |
+}

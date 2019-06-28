@@ -1,4 +1,3 @@
-%Largo - Molto Rubato
 %Allegro ma leggiero
 
 \version "2.18.2"
@@ -63,59 +62,60 @@ OneScore = \score {
     \header{
         title = \markup{\abs-fontsize #16 {I}}
     }
-    \layout{}
     %\midi { \tempo 4 = 70 }
 }
 
-%TwoScore = \score {
-%    <<
-%        \new Staff \with {
-%            instrumentName = #"Solo Violin"
-%            
-%        }
-%        \TwoSolo
-%        \new Staff \with {
-%            instrumentName = #"1st Violin"
-%
-%        }
-%        \TwoViolinOne
-%        \new Staff \with {
-%            instrumentName = #"2nd Violin"
-%           
-%        }
-%        \TwoViolinTwo
-%        \new Staff \with {
-%            instrumentName = #"Viola"
-%            
-%        }
-%        \TwoViola
-%        \new Staff \with {
-%            instrumentName = #"Cello"
-%            
-%        }
-%        \TwoCello
-%        \new Staff \with {
-%            instrumentName = #"Bass"
-%            
-%        }
-%        \TwoBass
-%        \new PianoStaff <<
-%            \set PianoStaff.instrumentName = #"Harp"
-%            \new Staff \TwoHarpUpper
-%            \new Staff \TwoHarpLower
-%        >>
-%        \new PianoStaff <<
-%            \set PianoStaff.instrumentName = #"Harpsichord"
-%            \new Staff \TwoHarpsichordUpper
-%            \new Staff \TwoHarpsichordLower
-%        >>
-%
-%    >>
-%    \header {
-%        title = \markup{\abs-fontsize #16 {II}}
-%    }
-%}
-%
+TwoScore = \score {
+    <<
+        \new Staff \with {
+            instrumentName = #"Solo Violin"
+            
+        }
+        \TwoSolo
+        \new Staff \with {
+            instrumentName = #"1st Violin"
+
+        }
+        \TwoViolinOne
+        \new Staff \with {
+            instrumentName = #"2nd Violin"
+           
+        }
+        \TwoViolinTwo
+        \new Staff \with {
+            instrumentName = #"Viola"
+            
+        }
+        \TwoViola
+        \new Staff \with {
+            instrumentName = #"Cello"
+            
+        }
+        \TwoCello
+        \new Staff \with {
+            instrumentName = #"Bass"
+            
+        }
+        \TwoBass
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harp"
+            \new Staff \TwoHarpUpper
+            \new Staff \TwoHarpLower
+        >>
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harpsichord"
+            \new Staff \TwoHarpsichordUpper
+            \new Staff \TwoHarpsichordLower
+        >>
+
+    >>
+    \header {
+        title = \markup{\abs-fontsize #16 {II}}
+    }
+    \layout{}
+    \midi{\tempo 4 = 50}
+}
+
 %ThreeScore = \score {
 %    <<
 %        \new Staff \with {
@@ -195,7 +195,7 @@ OneScore = \score {
         title = \markup{\abs-fontsize #20 {Winter}}
     }
     \markup { \vspace #1 }
-    \OneScore
-    %\TwoScore
+    %\OneScore
+    \TwoScore
     %\ThreeScore
 }

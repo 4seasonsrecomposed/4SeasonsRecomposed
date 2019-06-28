@@ -75,3 +75,28 @@ OneViolinTwo = \relative f'' {
     >>
 
 }
+
+TwoViolinTwo = \relative f'' {
+    \key f \minor
+    <<
+        {
+            \set harmonicDots = ##t
+            <f, bes\harmonic>1~\p^\markup{\italic{div.}} | <f bes\harmonic>~ |
+
+            <f bes\harmonic>2. <f bes\harmonic>4~ |
+            <f bes\harmonic>1~^\markup{\italic{stagger bowing}} |
+            \repeat unfold 6 { <f bes\harmonic>~ | }
+            
+            <f bes\harmonic>4 <f bes\harmonic>2.~ |
+            \repeat unfold 3 { <f bes\harmonic>1~ | }
+            <f bes\harmonic>4 <f bes\harmonic>2.~ |
+            \repeat unfold 4 { <f bes\harmonic>1~ | }
+            <f bes\harmonic>\fermata |
+        }\\{
+            R1*5 |
+            r4 <aes, d\harmonic>2.~ |
+            \repeat unfold 13 { <aes d\harmonic>1~ | }
+            <aes d\harmonic>\fermata |
+        }
+    >>
+}

@@ -49,5 +49,11 @@ OneBass = \relative f {
         \new Voice { s8\< s\> s s\!}
     >>
 
+}
 
+TwoBass = \relative f {
+    \clef bass
+    \key f \minor
+
+    R1*19 | R1 | % Fermata missed? 
 }

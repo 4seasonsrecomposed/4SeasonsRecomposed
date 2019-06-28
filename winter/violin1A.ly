@@ -72,3 +72,37 @@ OneViolinOne = \relative f'' {
     >>
 
 }
+
+TwoViolinOne = \relative f'' {
+    \key f \minor
+    
+    R1 |
+    <<
+        {
+            \set harmonicDots = ##t
+            <bes, ees\harmonic>1~\p^\markup{\italic{div.}} |
+            <bes ees\harmonic>~^\markup{\italic{stagger bowing}} |
+            << 
+                {
+                    <bes ees\harmonic>4 <c f\harmonic>2.( | <bes ees\harmonic>1~) |
+                    \repeat unfold 6 { <bes ees\harmonic>~ | }
+                    <bes ees\harmonic>4 <c f\harmonic>2.( | <bes ees\harmonic>1~) |
+                    <bes ees\harmonic>( | <c f\harmonic>)~ |
+                    \repeat unfold 4 { <c f\harmonic>~ | }
+                    <c f\harmonic>\fermata |
+                } \new Voice {
+                    %This voise show the second slur in a harmonic chord.
+                    \slurUp
+                    \hideNotes 
+                    \override NoteColumn.ignore-collision = ##t %adjust location
+                    s4 c2.( | bes1) | s1*5 | s4 c2.( | bes1 ) | bes1( c) | s1*5 |
+                }
+            >>
+        }\\{
+            R1*5 |
+            \repeat unfold 13 { <c, f\harmonic>1~ | }
+            <c f\harmonic>\fermata |
+        }
+    >>
+}
+

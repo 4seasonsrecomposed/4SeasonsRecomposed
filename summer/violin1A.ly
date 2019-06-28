@@ -91,7 +91,7 @@ OneViolinOneA = \relative g'' {
 
 TwoViolinOneA = \relative g'' {
     \key g \minor
-        \set harmonicDots = ##t
+    \set harmonicDots = ##t
     
     <d, g\harmonic>1~\ppp | <d g\harmonic>~ | <d g\harmonic>~ | <d g\harmonic>~ |
 

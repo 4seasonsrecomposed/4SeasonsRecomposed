@@ -50,3 +50,16 @@ OneHarpLower = \relative f {
     f8-. f-. f-. f16 | f8-. f-. f-. f16 |
     f8-. f-. f-. f16 | f,2--\fermata | % a \breathe may be lost
 }
+
+TwoHarpUpper = \relative f {
+    \key f \minor
+
+    R1*19 | R1 | % Fermata missed? 
+}
+
+TwoHarpLower = \relative f {
+    \clef bass
+    \key f \minor
+
+    R1*19 | R1 | % Fermata missed? 
+}

@@ -3,14 +3,14 @@ OneHarpsichordUpper = \relative f'' {
 
     R1*19\pp | R1*3\pp |
 
-    << R1*7/16 \\{ s1*7/16\f^\markup{\left-column{\line{R.H ad lib}\line{2.2.3 Rhythm}}} }>>
+    <<\oneVoice R1*7/16 \\{ s1*7/16\f^\markup{\left-column{\line{R.H ad lib}\line{2.2.3 Rhythm}}} }>>
     R1*7/16*7 |
 
     R1*7/16*7\ff | R1 |
 
-    << R1*7/16 \\{ s1*7/16_"2.2.3 Rhythm" }>> | R1*7/16*6 | R1 |
+    <<\oneVoice R1*7/16 \\{ s1*7/16_"2.2.3 Rhythm" }>> | R1*7/16*6 | R1 |
 
-    << R1*7/16\ff \\{ s1*7/16^"2.2.3 Rhythm" }>> | R1*7/16*15 |
+    <<\oneVoice R1*7/16\ff \\{ s1*7/16^"2.2.3 Rhythm" }>> | R1*7/16*15 |
 
     R1*7/16\mf | R1*7/16*7\< |
     
@@ -67,4 +67,17 @@ OneHarpsichordLower = \relative f {
     f8-. f-. f-. f16 | f8-. f-. f-. f16 |
     f,8-. f-. f-. f16 \breathe | f2--\fermata |
 
+}
+
+TwoHarpsichordUpper = \relative f {
+    \key f \minor
+
+    R1*19 | R1 | % Fermata missed? 
+}
+
+TwoHarpsichordLower = \relative f {
+    \clef bass
+    \key f \minor
+
+    R1*19 | R1 | % Fermata missed? 
 }
