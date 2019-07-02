@@ -1,5 +1,3 @@
-%Allegro ma leggiero
-
 \version "2.18.2"
 
 \include "../snippets.ily"
@@ -112,29 +110,27 @@ TwoScore = \score {
     \header {
         title = \markup{\abs-fontsize #16 {II}}
     }
-    \layout{}
-    \midi{\tempo 4 = 50}
 }
 
-%ThreeScore = \score {
-%    <<
-%        \new Staff \with {
-%            instrumentName = #"Solo Violin"
-%            
-%        }
-%        \ThreeSolo
-%        \new StaffGroup <<
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{1st Violin}\line{A + B}}}
-%
-%            }
-%            \ThreeViolinOneA
+ThreeScore = \score {
+    <<
+        \new Staff \with {
+            instrumentName = #"Solo Violin"
+            
+        }
+        \ThreeSolo
+        \new StaffGroup <<
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{1st Violin}\line{A + B}}}
+
+            }
+            \ThreeViolinOneA
 %            \new Staff \with {
 %                instrumentName = \markup{\center-column{\line{1st Violin}\line{C + D}}}
 %                
 %            }
 %            \ThreeViolinOneB
-%        >>
+        >>
 %        \new StaffGroup <<
 %            \new Staff \with {
 %                instrumentName = \markup{\center-column{\line{2nd Violin}\line{A + B + C}}}
@@ -178,11 +174,13 @@ TwoScore = \score {
 %            \new Staff \ThreeHarpsichordUpper
 %            \new Staff \ThreeHarpsichordLower
 %        >>
-%    >>
-%    \header{
-%        title = \markup{\abs-fontsize #16 {III}}
-%    }
-%}
+    >>
+    \header{
+        title = \markup{\abs-fontsize #16 {III}}
+    }
+    \layout{}
+    \midi{\tempo 8 = 180}
+}
 
 #(set-global-staff-size 14)
 
@@ -196,6 +194,6 @@ TwoScore = \score {
     }
     \markup { \vspace #1 }
     %\OneScore
-    \TwoScore
-    %\ThreeScore
+    %\TwoScore
+    \ThreeScore
 }

@@ -106,3 +106,113 @@ TwoViolinOne = \relative f'' {
     >>
 }
 
+ThreeViolinOneA = \relative f'' {
+    \key f \minor
+    
+    R4.*2 |
+    f8_\markup{\dynamic{pp}detaché} f f | ees ees ees | des des des | c c c |
+    bes bes bes | aes aes aes | g g g | f f f |
+    ees ees ees | des des des | c c c | c c c |
+    f' f f | ees ees ees |
+
+    \repeat unfold 3 {
+        des des des | c c c | bes bes bes | aes aes aes |
+        g g g | f f f | ees ees ees | des des des |
+
+        c c c | c c c | f' f f | ees ees ees |
+        des des des | c c c | bes bes bes | aes aes aes |
+
+        g g g | f f f | ees ees ees | des des des |
+        c c c | c c c | f' f f | ees ees ees |
+
+    }
+    des des des | c c c | bes bes bes | aes aes aes |
+    g g g | f f f | ees ees ees | des des des |
+
+    c_"cresc. poco a poco" c c | c c c | f' f f | ees ees ees |
+    des des des | c c c | bes bes bes | aes aes aes |
+
+    g g g | f f f | ees ees ees | des des des |
+    c\< c c | c c c | f' f f | ees ees ees |
+
+    des\!_\markup{\dynamic{mf}poco cresc.} des des | c\< c c | bes bes bes | aes aes aes |
+    g g g | f f f | ees ees ees | des\! des des |
+
+    c_"poco dim." c c | c\> c c | f' f f | ees ees ees |
+    des des des | c c c | bes bes bes | aes\! aes aes |
+
+    g_"cresc. poco a poco" g g | f f f | ees ees ees | des des des |
+    c c c | c c c | f' f f | ees ees ees |
+
+    des des des | c c c | bes_"poco dim." bes bes | aes\> aes aes |
+    g g g | f f f | ees ees ees | des\! des des |
+
+    c\mp c c | c c c | f' f f | ees ees ees |
+    des des des | c c c | bes bes bes | aes\! aes aes |
+
+    g_"poco dim." g g\> | f f f | ees ees ees | des des des |
+    c\< c c | c c c | f' f f | ees ees ees |
+
+    des\!_\markup{\dynamic{mf}dim. poco a poco} des des | c c c | bes bes bes | aes aes aes |
+    g g g | f f f | ees ees ees | des\! des des |
+
+    c\> c c | c c c | f' f f | ees ees ees |
+    des des des | c c c | bes bes bes | aes aes aes |
+
+    g\pp g g | f f f | ees ees ees | des des des |
+    c c c | c c c | f' f f | ees ees ees |
+
+    des des des | c c c | bes bes bes | aes aes aes |
+    g g g | f f f | ees ees ees | des des des |
+
+    c_"cresc. poco a poco" c c | c c c | f' f f | ees ees ees |
+    des des des | c c c | bes bes bes | aes aes aes |
+
+    g\pp g g | f f f | ees ees ees | des des des |
+    c c c | c c c | f' f f | ees ees ees |
+
+    des_\markup{\dynamic{p}cresc. poco a poco} des des | c c c | bes bes bes | aes aes aes |
+    g g g | f f f | ees ees ees | des des des |
+
+    c\< c c | c c c | f' f f | ees ees ees |
+    des des des | c c c | bes bes bes | aes aes aes |
+
+    g\mp g g | f f f | ees ees ees | des des des |
+    c c c | c c c | f' f f | ees ees ees |
+    des\mf des des | c c c | bes bes bes | aes aes aes |
+    g g g | f f f | ees ees ees | des des des |
+
+    c\f c c | c c c | f' f f | ees ees ees |
+    des des des | c c c | bes bes bes | aes aes aes |
+
+    g_"cresc. poco a poco" g g | f f f | ees ees ees | des des des |
+    c c c | c c c | f' f f | ees ees ees |
+
+    des des des | c c c | bes bes bes | aes aes aes |
+    g g g | f f f | ees ees ees | des des des |
+
+    c\< c c | c c c | f' f f | ees ees ees |
+    des des des | c c c | bes bes bes | aes aes aes |
+
+    g\f g g | f f f | ees ees ees | des des des |
+    c c c | c c c | f' f f | ees ees ees |
+
+    des des des | c c c | bes bes bes | aes aes aes |
+    g g g | f f f | ees ees ees | des des des |
+
+    c_"dim. poco a poco" c c | c c c | f' f f | ees ees ees |
+    des des des | c c c | bes bes bes | aes aes aes |
+
+    g g g | f f f | ees ees ees | des des des |
+    c\> c c | c c c | f' f f | ees ees ees |
+
+    f4.\mp~^"Tutti" | f~ | f~ | f~ |
+    f~_"dim. poco a poco" | f~ | f~ | f~ |
+
+    f~\p | f~ | f~ | f~ |
+    f~\> | f~ | f~ | f~ |
+
+    f~\pp | f~ | f~ | f~ |
+    f~\> | f~ | f~ | f~\! |
+
+}

@@ -122,3 +122,164 @@ TwoSolo = \relative f'' {
     \tieDashed ees1~ | ees\fermata \bar "|."
 
 }
+
+ThreeSolo = \relative f'' {
+    \time 3/8
+    \key f \minor
+    \set Score.currentBarNumber = #111
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+
+    \mark "Allegro ma leggiero"
+    R4.*16 \bar "||"
+
+    R4.*8 \bar "||"
+
+    R4.*8 \bar "||"
+
+    R4.*8 \bar "||"
+
+    R4.*8 \bar "||"
+
+    f,16\pp^"detaché" g aes g aes f | c' des ees des ees c |
+    f g aes g aes f | g aes bes aes bes g |
+    e f g f g e | f g aes g aes f |
+    g aes bes aes bes g | aes bes c bes c aes \bar "||"
+
+    g aes bes aes bes g | f g aes g aes f |
+    e f g f g e | des e f e f des |
+    c des ees des ees c | bes c des c des bes |
+    aes bes c bes c aes | g aes bes aes bes g \bar "||"
+
+    \repeat unfold 2 {
+        f g aes g aes f | c' des ees des ees c |
+        f g aes g aes f | g aes bes aes bes g |
+        e f g f g e | f g aes g aes f |
+        g aes bes aes bes g | aes bes c bes c aes \bar "||"
+
+        g aes bes aes bes g | f g aes g aes f |
+        e f g f g e | des e f e f des |
+        c des ees des ees c | bes c des c des bes |
+        aes bes c bes c aes | g aes bes aes bes g \bar "||"
+
+    }
+    f_"cresc. poco a poco" g aes g aes f | c' des ees des ees c |
+    f g aes g aes f | g aes bes aes bes g |
+    e f g f g e | f g aes g aes f |
+    g aes bes aes bes g | aes bes c bes c aes \bar "||"
+
+    g aes bes aes bes g | f g aes g aes f |
+    e f g f g e | des e f e f des |
+    c des ees des ees c\< | bes c des c des bes |
+    aes bes c bes c aes | g aes bes aes bes g \bar "||"
+
+    f\!_\markup{\dynamic{mf}poco cresc.} g aes g aes f | c'\< des ees des ees c |
+    f g aes g aes f | g aes bes aes bes g |
+    e f g f g e | f g aes g aes f |
+    g aes bes aes bes g | aes\! bes c bes c aes \bar "||"
+
+    g_"poco dim." aes bes aes bes g | f\> g aes g aes f |
+    e f g f g e | des e f e f des |
+    c des ees des ees c | bes c des c des bes |
+    aes bes c bes c aes | g\! aes bes aes bes g \bar "||"
+
+    f_"cresc. poco a poco" g aes g aes f | c' des ees des ees c |
+    f g aes g aes f | g aes bes aes bes g |
+    e f g f g e | f g aes g aes f |
+    g aes bes aes bes g | aes bes c bes c aes \bar "||"
+
+    g aes bes aes bes g | f g aes g aes f |
+    e_"poco dim." f g f g e | des\> e f e f des |
+    c des ees des ees c | bes c des c des bes |
+    aes bes c bes c aes | g\! aes bes aes bes g \bar "||"
+
+    f\mp g aes g aes f | c' des ees des ees c |
+    f g aes g aes f | g aes bes aes bes g |
+    e f g f g e | f g aes g aes f |
+    g aes bes aes bes g | aes bes c bes c aes \bar "||"
+
+    g_"poco dim." aes bes aes bes\> g | f g aes g aes f |
+    e f g f g e | des e f e f des |
+    c\< des ees des ees c | bes c des c des bes |
+    aes bes c bes c aes | g aes bes aes bes g \bar "||"
+
+    f\!_\markup{\dynamic{mf}dim. poco a poco} g aes g aes f | c' des ees des ees c |
+    f g aes g aes f | g aes bes aes bes g |
+    e f g f g e | f g aes g aes f |
+    g aes bes aes bes g | aes bes c bes c aes \bar "||"
+
+    g\> aes bes aes bes g | f g aes g aes f |
+    e f g f g e | des e f e f des |
+    c des ees des ees c | bes c des c des bes |
+    aes bes c bes c aes | g aes bes aes bes g \bar "||"
+
+    f4.\pp | R4.*7 \bar "||"
+
+    R4.*8 \bar "||"
+
+    R4.*8 \bar "||"
+    
+    R4.*8 \bar "||"
+    
+    R4.*8 \bar "||"
+    
+    R4.*8 \bar "||"
+    
+    R4.*16 \bar "||"
+
+    f16\f g aes g aes f | c' des ees des ees c |
+    f g aes g aes f | g aes bes aes bes g |
+    e f g f g e | f g aes g aes f |
+    g aes bes aes bes g | aes bes c bes c aes \bar "||"
+    
+    g_"cresc. poco a poco" aes bes aes bes g | f g aes g aes f |
+    e f g f g e | des e f e f des |
+    c des ees des ees c | bes c des c des bes |
+    aes bes c bes c aes | g aes bes aes bes g \bar "||"
+
+    f g aes g aes f | c' des ees des ees c |
+    f g aes g aes f | g aes bes aes bes g |
+    e f g f g e | f g aes g aes f |
+    g aes bes aes bes g | aes bes c bes c aes \bar "||"
+
+    g\< aes bes aes bes g | f g aes g aes f |
+    e f g f g e | des e f e f des |
+    c des ees des ees c | bes c des c des bes |
+    aes bes c bes c aes | g aes bes aes bes g \bar "||"
+
+    f\f g aes g aes f | c' des ees des ees c |
+    f g aes g aes f | g aes bes aes bes g |
+    e f g f g e | f g aes g aes f |
+    g aes bes aes bes g | aes bes c bes c aes \bar "||"
+
+    g aes bes aes bes g | f g aes g aes f |
+    e f g f g e | des e f e f des |
+    c des ees des ees c | bes c des c des bes |
+    aes bes c bes c aes | g aes bes aes bes g \bar "||"
+
+    f_"dim. poco a poco" g aes g aes f | c' des ees des ees c |
+    f g aes g aes f | g aes bes aes bes g |
+    e f g f g e | f g aes g aes f |
+    g aes bes aes bes g | aes bes c bes c aes \bar "||"
+
+    g aes bes aes bes g | f g aes g aes f |
+    e f g f g e | des e f e f des |
+    c\> des ees des ees c | bes c des c des bes |
+    aes bes c bes c aes | g aes bes aes bes g \bar "||"
+
+    f\mp g aes g aes f | g aes bes aes bes g |
+    aes bes c bes c aes | g aes bes aes bes g |
+    f_"dim. poco a poco" g aes g aes f | g aes bes aes bes g |
+    aes bes c bes c aes | g aes bes aes bes g \bar "||"
+
+    f\p g aes g aes f | g aes bes aes bes g |
+    aes bes c bes c aes | g aes bes aes bes g |
+    f\> g aes g aes f | g aes bes aes bes g |
+    aes bes c bes c aes | g aes bes aes bes g \bar "||"
+
+    f\pp f f f f f | f f f f f f |
+    f f f f f f | f f f f f f |
+    f\> f f f f f | f f f f f f |
+    f f f f f f | f f f f f f\! \bar "|."
+
+
+}
