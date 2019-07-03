@@ -94,9 +94,121 @@ ThreeCelloA = \relative f {
 
     <<
         {
-            aes4.~^"div."_\markup{\dynamic{mf}poco cresc.}
-        }\\{
-            f,4.~
+            \voiceOne
+            aes4.~^"div."_\markup{\dynamic{mf}poco cresc.} | aes~\< | aes~ | aes~ |
+            aes~ | aes~ | aes | g\! |
+
+            aes~_"poco dim." | aes~\> | aes~ | aes~ |
+            aes~ | aes~ | aes | g\!_\markup{piu\dynamic{f}} |
+
+            aes~_"cresc. poco a poco" | aes~ | aes~ | aes~ |
+            aes~ | aes~ | aes | bes |
+
+            c~ | c~ | c~_"poco dim." | c~\> |
+            c~ | c~ | c | bes\!_\markup{piu\dynamic{f}} |
+
+            aes~\mf | aes~ | aes~ | aes |
+            g~ | g~ | g~ | g |
+
+            f~_"poco dim." | f~\> | f~ | f~ |
+            f~ | f | g~ | g |
+
+            aes~\!_\markup{\dynamic{mf}dim. poco a poco} | aes~ | aes~ | aes~ |
+            aes~ | aes~ | aes | g |
+
+            f~\> | f~ | f~ | f~ |
+            f~ | f | g~ | g |
+        } \new Voice { % Use 'New' because of the unterminated (de)cresendo
+            \voiceTwo
+            f,~ | f~ | f~ | f~ |
+            f~ | f~ | f | ees |
+
+            des~ | des~ | des~ | des~ |
+            des~ | des~ | des | ees |
+
+            f~ | f~ | f~ | f~ |
+            f~ | f~ | f | g |
+
+            aes~ | aes~ | aes~ | aes~ |
+            aes~ | aes~ | aes | e |
+
+            f~ | f~ | f~ | f |
+            c~ | c~ | c~ | c |
+
+            des~ | des~ | des~ | des~ |
+            des~ | des | ees~ | ees |
+
+            f~ | f~ | f~ | f~ |
+            f~ | f~ | f | c |
+
+            des~ | des~ | des~ | des~ |
+            des~ | des | c~ | c |
+        }
+    >>
+    \oneVoice
+    f''~\pp^"2 players" | f~ | f~ | f |
+    ees~ | ees~ | ees~ | ees |
+
+    des~ | des~ | des~ | des |
+    c~ | c~ | c~ | c |
+
+    bes~_"cresc. poco a poco" | bes~ | bes~ | bes |
+    aes~ | aes~ | aes~ | aes |
+
+    g~ | g~ | g~ | g |
+    f~ | f~ | f~ | f |
+
+    f'~_\markup{\dynamic{p}cresc. poco a poco} | f~ | f~ | f |
+    ees~ | ees~ | ees~ | ees |
+
+    des~\< | des~ | des~ | des |
+    c~ | c~ | c~ | c |
+
+    bes~\mp | bes~ | bes~ | bes |
+    aes~ | aes~ | aes~ | aes |
+    g~\mf\< | g~ | g~ | g |
+    f~ | f~ | f~ | f |
+
+    f'~\f | f | ees~ | ees |
+    des~ | des | c~ | c |
+
+    bes~_"cresc. poco a poco" | bes | aes~ | aes |
+    g~ | g | f~ | f |
+
+    f'~\f | f | ees~ | ees |
+    des~ | des | c~ | c |
+
+    bes~\< | bes | aes~ | aes |
+    g~ | g | f~ | f |
+
+    f'~\ff | f | ees~ | ees |
+    des~ | des | c~ | c |
+
+    bes~ | bes | aes~ | aes |
+    g~ | g | f~ | f |
+
+    f'~_"dim. poco a poco" | f | ees~ | ees |
+    des~ | des | c~ | c |
+
+    bes~ | bes | aes~ | aes |
+    g~\> | g | f~ | f |
+
+    <<
+        {
+            \voiceOne
+            aes~\mp^"tutti div." | aes | g~ | g |
+            aes~_"dim. poco a poco" | aes | g~ | g |
+
+            aes~\p | aes | g~ | g |
+            aes~\> | aes | g~ | g |
+
+            aes~\pp | aes~ | aes~ | aes~ |
+            aes~ | aes~ | aes~ | aes |
+        } \new Voice {
+            \voiceTwo
+            \repeat unfold 24 {
+                f,~ |
+            }
         }
     >>
 }
