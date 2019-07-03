@@ -169,7 +169,7 @@ ThreeSolo = \relative f'' {
 
     g aes bes aes bes g | f g aes g aes f |
     e f g f g e | des e f e f des |
-    c des ees des ees c\< | bes c des c des bes |
+    c\< des ees des ees c | bes c des c des bes |
     aes bes c bes c aes | g aes bes aes bes g \bar "||"
 
     f\!_\markup{\dynamic{mf}poco cresc.} g aes g aes f | c'\< des ees des ees c |

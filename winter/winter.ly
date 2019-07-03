@@ -125,41 +125,41 @@ ThreeScore = \score {
 
             }
             \ThreeViolinOneA
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{1st Violin}\line{C + D}}}
-%                
-%            }
-%            \ThreeViolinOneB
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{1st Violin}\line{C + D}}}
+                
+            }
+            \ThreeViolinOneB
         >>
-%        \new StaffGroup <<
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{2nd Violin}\line{A + B + C}}}
-%                
-%            }
-%            \ThreeViolinTwoA
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{\line{2nd Violin}D}}
-%                
-%            }
-%            \ThreeViolinTwoB
-%        >>
-%        \new Staff \with {
-%            instrumentName = #"Viola"
-%            
-%        }
-%        \ThreeViola
-%        \new StaffGroup <<
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{Cello A}}
-%                
-%            }
-%            \ThreeCelloA
-%            \new Staff \with {
-%                instrumentName = \markup{\center-column{Cello B}}
-%                
-%            }
-%            \ThreeCelloB
-%        >>
+        \new StaffGroup <<
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{2nd Violin}\line{A + B + C}}}
+                
+            }
+            \ThreeViolinTwoA
+            \new Staff \with {
+                instrumentName = \markup{\center-column{\line{2nd Violin}D}}
+                
+            }
+            \ThreeViolinTwoB
+        >>
+        \new Staff \with {
+            instrumentName = #"Viola"
+            
+        }
+        \ThreeViola
+        \new StaffGroup <<
+            \new Staff \with {
+                instrumentName = \markup{\center-column{Cello A}}
+                
+            }
+            \ThreeCelloA
+            \new Staff \with {
+                instrumentName = \markup{\center-column{Cello B}}
+                
+            }
+            \ThreeCelloB
+        >>
 %        \new Staff \with {
 %            instrumentName = #"Bass"
 %        }
@@ -179,7 +179,7 @@ ThreeScore = \score {
         title = \markup{\abs-fontsize #16 {III}}
     }
     \layout{}
-    \midi{\tempo 8 = 180}
+    %\midi{\tempo 8 = 200}
 }
 
 #(set-global-staff-size 14)

@@ -168,7 +168,7 @@ ThreeViolinOneA = \relative f'' {
     c_"cresc. poco a poco" c c | c c c | f' f f | ees ees ees |
     des des des | c c c | bes bes bes | aes aes aes |
 
-    g\pp g g | f f f | ees ees ees | des des des |
+    g g g | f f f | ees ees ees | des des des |
     c c c | c c c | f' f f | ees ees ees |
 
     des_\markup{\dynamic{p}cresc. poco a poco} des des | c c c | bes bes bes | aes aes aes |

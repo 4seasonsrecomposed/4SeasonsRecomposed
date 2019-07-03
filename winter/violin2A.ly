@@ -100,3 +100,89 @@ TwoViolinTwo = \relative f'' {
         }
     >>
 }
+
+ThreeViolinTwoA = \relative f'' {
+    \key f \minor
+
+    c'4.~_\markup{\dynamic{pp}espress - poco cresc.} | c~ | c~ | c~ |
+    c~\< | c~ | c~ | c~ | c~\> | c~ | c~ | c~ |
+    c~\! | c~ | c~ | c~ |
+
+    c~_"sim. swells per 16 bars" | c~ | c~ | c~ | c~ | c | c~ | c~ |
+
+    c~ | c~ | c~ | c~ | c~ | c~ | c~ | c~ |
+
+    c | c~ | c~ | c~ | c~ | c~ | c~ | c~ |
+
+    c~ | c~ | c~ | c~ | c~ | c~ | c~ | c |
+
+    c~ | c~ | c~ | c~ | c~ | c~_"espress." | c\< | des~ |
+
+    des~ | des | c~\> | c~ | c~\! | c~ | c\< | bes~ |
+
+    bes~\> | bes | c~ | c~\! | c~ | c~ | c\< | des~ |
+
+    des~\! | des\> | c~ | c~ | c~\! | c~ | c\< | des~ |
+
+    des~ | des\> | c~ | c~ | c~\! | c~ | c | bes~\< |
+
+    bes~ | bes\> | c~ | c~ | c~\! | c~ | c\< | des~ |
+
+    des~\!_"cresc. poco a poco" | des\> | c~ | c~\! | c~ | c~ | c\< | bes~ |
+
+    bes~\! | bes\> | c~ | c~\! | c~ | c~ | c\< | des~ |
+
+    des~\!_\markup{\dynamic{mf}poco cresc.} | des | c~ | c~ | c~ | c~ | c\< | des~ |
+
+    des~ | des\> | c~\! | c~ | c~ | c~ | c\< | bes~ |
+
+    bes~\!_"cresc. poco a poco" | bes\> | c~ | c~\! | c~ | c~ | c\< | des~ |
+
+    des~\! | des\> | c~\! | c~ | c~ | c~ | c\< | des~\! |
+
+    des~\mp | des\> | c~\! | c~ | c~ | c~ | c\< | bes~\! |
+
+    bes~ | bes\> | c~\! | c~ | c~\< | c~ | c | des~ |
+
+    des~\!_\markup{\dynamic{mf}dim. poco a poco} | des | c~\> | c~ | c~\! | c~\< | c | bes~\! |
+
+    bes~\> | bes | c~ | c~ | c~ | c~ | c | des |
+
+    f~\pp | f~ | f~ | f~ | f~ | f~ | f~ | f |
+
+    g~ | g~ | g~ | g~ | g~ | g~ | g~ | g |
+
+    f~_"cresc. poco a poco" | f~ | f~ | f~ | f~ | f~ | f~ | f |
+
+    g~ | g~ | g~ | g~ | g~ | g~ | g~ | g |
+
+    f~_\markup{\dynamic{p}cresc. poco a poco} | f~ | f~ | f~ | f~ | f~ | f~ | f |
+
+    g~\< | g~ | g~ | g~ | g~ | g~ | g~ | g |
+
+    f~\mp | f~ | f~ | f~ | f~ | f~ | f~ | f |
+    g~\mf | g~ | g~ | g~ | g~ | g~ | g~ | g |
+
+    c,~ \f| c~ | c~ | c~ | c~ | c~\< | c | des~\!_"espressivo" |
+
+    des~_"cresc. poco a poco" | des\> | c~\! | c~ | c~ | c~ | c\< | bes~\! |
+
+    bes~ | bes\> | c~\! | c~ | c~ | c~ | c\< | des~\! |
+
+    des~ | des\> | c~\! | c~ | c~ | c~ | c\< | des~ |
+
+    des~\f | des\> | c~\! | c~ | c~ | c~ | c\< | bes~\! |
+
+    bes~ | bes | c~ | c~ | c~ | c~ | c | des~ |
+
+    des~_"dim. poco apoco" | des\> | c~\! | c~ | c~ | c~ | c | bes~ |
+
+    bes~ | bes | c~ | c~ | c~\> | c~ | c | des |
+
+    c~\mp^"tutti" | c~ | c~ | c~ | c~_"dim. poco a poco" | c~ | c~ | c~ |
+
+    c~\p | c~ | c | c~ | c~\> | c~ | c~ | c~ |
+
+    c~\pp | c~ | c~ | c~ | c~\> | c~ | c~ | c\! |
+    
+}

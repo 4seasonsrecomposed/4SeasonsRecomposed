@@ -85,3 +85,18 @@ TwoCello = \relative f {
     \repeat unfold 5 { <bes ees\harmonic>1~ | }
     <bes ees\harmonic>\fermata |
 }
+
+ThreeCelloA = \relative f {
+    \clef bass
+    \key f \minor
+
+    R4.*112 |
+
+    <<
+        {
+            aes4.~^"div."_\markup{\dynamic{mf}poco cresc.}
+        }\\{
+            f,4.~
+        }
+    >>
+}
