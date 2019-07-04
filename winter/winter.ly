@@ -177,22 +177,20 @@ ThreeScore = \score {
     \header{
         title = \markup{\abs-fontsize #16 {III}}
     }
-    \layout{}
-    %\midi{\tempo 8 = 200}
 }
 
 #(set-global-staff-size 14)
 
 \book {
     \paper{
-        %\pointAndClickOff
+        \pointAndClickOff
         print-all-headers = ##t
     }
     \header{
         title = \markup{\abs-fontsize #20 {Winter}}
     }
     \markup { \vspace #1 }
-    %\OneScore
-    %\TwoScore
+    \OneScore
+    \TwoScore
     \ThreeScore
 }
