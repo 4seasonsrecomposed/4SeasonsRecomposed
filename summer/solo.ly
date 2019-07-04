@@ -62,15 +62,15 @@ OneSolo = \relative g'' {
     c, a' a a a a ees a c, a' a a a a ees a |
     fis c' c c c c a c fis, c' c c c c a c \bar "||"
 
-    r2 d~_\markup{\dynamic{mp}espr.} | d1_"poco a poco cresc" |
+    r2 d~_\markup{\dynamic{mp}espr.} | d1\pCresc |
     ees~ | ees2 d~ | d g,~ | g a~ | a bes~ | bes c~ | c d~ | d1 |
     ees~\f | ees2 d~ \bar "||"
     
-    d1\mf | g,_"poco a poco cresc" | a~ | a2 bes~ | bes c~ |
+    d1\mf | g,\pCresc | a~ | a2 bes~ | bes c~ |
     c d~ | d1\f | ees~\< | ees2 d~ | d1 |
     g,~\ff | g2 a \bar "||"
 
-    r\f bes~ | bes_"poco a poco cresc" c~ | c d~ | d ees~ |
+    r\f bes~ | bes\pCresc c~ | c d~ | d ees~ |
     ees d~ | d g~ | g a~ | a c,~ | c d~ | d g~ | g\< a~ | a d,~ \bar "||"
 
     d\ff ees~ | ees d~ | d g~ | g a~ | a c,~ | c d~ | d ees~ |
