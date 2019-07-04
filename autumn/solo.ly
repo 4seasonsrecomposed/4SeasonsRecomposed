@@ -138,7 +138,7 @@ OneSolo = \relative f'' {
     \time 4/4
     g g g a g4 g8 a | g8 a16 g f8 e d4 r8 e16 f |
     g8 g4 e16 f g8 g4 f16 e | a8 g4 f16 e a8 g4 a,16\p bes |
-    c8 c4 a16 bes c8 c4 bes16 a | d8\< c4 bes16 a d8 c4 d16 e | % 'd16 e' HERE MUST BE 'c16 d' , OBVIOUSLY WRONG
+    c8 c4 a16 bes c8 c4 bes16 a | d8\< c4 bes16 a d8 c4 c16 d |
     ees8 ees4 d16 c d8 d4 d16 e | 
     f8\! f4 e16 d e8 e4 g16 a |
     bes8\> bes4 a16 g a4\!

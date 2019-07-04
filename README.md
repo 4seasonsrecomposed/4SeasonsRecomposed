@@ -2,7 +2,7 @@
 
 This repository stores sheet musics in [LilyPond](https://lilypond.org) format of "Recomposed by Max Richter: Vivaldi, The Four Seasons".
 
-Those scores are copied from iOS App [Vivaldi’s Four Seasons](https://itunes.apple.com/us/app/vivaldis-four-seasons/id827751585). There are a few mistakes in that App's scores, and the `master` branch just remained them instead of correcting them. 
+Those scores are copied from iOS App [Vivaldi’s Four Seasons](https://itunes.apple.com/us/app/vivaldis-four-seasons/id827751585). There are a few mistakes in that App's scores, and this branch correct some of them.
 
 ## Statement
 

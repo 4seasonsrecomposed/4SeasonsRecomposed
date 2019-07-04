@@ -53,7 +53,7 @@ OneViolinOneB = \relative g'' {
     g4-.\mf d'-.-> r d-. |
     g,-.\pCresc d'-.-> r d-. |
     fis,-. d'-.-> r d-. |
-    d,16 g g g g g d g bes, g' g g g g d g | % that's weird
+    bes,16 g' g g g g d g bes, g' g g g g d g |
     a, g' g g g g d g a, g' g g g g d g |
     a, fis' fis fis fis fis d fis a, fis' fis fis fis fis d fis |
     bes,4-.\f g'-.-> r g-. |
@@ -98,7 +98,7 @@ TwoViolinOneB = \relative g'' {
     <<R1\\{s1^"div"}>> | r4\ppp <c,, f\harmonic>2.~ |
     <c f\harmonic>2 <a d\harmonic>2 | <bes ees\harmonic>2. <c f\harmonic>4~ |
 
-    <c f\harmonic>_"poco a poco crecs." <d d'\harmonic>2 <a d\harmonic>4~ | % WHAT IS A 'CRECS.' ?????
+    <c f\harmonic>\pCresc <d d'\harmonic>2 <a d\harmonic>4~ |
     <a d\harmonic>1~ | <a d\harmonic>4\< <a d\harmonic>2.~ | <a d\harmonic>2 <bes ees\harmonic>2~ |
     <bes ees\harmonic>4\p_"poco a poco dim." <d g\harmonic>2.~ |
     <d g\harmonic>4\> <c f\harmonic>2.~ | <c f\harmonic>2. <c f\harmonic>4~ |

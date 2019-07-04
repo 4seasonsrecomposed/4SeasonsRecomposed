@@ -93,17 +93,17 @@ TwoViola = \relative e' {
     b'16. fis32 b16. fis32 b16. fis32 b16. fis32 b16. fis32 b16. fis32 |
     cis'16. a32 cis16. a32 cis16. a32 cis16. a32 cis16. a32 cis16. a32 |
     b16. fis32 b16. fis32 b16. fis32 b16. fis32 b16. fis32 b16. fis32 |
-    cis'16.\< a32 cis16 a16 cis16. a32 cis16. a32 cis16. a32 cis16. a32 | % that's weird
+    cis'16.\< a32 cis16. a32 cis16. a32 cis16. a32 cis16. a32 cis16. a32 |
     b16. e,32 b'16. e,32 b'16. e,32 b'16. e,32 b'16. e,32 b'16. e,32 |
 
-    a16\mf e16 a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 | % that's weird
-    gis16.\pDecresc e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16 e16 | % that's weird
+    a16.\mf e32 a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 |
+    gis16.\pDecresc e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 |
     a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 |
-    gis16. e32 gis16 e16 gis16. e32 gis16. e32 gis16. e32 gis16. e32 | % that's weird
+    gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 |
     fis16. cis32 fis16. cis32 fis16. cis32 fis16. cis32 fis16. cis32 fis16. cis32 |
     gis'16.\mp\> e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 |
     fis16. cis32 fis16. cis32 fis16. cis32 fis16. cis32 fis16. cis32 fis16. cis32 |
-    \repeat percent 3 { a'16.\p\> e32 a16 e16 a16. e32 a16. e32 a16. e32 a16. e32 | } % that's weird
+    \repeat percent 3 { a'16.\p\> e32 a16. e32 a16. e32 a16. e32 a16. e32 a16. e32 | }
     a16. e32 a16. e32 a2\! |
 
 }
