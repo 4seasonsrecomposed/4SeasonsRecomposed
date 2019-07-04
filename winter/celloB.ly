@@ -23,7 +23,7 @@ ThreeCelloB = \relative f {
             g~ | g~ | g~ | g |
 
             f~_"poco dim." | f~\> | f~ | f~ |
-            f~ | f | g~ | g |
+            f~\< | f | g~ | g |
 
             aes~\!_\markup{\dynamic{mf}dim. poco a poco} | aes~ | aes~ | aes~ |
             aes~ | aes~ | aes | g |
@@ -115,7 +115,7 @@ ThreeCelloB = \relative f {
             aes~\> | aes | g~ | g |
 
             aes~\pp | aes~ | aes~ | aes~ |
-            aes~ | aes~ | aes~ | aes |
+            aes~\> | aes~ | aes~ | aes\! |
         } \new Voice {
             \voiceTwo
             f,~ | f~ | f~ | f~ |

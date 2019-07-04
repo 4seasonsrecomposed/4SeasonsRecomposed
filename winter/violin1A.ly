@@ -91,7 +91,7 @@ TwoViolinOne = \relative f'' {
                     \repeat unfold 4 { <c f\harmonic>~ | }
                     <c f\harmonic>\fermata |
                 } \new Voice {
-                    %This voise show the second slur in a harmonic chord.
+                    %This voide show the second slur in a harmonic chord.
                     \slurUp
                     \hideNotes 
                     \override NoteColumn.ignore-collision = ##t %adjust location

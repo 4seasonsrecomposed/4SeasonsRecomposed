@@ -60,7 +60,6 @@ OneScore = \score {
     \header{
         title = \markup{\abs-fontsize #16 {I}}
     }
-    %\midi { \tempo 4 = 70 }
 }
 
 TwoScore = \score {
@@ -160,20 +159,20 @@ ThreeScore = \score {
             }
             \ThreeCelloB
         >>
-%        \new Staff \with {
-%            instrumentName = #"Bass"
-%        }
-%        \ThreeBass
-%        \new PianoStaff <<
-%            \set PianoStaff.instrumentName = #"Harp"
-%            \new Staff \ThreeHarpUpper
-%            \new Staff \ThreeHarpLower
-%        >>
-%        \new PianoStaff <<
-%            \set PianoStaff.instrumentName = #"Harpsichord"
-%            \new Staff \ThreeHarpsichordUpper
-%            \new Staff \ThreeHarpsichordLower
-%        >>
+        \new Staff \with {
+            instrumentName = #"Bass"
+        }
+        \ThreeBass
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harp"
+            \new Staff \ThreeHarpUpper
+            \new Staff \ThreeHarpLower
+        >>
+        \new PianoStaff <<
+            \set PianoStaff.instrumentName = #"Harpsichord"
+            \new Staff \ThreeHarpsichordUpper
+            \new Staff \ThreeHarpsichordLower
+        >>
     >>
     \header{
         title = \markup{\abs-fontsize #16 {III}}

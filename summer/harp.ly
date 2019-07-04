@@ -137,7 +137,7 @@ TwoHarpUpper = \relative g'' {
             \oneVoice
             \repeat unfold 40 { R1 | }
         }\\{
-            s1\pp | s_"poco a poco crecs." | s\< | s | % I DON'T KNOW WHAT CRECS IS
+            s1\pp | s_"poco a poco crecs." | s\< | s | % I DON'T KNOW WHAT IS CRECS
             s\p_"poco a poco dim." | s\> | s |s\pp |
 
             s | s | s\< | s\> |

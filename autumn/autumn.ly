@@ -87,7 +87,6 @@ OneScore = \score {
     \header{
         title = \markup{\abs-fontsize #16 {I}}
     }
-    %\midi { \tempo 4 = 120 }
 }
 
 TwoScore = \score {
@@ -137,7 +136,6 @@ TwoScore = \score {
     \header {
         title = \markup{\abs-fontsize #16 {II}}
     }
-    %\midi { \tempo 4 = 80 }
 }
 
 ThreeScore = \score {
@@ -219,7 +217,6 @@ ThreeScore = \score {
     \header{
         title = \markup{\abs-fontsize #16 {III}}
     }
-    %\midi{\tempo 4 = 160}
 }
 
 #(set-global-staff-size 14)

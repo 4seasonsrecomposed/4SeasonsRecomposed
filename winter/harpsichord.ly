@@ -69,7 +69,7 @@ OneHarpsichordLower = \relative f {
 
 }
 
-TwoHarpsichordUpper = \relative f {
+TwoHarpsichordUpper = \relative f'' {
     \key f \minor
 
     R1*19 | R1 | % Fermata missed? 
@@ -80,4 +80,17 @@ TwoHarpsichordLower = \relative f {
     \key f \minor
 
     R1*19 | R1 | % Fermata missed? 
+}
+
+ThreeHarpsichordUpper = \relative f'' {
+    \key f \minor
+
+    R4.*328 |
+}
+
+ThreeHarpsichordLower = \relative f {
+    \clef bass
+    \key f \minor
+
+    R4.*328 |
 }
