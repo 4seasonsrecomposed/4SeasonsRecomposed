@@ -38,7 +38,7 @@ OneViolinOneA = \relative g'' {
     fis-. c'-.-> r c-.-> |
 
     bes,16\subp g' g g g g d g bes, g' g g g g d g |
-    a,_"poco a poco cresc" g' g g g g d g a, g' g g g g d g |
+    a,\pCresc g' g g g g d g a, g' g g g g d g |
     a, fis' fis fis fis fis d fis a, fis' fis fis fis fis d fis |
     bes,4-. g'-.-> r g-. |
     a,-. g'-.-> r g-. |
@@ -51,7 +51,7 @@ OneViolinOneA = \relative g'' {
     fis-. c'-.-> r c-. |
 
     g16\mf d' d d d d bes d g, d' d d d d bes d |
-    g,_"poco a poco cresc" d' d d d d a d g, d' d d d d a d |
+    g,\pCresc d' d d d d a d g, d' d d d d a d |
     fis, d' d d d d a d fis, d' d d d d a d |
     bes,4-. g'-.-> r g-. |
     a,-. g'-.-> r g-. |
@@ -63,7 +63,7 @@ OneViolinOneA = \relative g'' {
     c,\ff-. a'-.-> r a-. |
     fis-. c'-.-> r c-. |
     d,16\f bes' bes bes bes bes g bes d, bes' bes bes bes bes g bes |
-    c,_"poco a poco cresc" a' a a a a ees a c, a' a a a a ees a |
+    c,\pCresc a' a a a a ees a c, a' a a a a ees a |
     fis c' c c c c a c fis, c' c c c c a c |
     bes,4-. g'-.-> r g-. |
     a,-. g'-.-> r g-. |
