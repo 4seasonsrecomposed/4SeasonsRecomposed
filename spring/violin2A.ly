@@ -72,7 +72,7 @@ TwoViolinTwoA = \relative e'' {
     gis16.\> dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. e32 |
     gis16.\< e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 |
     gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 |
-    e16.\p\> cis32 e16. cis32 e16. cis32 e16. cis32 e16 cis16 e16. cis32 | % that's weird
+    e16.\p\> cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 |
     dis16. cis32 dis16. cis32 dis16. cis32 dis16. cis32 dis16. cis32 dis16. cis32 |
 
     gis'16.\< e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 |
@@ -81,7 +81,7 @@ TwoViolinTwoA = \relative e'' {
     gis16.\> dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. e32 |
     gis16.\< e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 |
     gis16.\> dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 gis16. dis32 |
-    e16.\< cis32 e16. cis32 e16. cis32 e16. cis32 e16 cis16 e16. cis32 | % that's weird
+    e16.\< cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 |
     dis16.\> cis32 dis16. cis32 dis16. cis32 dis16. cis32 dis16. cis32 dis16. cis32 |
 
     gis'16.\< e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 |
@@ -90,7 +90,7 @@ TwoViolinTwoA = \relative e'' {
     fis16. dis32 fis16. dis32 fis16. dis32 fis16. dis32 fis16. dis32 fis16. dis32\! |
     e16. cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 |
     dis16. cis32 dis16. cis32 dis16. cis32 dis16. cis32 dis16. cis32 dis16. cis32 |
-    e16. cis32 e16. cis32 e16. cis32 e16. cis32 e16 cis16 e16. cis32 | % that's weird
+    e16. cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 e16. cis32 |
     dis16.\> cis32 dis16. cis32 dis16. cis32 dis16. cis32 dis16. cis32 dis16. cis32 |
 
     gis'16.\p\> e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 gis16. e32 |

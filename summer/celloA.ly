@@ -83,7 +83,7 @@ OneCelloA = \relative g {
     a, a' a a a a a, a' a, a' a a a a a, a' |
 
     g,\f g' g g g g g, g' g, g' g g g g g, g' |
-    d,\pCresc d' d d d d <d, d'> d' d, d' d d d d d, d' | % Emmmm
+    d,\pCresc d' d d d d d, d' d, d' d d d d d, d' |
     d,8 d d'-> d d, d d'-> d |
     ees, ees ees'-> ees ees, ees ees'-> ees |
     f,16 f' f f f f f, f' f, f' f f f f f, f' |

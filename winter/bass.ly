@@ -55,7 +55,7 @@ TwoBass = \relative f {
     \clef bass
     \key f \minor
 
-    R1*19 | R1 | % Fermata missed? 
+    R1*19 | R1\fermataMarkup |
 }
 
 ThreeBass = \relative f {

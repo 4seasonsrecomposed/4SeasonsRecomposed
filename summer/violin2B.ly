@@ -82,7 +82,7 @@ OneViolinTwoB = \relative g'' {
     g,4-. d'-.-> r d-. |
     d,-.\< a'-.-> r a-. |
     d,-. a'-.-> r a-. |
-    g16\! d' d d d d bes d g,16 d' d d d d bes <d e> | % WHAT ???
+    g16\! d' d d d d bes d g,16 d' d d d d bes d |
     d, a' a a a a g a d, a' a a a a g a |
     d, a' a a a a fis a d, a' a a a a fis a |
     g4-. d'-.-> r d-. |
