@@ -19,7 +19,7 @@ OneHarpUpper = \relative f'' {
 
     R1*7/16\ff\> | R1*7/16*2 \breathe |
     << 
-        R2\p\fermataMarkup
+        R2\p\fermata
         \new Voice { s8\< s\> s s\!}
     >>
 }

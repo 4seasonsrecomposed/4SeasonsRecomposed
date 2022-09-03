@@ -1,7 +1,7 @@
 OneHarpUpper = \relative g'' {
     \key g \minor
     
-    R4.*10 | R4.^\fermataMarkup |
+    R4.*10 | R4.\fermata |
     R4.*19 |
 
     R1*18 |
@@ -66,7 +66,7 @@ OneHarpLower = \relative g {
     \clef bass
     \key g \minor
     
-    R4.*10 | R4.^\fermataMarkup |
+    R4.*10 | R4.\fermata |
     R4.*19 |
 
     R1*18 |
