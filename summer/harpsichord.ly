@@ -3,7 +3,7 @@ OneHarpsichordUpper = \relative g'' {
     
     % No notes but some marks in this line. Use 's' to mark them.
 
-    R4.\pp | R4.*9 | R4.^\fermataMarkup
+    R4.\pp | R4.*9 | R4.\fermata
     R4.*19 |
 
     R1*42 |

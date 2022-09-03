@@ -2,7 +2,7 @@ OneBassB = \relative g {
     \clef bass
     \key g \minor
     
-    R4.*10 | R4.^\fermataMarkup |
+    R4.*10 | R4.\fermata |
     R4.*19 |
 
     R1*42 |
